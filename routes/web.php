@@ -16,5 +16,5 @@
 // });
 
 Route::get('/', function () {
-    return view('pages/trangchu');
+    return view('pages.trangchu');
 });
