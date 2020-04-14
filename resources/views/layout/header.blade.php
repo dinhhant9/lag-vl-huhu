@@ -8,13 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Trang chủ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/doi-hinh-chuan">Đội hình chuẩn</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="/danh-sach-tuong">Cơ sở dữ liệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/bai-viet">Bài viết</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/chi-tiet-ban-cap-nhat">Chi tiết bản cập nhật</a>
         </li>
       </ul>
     </div>

@@ -3,7 +3,7 @@
 {{-- Tiêu đề của trang --}}
 
 @section('title')
-Trang Chủ
+Danh Sách Tướng
 @endsection
 
 {{-- Thẻ meta của trang --}}

@@ -18,3 +18,19 @@
 Route::get('/', function () {
     return view('pages.trangchu');
 });
+
+Route::get('/doi-hinh-chuan', function () {
+    return view('pages.doihinhchuan');
+});
+
+Route::get('/danh-sach-tuong', function () {
+    return view('pages.danhsachtuong');
+});
+
+Route::get('/bai-viet', function () {
+    return view('pages.baiviet');
+});
+
+Route::get('/chi-tiet-ban-cap-nhat', function () {
+    return view('pages.chitietbancapnhat');
+});
