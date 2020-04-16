@@ -2,14 +2,6 @@ main {
     margin-top: 56px;
 }
 
-.team-name {
-    display: flex;
-    align-items: center;
-    line-height: 1.3em;
-    font-size: 15px;
-    padding: 15px 15px 15px 10px;
-}
-
 .characters-item {
     position: relative;
     width: auto;
@@ -25,6 +17,7 @@ main {
 
 body{
     background-color: #0d202b;
+    color:hsla(0,0%,100%,.87);
 }
 
 .navbar-expand-md{

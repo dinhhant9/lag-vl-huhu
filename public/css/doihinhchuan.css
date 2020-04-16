@@ -12,6 +12,14 @@
     padding-top: 40px;
 }
 
+.team-name {
+    display: flex;
+    align-items: center;
+    line-height: 1.3em;
+    font-size: 15px;
+    padding: 15px 15px 15px 10px;
+}
+
 .team-rank{
     display: flex;
     justify-content: center;
@@ -37,7 +45,7 @@
     border: 1px solid #1b2d33;
 }
 .team-name-elipsis{
-    color:hsla(0,0%,100%,.87);  
+    color:hsla(0,0%,100%,.87);
 }
 .image-champions {
     width: 100%;
@@ -60,4 +68,10 @@
 .image-champions img:hover{
     border: 1px solid #d47559;
     transition: 1s;
+}
+
+@media screen and (max-width: 767px) {
+    .team-name {
+        padding: 5px 15px 15px 5px;
+    }
 }
