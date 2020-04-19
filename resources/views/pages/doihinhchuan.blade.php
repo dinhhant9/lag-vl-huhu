@@ -41,7 +41,7 @@
           <div class="col-md-8 col-12">
             <div>
               <div class="team-characters">
-                @for ($j = 0; $j < 10; $j++) <div class="characters-item">
+                @for ($j = 0; $j < 10; $j++) <div class="characters-item no-collapsable">
                   <div class="image-champions">
                     <img src="{{ asset('images/champions/Ekko.png') }}" />
                   </div>
@@ -361,5 +361,12 @@
 
 @endfor
 </div>
+
+<script>
+  // Đoạn code này để ngăn không cho collapse khi bấm vào icon tướng
+  $('.no-collapsable').on('click', function (e) {
+    e.stopPropagation();
+  });
+</script>
 
 @endsection
