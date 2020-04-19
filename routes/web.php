@@ -36,4 +36,4 @@ Route::get('/chi-tiet-ban-cap-nhat', function () {
 });
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@index')->name('admin');
