@@ -6,7 +6,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav justify-content-center">
         <li class="nav-item active">
           <a class="nav-link" href="/">Trang chủ</a>
         </li>
