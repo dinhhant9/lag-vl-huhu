@@ -85,8 +85,8 @@
     height: 200px;
     border: 1px solid #1b2d33;
     position: absolute;
-    z-index: 9999;
-    top: -450%;
+    z-index: 999;
+    top: -446%;
     left: -180%;
     display: none;
     transition: 1s;
@@ -333,14 +333,18 @@
 
 .row-team-builder {
     padding: 20px 0px;
-    margin-top: 5px;
+    margin-top: 15px;
     border-top: 1px solid #1b2d33;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .option, .position {
     padding: 10px 0 5px;
     margin-top: 5px;
     border-top: 1px solid #1b2d33;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .option-out img, .option-in img, .option-out-character img , .option-in-character img {
     width: 32px;
@@ -546,7 +550,7 @@
 }
 
 .expend {
-    border: 1px solid #227aad;
+    /* border: 1px solid #227aad; */
 }
 .collapsed{
     border: none !important;
