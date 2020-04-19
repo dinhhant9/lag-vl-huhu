@@ -32,19 +32,20 @@
     <div class="card row-team">
       <div class="card-body team-body">
         <div class="row">
-          <div class="col-md-4 col-7">
+          <div class="col-md-4 col-12">
             <div class="team-name">
               <div class="team-rank tone">S</div>
               <div class="team-name-elipsis">Mech Infiltrators</div>
             </div>
           </div>
-          <div class="col-md-8 col-5">
+          <div class="col-md-8 col-12">
             <div>
               <div class="team-characters">
                 @for ($j = 0; $j < 10; $j++) <div class="characters-item">
                   <div class="image-champions">
                     <img src="{{ asset('images/champions/Ekko.png') }}" />
                   </div>
+                  <!-- start popup  -->
                   <div class="row popup-info">
                     <div class="col-md-3 col-3 info">
                       <img src="{{ asset('images/champions/Ekko.png') }}" />
@@ -71,6 +72,7 @@
                       <img src="{{ asset('images/items/SpearofShojin.png') }}" />
                     </div>
                   </div>
+                  <!-- end popup  -->
               </div>
               @endfor
 
@@ -83,45 +85,90 @@
         <div class="row row-team-builder">
           <div class="col-md-6 text-center">
             <div class="wrap-champions">
-              <img src="{{ asset('images/champions/Ekko.png') }}" />
-              <img src="{{ asset('images/champions/Ekko.png') }}" />
-              <img src="{{ asset('images/champions/Ekko.png') }}" />
-              <img src="{{ asset('images/champions/Ekko.png') }}" />
-              <div class="option-title">Early Champions</div>
+
+              <!-- start  -->
+              @for ($b = 0; $b < 5; $b++)
+              <div class="champion">
+                <img src="{{ asset('images/champions/Ekko.png') }}" />
+                <!-- start popup  -->
+                <div class="row popup-info popup-champion">
+                  <div class="col-md-3 col-3 info">
+                    <img src="{{ asset('images/champions/Ekko.png') }}" />
+                    <p>Ekko</p>
+                  </div>
+                  <div class="col-md-7 col-7 origin-wrap">
+                    <div class="origin">
+                      <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                      <p>Siêu Công Nghệ</p>
+                    </div>
+                    <div class="origin">
+                      <img src="{{ asset('images/origin/infiltrator.png') }}" />
+                      <p>Mật Thám</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-2 cost">
+                    <img src="{{ asset('images/icon-gold.svg') }}" />
+                    <div>5</div>
+                  </div>
+                  <div class="col-md-12 item">
+                    <div>Items:</div>
+                    <img src="{{ asset('images/items/GuardianAngel.png') }}" />
+                    <img src="{{ asset('images/items/Morellonomicon.png') }}" />
+                    <img src="{{ asset('images/items/SpearofShojin.png') }}" />
+                  </div>
+                </div>
+                <!-- end popup  -->
+              </div>
+              @endfor
+              <!-- end  -->
             </div>
+            <div class="option-title">Early Champions</div>
           </div>
           <div class="col-md-6 text-center">
             <div class="wrap-team-builder">
-              <!-- team builder  -->
-              <div class="builder-bonus-item">
-                <div class="builder-bonus-icon">
-                  <img src="{{ asset('images/origin/cybernetic.png') }}" />
-                  <div class="builder-bonus-counter">
-                    <span>6</span>
+              @for ($u = 0; $u < 3; $u++) <!-- team builder -->
+                <div class="builder-bonus-item">
+                  <div class="builder-bonus-icon">
+                    <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                    <div class="builder-bonus-counter">
+                      <span>6</span>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <!-- end team builder  -->
-              <!-- team builder  -->
-              <div class="builder-bonus-item">
-                <div class="builder-bonus-icon">
-                  <img src="{{ asset('images/origin/cybernetic.png') }}" />
-                  <div class="builder-bonus-counter">
-                    <span>6</span>
+                  <!-- popup-info  -->
+                  <div class="popup-builder-item">
+                    <div class="header">
+                      <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                      <div>Vệ Binh Tinh Tú</div>
+                    </div>
+                    <div class="content">
+                      <div class="dis">
+                        Khi tướng Vệ Binh Tinh Tú dùng kỹ năng,các tướng Vệ Binh Tinh Tú khác sẽ nhận thêm năng lượng.
+                      </div>
+                      <div class="list-dis">
+                        <div class="counter">3</div>
+                        <div class="counter-dis">Tổng 30 năng lượng.</div>
+                      </div>
+                      <div class="list-dis">
+                        <div class="counter">6</div>
+                        <div class="counter-dis">Tổng 60 năng lượng.</div>
+                      </div>
+                    </div>
+                    <div class="footer">
+                      <div class="title">
+                        Champions:
+                      </div>
+                      <div class="list-champions">
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                      </div>
+                    </div>
                   </div>
+                  <!-- end popup-info  -->
                 </div>
-              </div>
-              <!-- end team builder  -->
-              <!-- team builder  -->
-              <div class="builder-bonus-item">
-                <div class="builder-bonus-icon">
-                  <img src="{{ asset('images/origin/cybernetic.png') }}" />
-                  <div class="builder-bonus-counter">
-                    <span>6</span>
-                  </div>
-                </div>
-              </div>
-              <!-- end team builder  -->
+                <!-- end team builder  -->
+                @endfor
             </div>
             <div class="option-title">traits</div>
           </div>
@@ -130,85 +177,185 @@
         <div class="row option">
           <div class="col-md-6 text-center">
             <!-- item option -->
-            <div class="item-option-item">
+            @for ($d = 0; $d < 2; $d++) <div class="item-option-item">
               <div class="option-out">
-                <img src="{{ asset('images/items/NeedlesslyLargeRod.png') }}" />
-                <img src="{{ asset('images/items/NeedlesslyLargeRod.png') }}" />
+                <!-- start  -->
+                @for ($h = 0; $h < 2; $h++) <div class="option-out-item">
+                  <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
+                  <!-- popup-info  -->
+                  <div class="popup-early-item">
+                    <div class="header">
+                      <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
+                      <div class="wrap-item-name">
+                        <div class="item-name">Gậy quá khổ</div>
+                        <div class="power">
+                          <img src="{{ asset('images/items/icon-ap.svg') }}" />
+                          <span>+15 </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      Tăng 25% sức mạnh phép thuật
+                    </div>
+                    <div class="footer">
+                      <div class="into">
+                        Into:
+                      </div>
+                      <div class="list-items">
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                        <img src="{{ asset('images/champions/Ekko.png') }}" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end popup-info  -->
               </div>
-              <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
-              <div class="option-in">
-                <img src="{{ asset('images/items/RabadonsDeathcap.png') }}" />
-              </div>
-            </div>
-            <!-- end item option -->
-            <!-- item option -->
-            <div class="item-option-item">
-              <div class="option-out">
-                <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
-                <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
-              </div>
-              <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
-              <div class="option-in">
-                <img src="{{ asset('images/items/RabadonsDeathcap.png') }}" />
-              </div>
-            </div>
-            <!-- end item option -->
-            <div class="option-title">Early Items</div>
+              @endfor
+              <!-- end  -->
           </div>
-
-          <div class="col-md-6 text-center">
-            <!-- item option -->
-            <div class="option-character">
-              <div class="option-out-character">
-                <img src="{{ asset('images/champions/Lux(1).png') }}" />
-                <img src="{{ asset('images/champions/Velkoz.png') }}" />
-              </div>
-              <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
-              <div class="option-in-character">
-                <img src="{{ asset('images/champions/Lulu.png') }}" />
-                <img src="{{ asset('images/champions/Poppy(1).png') }}" />
-              </div>
-            </div>
-            <!-- end item option -->
-            <!-- item option -->
-            <div class="option-character">
-              <div class="option-out-character">
-                <img src="{{ asset('images/champions/Lux(1).png') }}" />
-                <img src="{{ asset('images/champions/Velkoz.png') }}" />
-              </div>
-              <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
-              <div class="option-in-character">
-                <img src="{{ asset('images/champions/Lulu.png') }}" />
-                <img src="{{ asset('images/champions/Poppy(1).png') }}" />
-              </div>
-            </div>
-            <!-- end item option -->
-            <div class="option-title">Options</div>
-          </div>
-        </div>
-        <!-- end option  -->
-
-        <!-- positioning -->
-        <div class="row position">
-          <div class="team-positioning">
-            <ul id="hexGrid" class="four-row">
-              @for ($k = 0; $k < 28; $k++) <li class="hex">s
-                <div class="hexIn hex-in-{{$k}}">
-                  <div class="hexLink">
-                    @if($k == 3 || $k == 21 || $k == 22 || $k == 23)
-                    <img src="{{ asset('images/champions/Lulu.png') }}" />
-                    @endif
+          <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
+          <div class="option-in">
+            <img src="{{ asset('images/items/RabadonsDeathcap.png') }}" />
+            <!-- popup-info  -->
+            <div class="popup-early-item">
+              <div class="header">
+                <img src="{{ asset('images/items/RabadonsDeathcap.png') }}" />
+                <div class="wrap-item-name">
+                  <div class="item-name">Mũ phù thủy Rabadon</div>
+                  <div class="power">
+                    <img src="{{ asset('images/items/icon-ap.svg') }}" />
+                    <span>+40% </span>
                   </div>
                 </div>
-                </li>
-                @endfor
-            </ul>
+              </div>
+              <div class="content">
+                Tăng 25% sức mạnh phép thuật
+              </div>
+              <div class="footer">
+                <div class="into">
+                  Into:
+                </div>
+                <div class="list-items">
+                  <img src="{{ asset('images/champions/Ekko.png') }}" />
+                  <img src="{{ asset('images/champions/Ekko.png') }}" />
+                  <img src="{{ asset('images/champions/Ekko.png') }}" />
+                  <img src="{{ asset('images/champions/Ekko.png') }}" />
+                </div>
+              </div>
+            </div>
+            <!-- end popup-info  -->
           </div>
-          <div class="option-title position-title">Positioning</div>
         </div>
-        <!-- end positioning -->
+        <!-- end item option -->
+        @endfor
+        <div class="option-title">Early Items</div>
       </div>
+
+      <div class="col-md-6 text-center">
+        <!-- item option -->
+        @for ($n = 0; $n < 2; $n++) <div class="option-character">
+          <div class="option-out-character">
+            @for ($h = 0; $h < 2; $h++) <div class="option-out-item option-out-chracter">
+              <img src="{{ asset('images/champions/Lux(1).png') }}" />
+              <!-- start popup  -->
+              <div class="row popup-info popup-character-info">
+                <div class="col-md-3 col-3 info">
+                  <img src="{{ asset('images/champions/Ekko.png') }}" />
+                  <p>Ekko</p>
+                </div>
+                <div class="col-md-7 col-7 origin-wrap">
+                  <div class="origin">
+                    <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                    <p>Siêu Công Nghệ</p>
+                  </div>
+                  <div class="origin">
+                    <img src="{{ asset('images/origin/infiltrator.png') }}" />
+                    <p>Mật Thám</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-2 cost">
+                  <img src="{{ asset('images/icon-gold.svg') }}" />
+                  <div>5</div>
+                </div>
+                <div class="col-md-12 item">
+                  <div>Items:</div>
+                  <img src="{{ asset('images/items/GuardianAngel.png') }}" />
+                  <img src="{{ asset('images/items/Morellonomicon.png') }}" />
+                  <img src="{{ asset('images/items/SpearofShojin.png') }}" />
+                </div>
+              </div>
+              <!-- end popup  -->
+          </div>
+          @endfor
+      </div>
+      <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
+      <div class="option-in-character">
+        @for ($h = 0; $h < 2; $h++) <div class="option-out-item option-out-chracter">
+          <img src="{{ asset('images/champions/Poppy(1).png') }}" />
+          <!-- start popup  -->
+          <div class="row popup-info popup-character-info">
+            <div class="col-md-3 col-3 info">
+              <img src="{{ asset('images/champions/Ekko.png') }}" />
+              <p>Ekko</p>
+            </div>
+            <div class="col-md-7 col-7 origin-wrap">
+              <div class="origin">
+                <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                <p>Siêu Công Nghệ</p>
+              </div>
+              <div class="origin">
+                <img src="{{ asset('images/origin/infiltrator.png') }}" />
+                <p>Mật Thám</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-2 cost">
+              <img src="{{ asset('images/icon-gold.svg') }}" />
+              <div>5</div>
+            </div>
+            <div class="col-md-12 item">
+              <div>Items:</div>
+              <img src="{{ asset('images/items/GuardianAngel.png') }}" />
+              <img src="{{ asset('images/items/Morellonomicon.png') }}" />
+              <img src="{{ asset('images/items/SpearofShojin.png') }}" />
+            </div>
+          </div>
+          <!-- end popup  -->
+      </div>
+      @endfor
+      <!-- <img src="{{ asset('images/champions/Lulu.png') }}" />
+                <img src="{{ asset('images/champions/Poppy(1).png') }}" /> -->
     </div>
+</div>
+@endfor
+<!-- end item option -->
+
+<div class="option-title">Options</div>
+</div>
+</div>
+<!-- end option  -->
+
+<!-- positioning -->
+<div class="row position">
+  <div class="team-positioning">
+    <ul id="hexGrid" class="four-row">
+      @for ($k = 0; $k < 28; $k++) <li class="hex">s
+        <div class="hexIn hex-in-{{$k}}">
+          <div class="hexLink">
+            @if($k == 3 || $k == 21 || $k == 22 || $k == 23)
+            <img src="{{ asset('images/champions/Lulu.png') }}" />
+            @endif
+          </div>
+        </div>
+        </li>
+        @endfor
+    </ul>
+  </div>
+  <div class="option-title position-title">Positioning</div>
+</div>
+<!-- end positioning -->
+</div>
+</div>
 </div>
 </div>
 
