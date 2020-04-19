@@ -1,12 +1,12 @@
-@extends ('layout.master')
+@extends ('layouts.master')
 
-{ { --Tiêu đề của trang-- } }
+{{--Tiêu đề của trang--}}
 
 @section('title')
 Đội Hình Chuẩn
 @endsection
 
-{ { --Thẻ meta của trang-- } }
+{{--Thẻ meta của trang--}}
 
 @section('meta')
 <meta name="description" content="Đấu Trường Chân Lý | Liên Minh Huyền Thoại">

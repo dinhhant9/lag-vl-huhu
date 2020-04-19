@@ -34,3 +34,6 @@ Route::get('/bai-viet', function () {
 Route::get('/chi-tiet-ban-cap-nhat', function () {
     return view('pages.chitietbancapnhat');
 });
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index')->name('home');
