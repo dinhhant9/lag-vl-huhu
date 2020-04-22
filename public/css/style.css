@@ -6,7 +6,7 @@ main {
     position: relative;
     width: auto;
     justify-items: flex-start;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .team-characters {

@@ -30,15 +30,15 @@
   @for ($i = 0; $i < 10; $i++) <div data-toggle="collapse" href="#collapseExample{{ $i }}" aria-expanded="false"
     aria-controls="collapseExample{{ $i }}" class="expend collapsed">
     <div class="card row-team">
-      <div class="card-body team-body">
+      <div class="card-body team-body padding-1rem">
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 center-row">
             <div class="team-name">
               <div class="team-rank tone">S</div>
               <div class="team-name-elipsis">Mech Infiltrators</div>
             </div>
           </div>
-          <div class="col-md-8 col-12">
+          <div class="col-md-8 col-12 center-row">
             <div>
               <div class="team-characters">
                 @for ($j = 0; $j < 10; $j++) <div class="characters-item no-collapsable">

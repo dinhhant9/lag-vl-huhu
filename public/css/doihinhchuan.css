@@ -81,12 +81,12 @@
 }
 
 .popup-info {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     border: 1px solid #1b2d33;
     position: absolute;
     z-index: 999;
-    top: -446%;
+    top: -320%;
     left: -180%;
     display: none;
     transition: 1s;
@@ -547,6 +547,15 @@
 .position-title {
     margin-left: 50%;
     margin-top: 25px;
+}
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
 }
 
 .expend {
