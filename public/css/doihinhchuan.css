@@ -81,13 +81,13 @@
 }
 
 .popup-info {
-    width: 300px;
+    width: 310px;
     height: 180px;
     border: 1px solid #1b2d33;
     position: absolute;
     z-index: 999;
     top: -320%;
-    left: -180%;
+    left: -203%;
     display: none;
     transition: 1s;
 }
@@ -359,6 +359,7 @@
 .popup-character-info {
     bottom: 105%;
     top: auto;
+    left: -285%;
 }
 
 .item-option-item .icon-arrow,  .option-character .icon-arrow{
@@ -392,7 +393,7 @@
     width: 300px;
     position: absolute;
     bottom: 105%;
-    right: -276%;
+    right: -305%;
     display: none;
     cursor: pointer;
 }
@@ -476,8 +477,8 @@
 }
 
 .popup-champion {
-    left: -150px;
-    top: -201px;
+    left: -110px;
+    top: -181px;
     bottom: auto;
 }
 

@@ -19,6 +19,28 @@ Danh Sách Tướng
 
 @section('content')
 
-  <span>a a a a a a a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a a a a a aa a a</span>
+  <div>
+    <div class="row">
+      <div class="col-sm-4">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Danh sách tướng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Danh sách trang bị</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cách ghép đồ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-8">
+        @for ($j = 0; $j < 100; $j++)
+          <img src="{{ asset('images/champions/Ekko.png') }}" />
+        @endfor
+      </div>
+    </div>
+  </div>
 
 @endsection

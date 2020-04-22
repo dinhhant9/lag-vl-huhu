@@ -7,19 +7,19 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav justify-content-center">
-        <li class="nav-item active">
+        <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
           <a class="nav-link" href="/">Trang chủ</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item  {{ request()->is('doi-hinh-chuan') ? 'active' : '' }}">
           <a class="nav-link" href="/doi-hinh-chuan">Đội hình chuẩn</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item  {{ request()->is('danh-sach-tuong') ? 'active' : '' }}">
           <a class="nav-link" href="/danh-sach-tuong">Cơ sở dữ liệu</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item  {{ request()->is('bai-viet') ? 'active' : '' }}">
           <a class="nav-link" href="/bai-viet">Bài viết</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item  {{ request()->is('chi-tiet-ban-cap-nhat') ? 'active' : '' }}">
           <a class="nav-link" href="/chi-tiet-ban-cap-nhat">Chi tiết bản cập nhật</a>
         </li>
       </ul>
