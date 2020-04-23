@@ -51,33 +51,39 @@ h3{
     width:230px ;
     border-bottom: 5px solid orange;
 }
-.sub-bage hr{
+.sub-bage hr {
     margin: 0 0 20px 0;
     border: 1px solid #1b2d33;
 }
-.sub-bage h6{
+.sub-bage h6 {
     font-weight: bold;
     font-size: 20px;
 }
 .sub-bage .menu {
     border-bottom: 1px solid #1b2d33;
 }
-.sub-bage .menu li{  
+
+.sub-bage .menu li {  
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.bage-header1 h4{
+
+.bage-header1 h4 {
     float: left;
     margin: 0;
 }
+
 /*== header1 ==*/
-.bage-header1 p{
+.bage-header1 p {
     float: right;
-    margin: 0;}
-.bage-header1{
-        height: 50px;
-        border-bottom: 1px solid #1b2d33;
+    margin: 0;
+
 }
+.bage-header1 {
+    height: 50px;
+    border-bottom: 1px solid #1b2d33;
+}
+
 .sub-bage1 h4{
     margin:45px 0 0 0;
     padding-left: 10px;
