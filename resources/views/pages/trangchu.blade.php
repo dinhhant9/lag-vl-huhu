@@ -15,7 +15,7 @@ Trang Chủ
   <meta property="og:image" content="https://lienminh.garena.vn/images/Lan_h3lpm3/06_2019/DCTL/bg-hero.jpg">
 @endsection
 
-@section('cssTrangChu')
+@section('css')
 <link href="{{ asset('css/trangchu.css') }}" rel="stylesheet">
 @endsection
 
