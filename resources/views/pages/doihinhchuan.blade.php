@@ -15,9 +15,8 @@
 <meta property="og:image" content="https://lienminh.garena.vn/images/Lan_h3lpm3/06_2019/DCTL/bg-hero.jpg">
 @endsection
 
-@section('cssDoiHinhChuan')
+@section('css')
 <link href="{{ asset('css/doihinhchuan.css') }}" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 {{-- Nội dung của trang --}}
