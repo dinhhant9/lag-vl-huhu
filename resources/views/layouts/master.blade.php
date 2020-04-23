@@ -9,6 +9,7 @@
   @yield('meta')
   @yield('cssDoiHinhChuan')
   @yield('cssTrangChu')
+  @yield('cssCoSoDuLieu')
   <title>@yield('title') | Cẩm Nang Đấu Trường Chân Lý</title>
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
