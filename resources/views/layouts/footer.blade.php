@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-<footer class="footer">
+<footer class="footerPage">
   <div class="container">
     <div class="intro">
       <p>TFTACTICS.GG isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone

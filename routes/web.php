@@ -23,6 +23,10 @@ Route::get('/danh-sach-tuong', function () {
     return view('pages.danhsachtuong');
 });
 
+Route::get('/co-so-du-lieu', function () {
+    return view('pages.cosodulieu');
+});
+
 Route::get('/bai-viet', function () {
     return view('pages.baiviet');
 });
