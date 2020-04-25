@@ -5,6 +5,10 @@
     width: 20%;
     height: 300px;
   }
+
+  .wrap-tab {
+    padding-top: 50px;
+  }
   
   /* Style the tab content */
   .tabcontent {

@@ -18,7 +18,7 @@ Danh Sách Tướng
 {{-- Nội dung của trang --}}
 
 @section('content')
-
+@yield('menuCoSoDuLieu')
   <div>
     <div class="row">
       <div class="col-sm-4">
