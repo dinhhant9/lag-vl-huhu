@@ -16,7 +16,7 @@
         <li class="nav-item  {{ request()->is('danh-sach-tuong') ? 'active' : '' }}">
           <a class="nav-link" href="/danh-sach-tuong">Cơ sở dữ liệu</a>
         </li>
-        <li class="nav-item  {{ request()->is('co-so-du-lieu') ? 'active' : '' }}">
+        <li class="nav-item  {{ request()->is('*-csdl') ? 'active' : '' }}">
           <a class="nav-link" href="/co-so-du-lieu">Cơ sở dữ liệu cua Nai Pro</a>
         </li>
         <li class="nav-item  {{ request()->is('bai-viet') ? 'active' : '' }}">

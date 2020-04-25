@@ -23,10 +23,6 @@ Route::get('/danh-sach-tuong', function () {
     return view('pages.danhsachtuong');
 });
 
-Route::get('/co-so-du-lieu', function () {
-    return view('pages.cosodulieupage.danhsachtuong');
-});
-
 Route::get('/bai-viet', function () {
     return view('pages.baiviet');
 });
@@ -35,19 +31,23 @@ Route::get('/chi-tiet-ban-cap-nhat', function () {
     return view('pages.chitietbancapnhat');
 });
 
-Route::get('/danh-sach-trang-bi', function () {
+Route::get('/co-so-du-lieu-csdl', function () {
+    return view('pages.cosodulieupage.danhsachtuong');
+});
+
+Route::get('/danh-sach-trang-bi-csdl', function () {
     return view('pages.cosodulieupage.danhsachtrangbi');
 });
 
-Route::get('/cach-ghep-do', function () {
+Route::get('/cach-ghep-do-csdl', function () {
     return view('pages.cosodulieupage.cachghepdo');
 });
 
-Route::get('/toc', function () {
+Route::get('/toc-csdl', function () {
     return view('pages.cosodulieupage.toc');
 });
 
-Route::get('/he', function () {
+Route::get('/he-csdl', function () {
     return view('pages.cosodulieupage.he');
 });
 
