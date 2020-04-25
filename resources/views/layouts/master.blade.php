@@ -8,6 +8,7 @@
   <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
   @yield('meta')
   @yield('css')
+  @yield('cssBaiViet')
   <title>@yield('title') | Cẩm Nang Đấu Trường Chân Lý</title>
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +17,7 @@
   @include ('layouts.header')
 
   <main role="main">
-    <div class="container">
+    <div class="">
 
       @yield('content')
 

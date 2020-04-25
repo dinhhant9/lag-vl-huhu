@@ -1,0 +1,91 @@
+.banner-post {
+    background-image: url('../images/dautruong.jpg');
+    width: 100%;
+    height: 780px;s
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.treding-post {
+    width: 350px;
+    height: 600px;
+    background-color: #0d202bde;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.treding-post .treding-post-title {
+    position: relative;
+    padding: 15px;
+}
+
+.treding-post .treding-post-title h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.treding-post .treding-post-title h5::after {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    height: 20px;
+    width: 11px;
+    background: #c20000;
+    content: "";
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+/* .banner-post:hover .patch {
+    top: 5%;
+    transition: 2s;
+} */
+
+@keyframes mymove {
+    from {top: -55%;}
+    to {top: 5%;}
+  }
+
+.patch {
+    position: absolute;
+    text-align: center;
+    top: -50%;
+    left: 2%;
+    color: #ffffff;
+    animation: mymove 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.patch h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.content-post {
+    margin-top: 50px;
+}
+
+.content-post .card-body .card-title {}
+
+.content-post .card {
+    background-color: #0c1c25;
+}
+
+.content-post .post-item {
+    margin-top: 30px;
+}
+
+.content-post .load-more {
+    margin-left: 50%;
+    margin-bottom: 30px;
+}

@@ -22,7 +22,7 @@
 {{-- Nội dung của trang --}}
 
 @section('content')
-<div class="containerTeam">
+<div class="container containerTeam">
   <h3 class="listTeam">Danh sách các đội hình mạnh nhất Đấu Trường Chân Lý</h3>
   <p class="version">Phiên bản mới nhất: Patch 10.7</p>
 

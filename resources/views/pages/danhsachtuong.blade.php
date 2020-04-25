@@ -19,7 +19,7 @@ Danh Sách Tướng
 
 @section('content')
 
-  <div>
+  <div class = "container">
     <div class="row">
       <div class="col-sm-4">
         <ul class="nav flex-column">
