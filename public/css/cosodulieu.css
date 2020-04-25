@@ -277,6 +277,10 @@
   border: 1px solid #1b2d33;
 }
 
+.wrap-item-base img{
+  margin-top: 10px;
+}
+
 #itembuilder .nav-tabs .nav-link {
   border: none;
   color: hsla(0,0%,100%,.87);
