@@ -18,7 +18,7 @@ Danh Sách Tướng
 {{-- Nội dung của trang --}}
 
 @section('content')
-
+@yield('menuCoSoDuLieu')
   <div>
     <div class="row">
       <div class="col-sm-4">
@@ -44,3 +44,4 @@ Danh Sách Tướng
   </div>
 
 @endsection
+© 2020 GitHub, Inc.
