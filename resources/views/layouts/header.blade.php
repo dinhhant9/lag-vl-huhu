@@ -13,11 +13,11 @@
         <li class="nav-item  {{ request()->is('doi-hinh-chuan') ? 'active' : '' }}">
           <a class="nav-link" href="/doi-hinh-chuan">Đội hình chuẩn</a>
         </li>
-        <li class="nav-item  {{ request()->is('danh-sach-tuong') ? 'active' : '' }}">
+        {{-- <li class="nav-item  {{ request()->is('danh-sach-tuong') ? 'active' : '' }}">
           <a class="nav-link" href="/danh-sach-tuong">Cơ sở dữ liệu</a>
-        </li>
-        <li class="nav-item  {{ request()->is('*-csdl') ? 'active' : '' }}">
-          <a class="nav-link" href="/co-so-du-lieu-csdl">Cơ sở dữ liệu cua Nai Pro</a>
+        </li> --}}
+        <li class="nav-item  {{ request()->is('co-so-du-lieu/*') ? 'active' : '' }}">
+          <a class="nav-link" href="/co-so-du-lieu/danh-sach-tuong">Cơ sở dữ liệu</a>
         </li>
         <li class="nav-item  {{ request()->is('bai-viet') ? 'active' : '' }}">
           <a class="nav-link" href="/bai-viet">Bài viết</a>
