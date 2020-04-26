@@ -11,7 +11,9 @@
   @yield('cssTrangChu')
   @yield('cssCoSoDuLieu')
   @yield('css')
-  <title>@yield('title') | Cẩm Nang Đấu Trường Chân Lý</title>
+  <title>
+    @yield('title')
+  </title>
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>

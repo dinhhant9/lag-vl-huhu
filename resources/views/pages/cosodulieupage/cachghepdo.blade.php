@@ -3,7 +3,7 @@
 {{-- Tiêu đề của trang --}}
 
 @section('title')
-Danh Sách Tướng Pro
+Cách ghép đồ
 @endsection
 
 {{-- Thẻ meta của trang --}}

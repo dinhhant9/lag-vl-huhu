@@ -3,16 +3,17 @@
 {{-- Tiêu đề của trang --}}
 
 @section('title')
-Trang Chủ
+Cẩm Nang Đấu Trường Chân Lý
 @endsection
 
 {{-- Thẻ meta của trang --}}
 
 @section('meta')
-<meta name="description" content="Đấu Trường Chân Lý | Liên Minh Huyền Thoại">
-  <meta property="og:title" content="Đấu Trường Chân Lý | Liên Minh Huyền Thoại">
-  <meta property="og:description" content="Chiến đấu vì vinh quang">
-  <meta property="og:image" content="https://lienminh.garena.vn/images/Lan_h3lpm3/06_2019/DCTL/bg-hero.jpg">
+<meta name="description" content="Cẩm nang đấu trường chân lý, chuyên đăng tải các thông tin về đội hình chuẩn meta, cách ghép đồ, tộc, hệ, v.v cập nhật liên tục.">
+<meta name="keywords" content="cẩm nang đấu trường chân lý, cẩm nang dtcl, đội hình mạnh, cách lên đồ, cách ghép đồ, đội hình meta, chi tiết bản cập nhật, danh sách tộc hệ">
+  <meta property="og:title" content="Cẩm Nang Đấu Trường Chân Lý">
+  <meta property="og:description" content="Chuyên đăng tải các thông tin về đội hình chuẩn meta, cách ghép đồ, tộc, hệ, v.v cập nhật liên tục.">
+  <meta property="og:image" content="{{ asset('images/meta-image/trangchu.jpg') }}">
 @endsection
 
 @section('css')
@@ -25,30 +26,31 @@ Trang Chủ
 
  <div class = "wrap-home-page">
    <div class="text-center wrap-text-content">
-     <h1>Your Companion for Teamfight Tactics</h1>
-     <h2>Become the Next Little Legend</h2>
-     <p>Play smarter and climb the ranks in TFT with constantly updated item guides, team recommendations, and deep champion stat analysis. Now available in-game!</p>
+     <h1>Cẩm nang Đấu Trường Chân Lý</h1>
+     <h3>Mùa 3 - Vô Hạn Thiên Hà - bản patch 10.8</h3>
+     <h2>Đồng hành cùng bạn với những thông tin hữu ích</h2>
+     <p>Trở thành Pro và leo rank với những hướng dẫn về đội hình chuẩn meta, chi tiết bản cập nhật, buff, neft và các chỉ số tướng, vật phẩm, tộc, hệ v.v được cập nhật liên tục.</p>
    </div>
    <!-- intro team and items builder  -->
    <div class="row intro-team">
      <div class="col-md-6">
        <div class="team-title">
-         <h2>Item Cheatsheet</h2>
-         <p>Instantly see what you can craft out of your current inventory and get a complete description of how each item works.</p>
-       </div>
-       <div class="item-builder">
-          <img class = "items-full" src="{{ asset('images/homepage/items-full.jpg') }}" />
-          <img class = "items-crop" src="{{ asset('images/homepage/items-crop.jpg') }}" />
-        </div>
-     </div>
-     <div class="col-md-6">
-     <div class="team-title">
-         <h2>Team Builds</h2>
-         <p>Create stronger teams by planning your composition or choosing a build from our list of curated ones that excel in the current meta.</p>
+         <h2>Đội hình chuẩn</h2>
+         <p>Danh sách các đội hình kết hợp cực mạnh và chuẩn meta cập nhật liên tục.</p>
        </div>
        <div class="item-builder">
           <img class = "items-full" src="{{ asset('images/homepage/comps-full.jpg') }}" />
           <img class = "items-crop" src="{{ asset('images/homepage/comps-crop.jpg') }}" />
+        </div>
+     </div>
+     <div class="col-md-6">
+     <div class="team-title">
+         <h2>Cơ sở dữ liệu</h2>
+         <p>Nơi bạn có thể xem cách ghép trang bị, danh sách tưởng, tộc, hệ và các chỉ số chi tiết.</p>
+       </div>
+       <div class="item-builder">
+          <img class = "items-full" src="{{ asset('images/homepage/items-full.jpg') }}" />
+          <img class = "items-crop" src="{{ asset('images/homepage/items-crop.jpg') }}" />
         </div>
      </div>
    </div>
@@ -72,7 +74,7 @@ Trang Chủ
           </div>
         </div>
         <!-- end post-item  -->
-      @endfor      
+      @endfor
       </div>
       <div class="view-more text-center">
         <a href="">
@@ -80,8 +82,8 @@ Trang Chủ
         </a>
       </div>
     </div>
-    <div class="col-md-5">
-      <img class = "focus-post-image" src="{{ asset('images/homepage/Ezreal.png') }}" />
+    <div class="col-md-5 center-horizontal">
+      <img class = "focus-post-image" src="{{ asset('images/homepage/little-legend.png') }}" />
     </div>
   </div>
  </div>
