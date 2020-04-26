@@ -23,7 +23,7 @@ Chi Tiết Bản Cập Nhật
 
 @section('content')
 
-  <div class = "container">
+  <div>
     <div class="row container">
       <div class="col-lg-4">
         <h3>Log</h3>

@@ -23,7 +23,7 @@ Trang Chủ
 
 @section('content')
 
- <div class = "container wrap-home-page">
+ <div class = "wrap-home-page">
    <div class="text-center wrap-text-content">
      <h1>Your Companion for Teamfight Tactics</h1>
      <h2>Become the Next Little Legend</h2>
