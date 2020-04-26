@@ -55,7 +55,7 @@ Bài Viết
     <div class="patch" id = "patch">
       <div class="text-intro">
         <h1>Đấu Trường Chân Lý</h1>
-        <h3>Phiên Bản 10.8: Nguyên Tố Trỗi Dậy</h3>
+        <h3>Mùa 3 - Vô Hạn Thiên Hà - bản patch 10.8</h3>
       </div>
       <div class="video">
         <iframe width="408" height="230" src="https://www.youtube.com/embed/cXdZLWWZQZE?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
