@@ -124,6 +124,14 @@
     background: #d47559;
 }
 
+.center-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .view-more a {
     color: #d47559;
     margin-top: 8px;
