@@ -9,10 +9,11 @@
 {{--Thẻ meta của trang--}}
 
 @section('meta')
-<meta name="description" content="Đấu Trường Chân Lý | Liên Minh Huyền Thoại">
-<meta property="og:title" content="Đấu Trường Chân Lý | Liên Minh Huyền Thoại">
-<meta property="og:description" content="Chiến đấu vì vinh quang">
-<meta property="og:image" content="https://lienminh.garena.vn/images/Lan_h3lpm3/06_2019/DCTL/bg-hero.jpg">
+<meta name="description" content="Tổng hợp danh sách các đội hình mạnh nhất chuẩn meta được cập nhật liên tục - Cẩm nang đấu trường chân lý.">
+<meta name="keywords" content="cẩm nang đấu trường chân lý, cẩm nang dtcl, đội hình mạnh, đội hình meta, danh sách đội hình mạnh nhất">
+  <meta property="og:title" content="Danh sách đội hình mạnh nhất chuẩn meta Đấu Trường Chân Lý">
+  <meta property="og:description" content="Tổng hợp danh sách các đội hình mạnh nhất chuẩn meta được cập nhật liên tục - Cẩm nang đấu trường chân lý.">
+  <meta property="og:image" content="{{ asset('images/meta-image/doihinhchuan.jpg') }}">
 @endsection
 
 @section('css')
@@ -24,7 +25,7 @@
 @section('content')
 <div class="containerTeam">
   <h3 class="listTeam">Danh sách các đội hình mạnh nhất Đấu Trường Chân Lý</h3>
-  <p class="version">Phiên bản mới nhất: Patch 10.7</p>
+  <p class="version">Phiên bản mới nhất: Patch 10.8</p>
 
   @for ($i = 0; $i < 10; $i++) <div data-toggle="collapse" href="#collapseExample{{ $i }}" aria-expanded="false"
     aria-controls="collapseExample{{ $i }}" class="expend collapsed">
