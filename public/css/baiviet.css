@@ -1,0 +1,136 @@
+.banner-post {
+    background-image: url('../images/dautruong.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.treding-post {
+    width: 350px;
+    height: 600px;
+    background-color: #0d202bde;
+    position: absolute;
+    top: -75%;
+    right: 2%;
+    animation: treding 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.treding-post .treding-post-title {
+    position: relative;
+    padding: 15px;
+}
+
+.treding-post .treding-post-title h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.treding-post .treding-post-title h5::after {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    height: 20px;
+    width: 11px;
+    background: #c20000;
+    content: "";
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.treding-post-list .treding-post-item {
+    padding: 8px;
+    align-items: center;
+}
+
+.treding-post-list .treding-post-item .col-md-8{
+    padding: 0px;
+}
+
+.treding-post-list .treding-post-item .col-md-8 .title{
+    font-size: 15px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.treding-post-list .treding-post-item .col-md-8 .date{
+    font-style: italic;
+    font-size: 14px;
+    color: #b2afb5;
+}
+
+@keyframes patch {
+    from {top: -55%;}
+    to {top: 2%;}
+}
+
+@keyframes treding {
+    from {top: -75%;}
+    to {top: 2%;}
+}
+
+.patch {
+    position: absolute;
+    text-align: center;
+    top: -50%;
+    left: 2%;
+    color: #ffffff;
+    animation: patch 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.patch h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.patch::after {
+    position: absolute;
+    content: '';
+}
+
+.content-post {
+    margin-top: 20px;
+}
+
+.content-post .card-body {
+    height: 164px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.content-post .card {
+    background-color: #0c1c25;
+}
+
+.content-post .post-item {
+    margin-top: 30px;
+}
+
+.content-post .load-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .treding-post-list .treding-post-item .col-md-8{
+        padding: 15px;
+    }
+
+    .treding-post {
+        overflow-y: auto;
+    }
+}
