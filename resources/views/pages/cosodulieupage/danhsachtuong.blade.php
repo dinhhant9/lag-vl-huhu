@@ -17,6 +17,7 @@ Danh Sách Tướng
 
 @section('css')
 <link href="{{ asset('css/danhsachtuong.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 {{-- Nội dung của trang --}}
@@ -42,11 +43,13 @@ Danh Sách Tướng
     </div>
   </div>
   <div class="col-12 col-lg-9 body">
-    <div class="bage-header">
-          <div class="tier-meta"><h5>TFT Champion Tier List</h5></div>
-          <div class="seachbar">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input type="text" placeholder="Seach By name,orgin, or class...">
+    <div class=" row bage-header">
+          <div class=" col-sm-6 tier-meta"><h5>TFT Champion Tier List</h5></div>
+          <div class=" col-sm-6 seachbar">
+            <div class="row m-0 ">
+                 <div class="col-1 p-0"><i class="fa fa-search" aria-hidden="true"></i></div>   
+                <div class="col-11 p-0  "><input type="text" placeholder="Seach By name,orgin, or class..."></div>   
+            </div>
           </div>
     </div>
     <div class="divider"></div>
@@ -66,11 +69,11 @@ Danh Sách Tướng
     <div class="tab-content" id="v-pills-tabContent">
       <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
             <div class="tier-group">
-                  <div class="characters-categorytone">
+                  <div class=" characters-categorytone">
                     <h3>S</h3>
                   </div>
             
-                <div class="characters-list">
+                <div class="characters-list ">
                 <a class="characters-item c4" href="/champions/irelia"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia"></div>
                 <!-- start popup  -->
                  <div class="row popup-info">
@@ -293,18 +296,414 @@ Danh Sách Tướng
 
                     </div>
               </a>
-                <a class="characters-item c5" href="/champions/ekko"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ekko.png" alt="Ekko"></div></a>
-                <a class="characters-item c4" href="/champions/fizz"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Fizz.png" alt="Fizz"></div></a>
-                <a class="characters-item c5" href="/champions/gangplank"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Gangplank.png" alt="Gangplank"></div></a>
-                <a class="characters-item c4 up" href="/champions/jinx"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Jinx.png" alt="Jinx"></div></a>
-                <a class="characters-item c2" href="/champions/kaisa"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Kaisa.png" alt="Kaisa"></div></a>
-                <a class="characters-item c2" href="/champions/lucian"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Lucian.png" alt="Lucian"></div></a>
-                <a class="characters-item c3" href="/champions/rumble"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Rumble.png" alt="Rumble"></div></a>
-                <a class="characters-item c3 down" href="/champions/shaco"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Shaco.png" alt="Shaco"></div></a>
-                <a class="characters-item c3" href="/champions/syndra"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Syndra.png" alt="Syndra"></div></a>
-                <a class="characters-item c5" href="/champions/thresh"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Thresh.png" alt="Thresh"></div></a>
-                <a class="characters-item c4" href="/champions/velkoz"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Velkoz.png" alt="Velkoz"></div></a>
-                <a class="characters-item c5" href="/champions/xerath"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Xerath.png" alt="Xerath"></div></a>
+                <a class="characters-item c5" href="/champions/ekko"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ekko.png" alt="Ekko"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c4" href="/champions/fizz"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Fizz.png" alt="Fizz"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c5" href="/champions/gangplank"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Gangplank.png" alt="Gangplank"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c4 up" href="/champions/jinx"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Jinx.png" alt="Jinx"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/kaisa"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Kaisa.png" alt="Kaisa"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/lucian"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Lucian.png" alt="Lucian"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/rumble"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Rumble.png" alt="Rumble"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3 down" href="/champions/shaco"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Shaco.png" alt="Shaco"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/syndra"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Syndra.png" alt="Syndra"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c5" href="/champions/thresh"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Thresh.png" alt="Thresh"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c4" href="/champions/velkoz"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Velkoz.png" alt="Velkoz"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c5" href="/champions/xerath"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Xerath.png" alt="Xerath"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
                 </div>
                 
             </div>   
@@ -313,19 +712,448 @@ Danh Sách Tướng
                     <h3>B</h3>
                   </div>
                 <div class="characters-list">
-                <a class="characters-item c5" href="/champions/aurelion_sol"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/AurelionSol.png" alt="Aurelion Sol"></div></a>
-                <a class="characters-item c2" href="/champions/blitzcrank"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Blitzcrank.png" alt="Blitzcrank"></div></a>
-                <a class="characters-item c3" href="/champions/ezreal"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ezreal.png" alt="Ezreal"></div></a>
-                <a class="characters-item c3" href="/champions/jayce"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Jayce.png" alt="Jayce"></div></a>
-                <a class="characters-item c3" href="/champions/lux"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Lux.png" alt="Lux"></div></a>
-                <a class="characters-item c3" href="/champions/master_yi"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/MasterYi.png" alt="Master Yi"></div></a>
-                <a class="characters-item c3" href="/champions/neeko"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Neeko.png" alt="Neeko"></div></a>
-                <a class="characters-item c2 down" href="/champions/rakan"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Rakan.png" alt="Rakan"></div></a>
-                <a class="characters-item c2" href="/champions/shen"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Shen.png" alt="Shen"></div></a>
-                <a class="characters-item c4" href="/champions/soraka"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Soraka.png" alt="Soraka"></div></a>
-                <a class="characters-item c3" href="/champions/vi"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Vi.png" alt="Vi"></div></a>
-                <a class="characters-item c4 down" href="/champions/wukong"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Wukong.png" alt="Wukong"></div></a>
-                <a class="characters-item c2" href="/champions/xin_zhao"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/XinZhao.png" alt="Xin Zhao"></div></a>
+                <a class="characters-item c5" href="/champions/aurelion_sol"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/AurelionSol.png" alt="Aurelion Sol"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/blitzcrank"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Blitzcrank.png" alt="Blitzcrank"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/ezreal"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ezreal.png" alt="Ezreal"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/jayce"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Jayce.png" alt="Jayce"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/lux"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Lux.png" alt="Lux"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/master_yi"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/MasterYi.png" alt="Master Yi"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/neeko"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Neeko.png" alt="Neeko"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2 down" href="/champions/rakan"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Rakan.png" alt="Rakan"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/shen"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Shen.png" alt="Shen"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c4" href="/champions/soraka"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Soraka.png" alt="Soraka"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/vi"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Vi.png" alt="Vi"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c4 down" href="/champions/wukong"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Wukong.png" alt="Wukong"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/xin_zhao"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/XinZhao.png" alt="Xin Zhao"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
 
                   </div>   
           </div>
@@ -334,19 +1162,448 @@ Danh Sách Tướng
                     <h3>C</h3>
                   </div>
                 <div class="characters-list">
-                <a class="characters-item c2" href="/champions/ahri"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ahri.png" alt="Ahri"></div></a>
-                <a class="characters-item c2" href="/champions/annie"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Annie.png" alt="Annie"></div></a>
-                <a class="characters-item c1" href="/champions/caitlyn"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Caitlyn.png" alt="Caitlyn"></div></a>
-                <a class="characters-item c2" href="/champions/darius"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Darius.png" alt="Darius"></div></a>
-                <a class="characters-item c1" href="/champions/fiora"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Fiora.png" alt="Fiora"></div></a>
-                <a class="characters-item c1" href="/champions/graves"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Graves.png" alt="Graves"></div></a>
-                <a class="characters-item c1" href="/champions/jarvan_iv"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/JarvanIV.png" alt="Jarvan IV"></div></a>
-                <a class="characters-item c3" href="/champions/karma"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Karma.png" alt="Karma"></div></a>
-                <a class="characters-item c3" href="/champions/kassadin"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Kassadin.png" alt="Kassadin"></div></a>
-                <a class="characters-item c1" href="/champions/leona"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Leona.png" alt="Leona"></div></a>
-                <a class="characters-item c2" href="/champions/mordekaiser"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Mordekaiser.png" alt="Mordekaiser"></div></a>
-                <a class="characters-item c2" href="/champions/sona"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Sona.png" alt="Sona"></div></a>
-                <a class="characters-item c2" href="/champions/yasuo"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Yasuo.png" alt="Yasuo"></div></a>
+                <a class="characters-item c2" href="/champions/ahri"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ahri.png" alt="Ahri"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/annie"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Annie.png" alt="Annie"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c1" href="/champions/caitlyn"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Caitlyn.png" alt="Caitlyn"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/darius"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Darius.png" alt="Darius"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c1" href="/champions/fiora"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Fiora.png" alt="Fiora"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c1" href="/champions/graves"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Graves.png" alt="Graves"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c1" href="/champions/jarvan_iv"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/JarvanIV.png" alt="Jarvan IV"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/karma"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Karma.png" alt="Karma"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c3" href="/champions/kassadin"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Kassadin.png" alt="Kassadin"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c1" href="/champions/leona"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Leona.png" alt="Leona"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/mordekaiser"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Mordekaiser.png" alt="Mordekaiser"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/sona"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Sona.png" alt="Sona"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
+                <a class="characters-item c2" href="/champions/yasuo"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Yasuo.png" alt="Yasuo"></div>
+                <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+            </a>
                 </div>
           </div>
           <div class="tier-group">
@@ -354,10 +1611,142 @@ Danh Sách Tướng
                     <h3>D</h3>
                   </div>
                   <div class="characters-list">
-                  <a class="characters-item c1" href="/champions/khazix"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Khazix.png" alt="Khazix"></div></a>
-                  <a class="characters-item c1" href="/champions/malphite"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Malphite.png" alt="Malphite"></div></a>
-                  <a class="characters-item c1" href="/champions/poppy"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Poppy.png" alt="Poppy"></div></a>
-                  <a class="characters-item c1" href="/champions/twisted_fate"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/TwistedFate.png" alt="Twisted Fate"></div></a>
+                  <a class="characters-item c1" href="/champions/khazix"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Khazix.png" alt="Khazix"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
+                  <a class="characters-item c1" href="/champions/malphite"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Malphite.png" alt="Malphite"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
+                  <a class="characters-item c1" href="/champions/poppy"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Poppy.png" alt="Poppy"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
+                  <a class="characters-item c1" href="/champions/twisted_fate"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/TwistedFate.png" alt="Twisted Fate"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
                   </div>
           </div>
           <div class="tier-group">
@@ -365,9 +1754,108 @@ Danh Sách Tướng
                     <h3>E</h3>
                   </div>
                   <div class="characters-list">
-                  <a  data-toggle="tooltip" title="Some tooltip text!" data-placement="right" class="characters-item c1" href="/champions/xayah"><div class="character-wrapper" ><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Xayah.png" alt="Xayah"></div></a>
-                  <a class="characters-item c1" href="/champions/ziggs"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ziggs.png" alt="Ziggs"></div></a>
-                  <a class="characters-item c1" href="/champions/zoe"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Zoe.png" alt="Zoe"></div></a>
+                  <a  data-toggle="tooltip" title="Some tooltip text!" data-placement="right" class="characters-item c1" href="/champions/xayah"><div class="character-wrapper" ><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Xayah.png" alt="Xayah"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
+                  <a class="characters-item c1" href="/champions/ziggs"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Ziggs.png" alt="Ziggs"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
+                  <a class="characters-item c1" href="/champions/zoe"><div class="character-wrapper"><img class="character-icon" src="https://rerollcdn.com/characters/Skin/3/Zoe.png" alt="Zoe"></div>
+                  <div class="row popup-info">
+                      <div class="col-md-3 col-3 info">
+                      <img  src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
+                            <p>Irelia</p>
+                      </div>
+                      <div class="col-md-7 col-7 origin-wrap">
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
+                        <p>Cybernetic</p>
+                        </div>
+                        <div class="d-flex  origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
+                        <p>Blademaster</p>
+                        </div>
+                        <div class="d-flex origin">
+                        <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
+                        <p>Mana-Reaver</p>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-2 cost">
+                      <img src="http://127.0.0.1:8000/images/icon-gold.svg">
+                      <div>4</div>
+                      </div>
+                      <div class="col-md-12 item">
+                        <div>Item:</div>
+                        <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
+                        <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+                        <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
+
+                      </div>
+
+                 </div>
+                </a>
                   </div>
           </div>
           
