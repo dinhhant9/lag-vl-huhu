@@ -1,0 +1,46 @@
+main {
+    margin-top: 56px;
+}
+
+.characters-item {
+    position: relative;
+    width: auto;
+    justify-items: flex-start;
+    padding: 5px;
+}
+
+.team-characters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body{
+    background-color: #0d202b;
+    color:hsla(0,0%,100%,.87);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.navbar-expand-md{
+    background-color: #0c1c25 !important;
+    border-bottom: 1px solid #1b2d33;
+}
+.footerPage{
+    background: #0c1c25;
+    border-top: 1px solid #1b2d33;
+    /* position: absolute; */
+    width: 100%;
+    bottom:0;
+}
+.footerPage .intro{
+    border-top: 1px solid #1b2d33;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: hsla(0,0%,100%,.87);
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    max-width: none;
+}
