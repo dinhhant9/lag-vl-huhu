@@ -190,13 +190,13 @@ body{
 //end popup tuong
 
 //start style popup trang bi
-.item-builder{
+.wrap-item-builder{
     cursor: pointer;
     position: relative;
     margin: 5px 5px;
 }
 
-.item-builder img{
+.wrap-item-builder img{
     width: 32px;
     height: 32px;
     margin: 0px 5px;
@@ -249,7 +249,7 @@ body{
     background: #0d202b;
 }
 
-.item-builder:hover .item-popup {
+.wrap-item-builder:hover .item-popup {
     display: block;
 }
 .list-items img {

@@ -1,4 +1,4 @@
-<div class="item-builder">
+<div class="wrap-item-builder">
     <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
     <!-- popup-info  -->
     <div class="item-popup">
