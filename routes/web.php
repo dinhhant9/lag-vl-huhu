@@ -54,6 +54,10 @@ Route::prefix('co-so-du-lieu')->group(function () {
     Route::get('danh-sach-he', function () {
         return view('pages.cosodulieupage.he');
     });
+
+    Route::get('chi-tiet-tuong', function () {
+        return view('pages.cosodulieupage.chitiettuong');
+    });
 });
 
 
