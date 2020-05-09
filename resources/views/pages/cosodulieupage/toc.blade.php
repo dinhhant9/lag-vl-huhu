@@ -14,7 +14,7 @@ Danh Sách Tộc
 <meta property="og:description" content="Chiến đấu vì vinh quang">
 <meta property="og:image" content="https://lienminh.garena.vn/images/Lan_h3lpm3/06_2019/DCTL/bg-hero.jpg">
 @endsection
-@section('cssCoSoDuLieu')
+@section('css')
 <link href="{{ asset('css/cosodulieu.css') }}" rel="stylesheet">
 {{-- Nội dung của trang --}}
 @endsection

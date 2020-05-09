@@ -29,33 +29,7 @@ Danh Sách Tướng
   @include ('pages.cosodulieupage.menu')
   <!-- classes tab content  -->
   <div id="classes" class="tabcontent">
-    {{-- <div class="col-12 col-lg-3 sidebar">
-        <div class="filters-header1"><h5>Lists</h5></div>
-        <div class="divider"></div>
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Champions</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Team Comps</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Origins</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Classes</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Items</a>
-        </div>
-        <div class="extra-filters ">
-        <div class="filters-header"><h5>Lists</h5>
-        <div  class="btn">Rest</div>
-      </div>
-        </div>
-      </div> --}}
     <div style="padding: 25px 20px;">
-      {{-- <div class=" row bage-header">
-              <div class=" col-sm-6 tier-meta"><h5>TFT Champion Tier List</h5></div>
-              <div class=" col-sm-6 seachbar">
-                <div class="row m-0 ">
-                     <div class="col-1 p-0"><i class="fa fa-search" aria-hidden="true"></i></div>   
-                    <div class="col-11 p-0  "><input type="text" placeholder="Seach By name,orgin, or class..."></div>   
-                </div>
-              </div>
-        </div> --}}
-      {{-- <div class="divider"></div> --}}
       <div class="updated">
         <div><b>Last Updated:</b> Patch 10.8b</div>
         <div class="legend">
@@ -77,7 +51,7 @@ Danh Sách Tướng
             </div>
 
             <div class="characters-list ">
-              <a class="characters-item c4" href="/champions/irelia">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia"></div>
                 <!-- start popup  -->
@@ -115,7 +89,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4" href="/champions/jhin">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Jhin.png" alt="Jhin"></div>
                 <div class="row popup-info">
@@ -148,7 +122,7 @@ Danh Sách Tướng
                 </div>
 
               </a>
-              <a class="characters-item c4" href="/champions/kayle">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Kayle.png" alt="Kayle"></div>
                 <div class="row popup-info">
@@ -182,7 +156,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/lulu">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Lulu.png" alt="Lulu"></div>
                 <div class="row popup-info">
@@ -216,7 +190,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/miss_fortune">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/MissFortune.png" alt="Miss Fortune"></div>
                 <div class="row popup-info">
@@ -262,7 +236,7 @@ Danh Sách Tướng
             </div>
 
             <div class="characters-list">
-              <a class="characters-item c3" href="/champions/ashe">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Ashe.png" alt="Ashe"></div>
                 <div class="row popup-info">
@@ -296,7 +270,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4" href="/champions/chogath">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Chogath.png" alt="Chogath"></div>
                 <div class="row popup-info">
@@ -329,7 +303,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/ekko">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Ekko.png" alt="Ekko"></div>
                 <div class="row popup-info">
@@ -366,7 +340,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4" href="/champions/fizz">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Fizz.png" alt="Fizz"></div>
                 <div class="row popup-info">
@@ -403,7 +377,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/gangplank">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Gangplank.png" alt="Gangplank"></div>
                 <div class="row popup-info">
@@ -440,7 +414,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4 up" href="/champions/jinx">
+              <a class="characters-item c4 up" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Jinx.png" alt="Jinx"></div>
                 <div class="row popup-info">
@@ -477,7 +451,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/kaisa">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Kaisa.png" alt="Kaisa"></div>
                 <div class="row popup-info">
@@ -514,7 +488,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/lucian">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Lucian.png" alt="Lucian"></div>
                 <div class="row popup-info">
@@ -551,7 +525,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/rumble">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Rumble.png" alt="Rumble"></div>
                 <div class="row popup-info">
@@ -588,7 +562,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3 down" href="/champions/shaco">
+              <a class="characters-item c3 down" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Shaco.png" alt="Shaco"></div>
                 <div class="row popup-info">
@@ -625,7 +599,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/syndra">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Syndra.png" alt="Syndra"></div>
                 <div class="row popup-info">
@@ -662,7 +636,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/thresh">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Thresh.png" alt="Thresh"></div>
                 <div class="row popup-info">
@@ -699,7 +673,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4" href="/champions/velkoz">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Velkoz.png" alt="Velkoz"></div>
                 <div class="row popup-info">
@@ -736,7 +710,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c5" href="/champions/xerath">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Xerath.png" alt="Xerath"></div>
                 <div class="row popup-info">
@@ -781,7 +755,7 @@ Danh Sách Tướng
               <h3>B</h3>
             </div>
             <div class="characters-list">
-              <a class="characters-item c5" href="/champions/aurelion_sol">
+              <a class="characters-item c5" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/AurelionSol.png" alt="Aurelion Sol"></div>
                 <div class="row popup-info">
@@ -818,7 +792,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/blitzcrank">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Blitzcrank.png" alt="Blitzcrank"></div>
                 <div class="row popup-info">
@@ -855,7 +829,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/ezreal">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Ezreal.png" alt="Ezreal"></div>
                 <div class="row popup-info">
@@ -892,7 +866,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/jayce">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Jayce.png" alt="Jayce"></div>
                 <div class="row popup-info">
@@ -929,7 +903,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/lux">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Lux.png" alt="Lux"></div>
                 <div class="row popup-info">
@@ -966,7 +940,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/master_yi">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/MasterYi.png" alt="Master Yi"></div>
                 <div class="row popup-info">
@@ -1003,7 +977,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/neeko">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Neeko.png" alt="Neeko"></div>
                 <div class="row popup-info">
@@ -1040,7 +1014,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2 down" href="/champions/rakan">
+              <a class="characters-item c2 down" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Rakan.png" alt="Rakan"></div>
                 <div class="row popup-info">
@@ -1077,7 +1051,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/shen">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Shen.png" alt="Shen"></div>
                 <div class="row popup-info">
@@ -1114,7 +1088,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4" href="/champions/soraka">
+              <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Soraka.png" alt="Soraka"></div>
                 <div class="row popup-info">
@@ -1151,7 +1125,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/vi">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Vi.png" alt="Vi"></div>
                 <div class="row popup-info">
@@ -1188,7 +1162,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c4 down" href="/champions/wukong">
+              <a class="characters-item c4 down" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Wukong.png" alt="Wukong"></div>
                 <div class="row popup-info">
@@ -1225,7 +1199,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/xin_zhao">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/XinZhao.png" alt="Xin Zhao"></div>
                 <div class="row popup-info">
@@ -1270,7 +1244,7 @@ Danh Sách Tướng
               <h3>C</h3>
             </div>
             <div class="characters-list">
-              <a class="characters-item c2" href="/champions/ahri">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Ahri.png" alt="Ahri"></div>
                 <div class="row popup-info">
@@ -1307,7 +1281,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/annie">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Annie.png" alt="Annie"></div>
                 <div class="row popup-info">
@@ -1344,7 +1318,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/caitlyn">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Caitlyn.png" alt="Caitlyn"></div>
                 <div class="row popup-info">
@@ -1381,7 +1355,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/darius">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Darius.png" alt="Darius"></div>
                 <div class="row popup-info">
@@ -1418,7 +1392,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/fiora">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Fiora.png" alt="Fiora"></div>
                 <div class="row popup-info">
@@ -1455,7 +1429,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/graves">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Graves.png" alt="Graves"></div>
                 <div class="row popup-info">
@@ -1492,7 +1466,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/jarvan_iv">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/JarvanIV.png" alt="Jarvan IV"></div>
                 <div class="row popup-info">
@@ -1529,7 +1503,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/karma">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Karma.png" alt="Karma"></div>
                 <div class="row popup-info">
@@ -1566,7 +1540,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c3" href="/champions/kassadin">
+              <a class="characters-item c3" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Kassadin.png" alt="Kassadin"></div>
                 <div class="row popup-info">
@@ -1603,7 +1577,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/leona">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Leona.png" alt="Leona"></div>
                 <div class="row popup-info">
@@ -1640,7 +1614,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/mordekaiser">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Mordekaiser.png" alt="Mordekaiser"></div>
                 <div class="row popup-info">
@@ -1677,7 +1651,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/sona">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Sona.png" alt="Sona"></div>
                 <div class="row popup-info">
@@ -1714,7 +1688,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c2" href="/champions/yasuo">
+              <a class="characters-item c2" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Yasuo.png" alt="Yasuo"></div>
                 <div class="row popup-info">
@@ -1758,7 +1732,7 @@ Danh Sách Tướng
               <h3>D</h3>
             </div>
             <div class="characters-list">
-              <a class="characters-item c1" href="/champions/khazix">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Khazix.png" alt="Khazix"></div>
                 <div class="row popup-info">
@@ -1795,7 +1769,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/malphite">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Malphite.png" alt="Malphite"></div>
                 <div class="row popup-info">
@@ -1832,7 +1806,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/poppy">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Poppy.png" alt="Poppy"></div>
                 <div class="row popup-info">
@@ -1869,7 +1843,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/twisted_fate">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/TwistedFate.png" alt="Twisted Fate"></div>
                 <div class="row popup-info">
@@ -1914,7 +1888,7 @@ Danh Sách Tướng
             </div>
             <div class="characters-list">
               <a data-toggle="tooltip" title="Some tooltip text!" data-placement="right" class="characters-item c1"
-                href="/champions/xayah">
+                href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Xayah.png" alt="Xayah"></div>
                 <div class="row popup-info">
@@ -1951,7 +1925,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/ziggs">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Ziggs.png" alt="Ziggs"></div>
                 <div class="row popup-info">
@@ -1988,7 +1962,7 @@ Danh Sách Tướng
 
                 </div>
               </a>
-              <a class="characters-item c1" href="/champions/zoe">
+              <a class="characters-item c1" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Zoe.png" alt="Zoe"></div>
                 <div class="row popup-info">
