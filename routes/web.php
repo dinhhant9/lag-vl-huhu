@@ -15,9 +15,8 @@ Route::get('/', function () {
     return view('pages.trangchu');
 });
 
-Route::get('/doi-hinh-chuan', function () {
-    return view('pages.doihinhchuan');
-});
+
+Route::get('/doi-hinh-chuan', 'DoiHinhChuanController@show');
 
 // Route::get('/danh-sach-tuong', function () {
 //     return view('pages.danhsachtuong');
