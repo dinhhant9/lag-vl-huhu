@@ -16,41 +16,34 @@ Cách ghép đồ
 @endsection
 @section('css')
 <link href="{{ asset('css/cosodulieu.css') }}" rel="stylesheet">
+<link href="{{ asset('css/cachghepdo.css') }}" rel="stylesheet">
 {{-- Nội dung của trang --}}
 @endsection
 @section('content')
 <div class="row wrap-tab">
     @include ('pages.cosodulieupage.menu')
     <!-- item builder tab content  -->
-    <div id="itembuilder" class="tabcontent">
-        <div class="container mt-3">
-            <h2>Toggleable Tabs</h2>
-            <br>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#home">Base Items</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menu1">Combinded Items</a>
-                </li>
-            </ul>
+    
 
             <!-- Tab panes -->
             <div class="tab-content">
                 <!-- baseitem tab  -->
                 <div id="home" class="container tab-pane active"><br>
                     <div class="wrap-combinded-items">
-                        <h2>Filterable Table</h2>
-                        <p>
-                            Type something in the input field to search the table for first names, last names or emails:
-                        </p>
+                    <div class="list-base-items row ">
+                    @for ($j = 0; $j < 10; $j++) <div class="wrap-item">
+                    
+                    @component('components.popup.trangbi')
+                    @endcomponent 
+                    </div>
+                     @endfor
+                    </div>   
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th>Item</th>
-                                    <th>Bouns</th>
                                     <th>Recipe</th>
+                                    <th>Combines into</th>
+                                    <th>Tiger</th>
                                 </tr>
                             </thead>
                             <tbody id="myTable">
