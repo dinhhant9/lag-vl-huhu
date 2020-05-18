@@ -50,45 +50,9 @@ Danh Sách Tướng
               <h3>S</h3>
             </div>
 
-            <div class="characters-list ">
-              <a class="characters-item c4" href="chi-tiet-tuong">
-                <div class="character-wrapper"><img class="character-icon"
-                    src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia"></div>
-                <!-- start popup  -->
-                <div class="row popup-info">
-                  <div class="col-md-3 col-3 info">
-                    <img src="https://rerollcdn.com/characters/Skin/3/Irelia.png" alt="Irelia">
-                    <p>Irelia</p>
-                  </div>
-                  <div class="col-md-7 col-7 origin-wrap">
-                    <div class="d-flex origin">
-                      <img class="misc-image" src="https://rerollcdn.com/icons/cybernetic.png" alt="Cybernetic">
-                      <p>Cybernetic</p>
-                    </div>
-                    <div class="d-flex  origin">
-                      <img class="misc-image" src="https://rerollcdn.com/icons/blademaster.png" alt="Blademaster">
-                      <p>Blademaster</p>
-                    </div>
-                    <div class="d-flex origin">
-                      <img class="misc-image" src="https://rerollcdn.com/icons/mana-reaver.png" alt="Mana-Reaver">
-                      <p>Mana-Reaver</p>
-                    </div>
-                  </div>
-                  <div class="col-md-2 col-2 cost">
-                    <img src="http://127.0.0.1:8000/images/icon-gold.svg">
-                    <div>4</div>
-                  </div>
-                  <div class="col-md-12 item">
-                    <div>Item:</div>
-                    <img class="character-icon" src="https://rerollcdn.com/items/Bloodthirster.png" alt="Bloodthirster">
-                    <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png"
-                      alt="Guardian Angel">
-                    <img class="character-icon" src="https://rerollcdn.com/items/InfinityEdge.png" alt="Infinity Edge">
-
-                  </div>
-
-                </div>
-              </a>
+            <div class="characters-list">
+            @component('components.popup.tuong')
+            @endcomponent 
               <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
                     src="https://rerollcdn.com/characters/Skin/3/Jhin.png" alt="Jhin"></div>

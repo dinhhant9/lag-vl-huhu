@@ -18,7 +18,7 @@ main {
 body{
     background-color: #0d202b;
     color:hsla(0,0%,100%,.87);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
 }
 
@@ -263,7 +263,6 @@ body{
 
 //start style popup he toc
 .wrap-origin-class{
-    width: 36px;
     margin: 0px 8px;
     display: flex;
     align-items: center;
@@ -282,6 +281,7 @@ body{
 }
 
 .origin-class-icon{
+    width: 36px;
     background: #a27208;
     position: relative;
     display: flex;
