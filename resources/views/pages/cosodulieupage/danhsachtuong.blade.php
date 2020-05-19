@@ -49,7 +49,6 @@ Danh Sách Tướng
             <div class=" characters-categorytone">
               <h3>S</h3>
             </div>
-
             <div class="characters-list ">
               <a class="characters-item c4" href="chi-tiet-tuong">
                 <div class="character-wrapper"><img class="character-icon"
