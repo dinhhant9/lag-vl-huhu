@@ -21,4 +21,5 @@ mix
    .sass('resources/assets/sass/cachghepdo.scss', 'public/css')
    .sass('resources/assets/sass/doihinhchuan.scss', 'public/css')
    .sass('resources/assets/sass/style.scss', 'public/css')
-   .sass('resources/assets/sass/trangchu.scss', 'public/css');
+   .sass('resources/assets/sass/trangchu.scss', 'public/css')
+   .sass('resources/assets/sass/danhsachhe.scss', 'public/css');

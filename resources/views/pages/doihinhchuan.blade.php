@@ -68,7 +68,13 @@
                 <div class="wrap-team-builder">
                    <!-- team builder -->
                   @for ($u = 0; $u < 3; $u++)
-                    @component('components.popup.hetoc') 
+                    @component('components.popup.hetoc')
+                    <div class="origin-class-icon">
+                        <img src="{{ asset('images/origin/cybernetic.png') }}" />
+                        <div class="origin-class-counter">
+                            <span>6</span>
+                        </div>
+                    </div>
                     @endcomponent 
                     <!-- end team builder  -->
                     @endfor

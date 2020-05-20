@@ -1,10 +1,11 @@
 <div class="wrap-origin-class">
-    <div class="origin-class-icon">
+    <!-- <div class="origin-class-icon">
         <img src="{{ asset('images/origin/cybernetic.png') }}" />
         <div class="origin-class-counter">
             <span>6</span>
         </div>
-    </div>
+    </div> -->
+    {{ $slot }}
     <!-- popup-info  -->
     <div class="origin-class-popup">
         <div class="header">

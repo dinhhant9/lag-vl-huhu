@@ -49,7 +49,6 @@ Danh Sách Tướng
             <div class=" characters-categorytone">
               <h3>S</h3>
             </div>
-
             <div class="characters-list ">
               @for ($j = 0; $j < 6; $j++) 
                 <div class="characters-item">
