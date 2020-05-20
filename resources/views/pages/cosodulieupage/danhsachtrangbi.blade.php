@@ -29,9 +29,12 @@ Danh Sách Trang Bị
                 <h4>Base Items</h4>
                 <div class="list-base-items row">
                     @for ($j = 0; $j < 10; $j++) <div class="wrap-item">
-                        <img class="image-base-items" src="{{ asset('images/items/GuardianAngel.png') }}" />
+                    
+                    @component('components.popup.trangbi')
+                    @endcomponent 
+                        <!-- <img class="image-base-items" src="{{ asset('images/items/GuardianAngel.png') }}" /> -->
                         <!-- popup-info  -->
-                        <div class="popup-base-item">
+                        <!-- <div class="popup-base-item">
                             <div class="header">
                                 <img src="{{ asset('images/items/RabadonsDeathcap.png') }}" />
                                 <div class="wrap-item-name">
@@ -56,7 +59,7 @@ Danh Sách Trang Bị
                                     <img src="{{ asset('images/champions/Ekko.png') }}" />
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- end popup-info  -->
                 </div>
                 @endfor

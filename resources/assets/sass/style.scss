@@ -193,12 +193,12 @@ body{
 .wrap-item-builder{
     cursor: pointer;
     position: relative;
-    margin: 5px 5px;
+    // margin: 5px 5px;
 }
 
 .wrap-item-builder img{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     margin: 0px 5px;
 }
 
@@ -206,8 +206,8 @@ body{
     border: 1px solid #1b2d33;
     width: 300px;
     position: absolute;
-    bottom: 105%;
-    right: -305%;
+    bottom: 76%;
+    right: -143%;
     display: none;
     cursor: pointer;
 }

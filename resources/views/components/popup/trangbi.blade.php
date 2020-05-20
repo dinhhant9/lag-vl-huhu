@@ -1,5 +1,5 @@
 <div class="wrap-item-builder">
-    <img src="{{ asset('images/items/TearoftheGoddess.png') }}" />
+    <img class="image-base-items" src="{{ asset('images/items/TearoftheGoddess.png') }}" />
     <!-- popup-info  -->
     <div class="item-popup">
         <div class="header">

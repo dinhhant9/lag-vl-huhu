@@ -1,6 +1,6 @@
 <div class="character no-collapsable">
     <div class="character-image">
-        <img src="{{ asset('images/champions/Ekko.png') }}" style = "{{$addStyle or NULL}}"/>
+        <img src="{{ asset('images/champions/Ekko.png') }}"/>
     </div>
     <!-- start popup  -->
     <div class="row character-popup">
