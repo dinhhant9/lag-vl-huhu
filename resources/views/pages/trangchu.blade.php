@@ -3,7 +3,7 @@
 {{-- Tiêu đề của trang --}}
 
 @section('title')
-Cẩm Nang Đấu Trường Chân Lý
+Trang Chủ
 @endsection
 
 {{-- Thẻ meta của trang --}}
