@@ -24,71 +24,44 @@ Danh Sách Hệ
     @include ('pages.cosodulieupage.menu')
     <!-- classes tab content  -->
     <div class="tabcontent">
-        <div class="container"><br>
-            <div class="wrap-combinded-items">
+        <div class="container">
+            <div class="wrap-class">
                 <div class="search">
-                    <h2>Filterable Table</h2>
+                    <h2>Danh Sách Hệ</h2>
                     <input class="form-control" id="myInput" type="text" placeholder="Tìm kiếm hệ">
-                </div>              
-                <p>Type something in the input field to search the table for first names, last names or emails:
-                </p>
-                <br>
-                <table class="table table-striped">
-                    <tr>
-                        <th class="width-class">Class</th>
-                        <th class="width-bouns">Bouns</th>
-                        <th class="width-units">Units</th>
-                    </tr>
-                    <tbody id="myTable">
-                        @for($j=0; $j < 25; $j++) <tr>
-                            <td class = "class-info">
-                                @component('components.popup.hetoc')
-                                <div class="class">
-                                    <img src="{{ asset('images/class/blademaster.png') }}" />
-                                    <div class="item-name">Kiếm Khách</div>
-                                </div>
-                                @endcomponent
-                            </td>
-                            <td>
-                                <div class="class-bonus">
-                                    <div class="class-dis">Tướng Kiếm Khách có tỷ lệ ra thêm 2 đòn đánh nữa.Các đòn đánh
-                                        cộng thêm này có sát thương như đòn đánh thường và đi kèm tất cả hiệu ứng từ
-                                        trang bị của chủ sở hữu.</div>
-                                    <div class="bonus-list">
-                                        <div class="bonus-item">
-                                            <div class="count">3</div>
-                                            <div class="value">30% tỷ lệ thêm đòn đánh</div>
-                                        </div>
-                                        <div class="bonus-item">
-                                            <div class="count">6</div>
-                                            <div class="value">55% tỷ lệ thêm đòn đánh</div>
-                                        </div>
-                                        <div class="bonus-item">
-                                            <div class="count">9</div>
-                                            <div class="value">100% tỷ lệ thêm đòn đánh</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </td>
-                            <td>
-                                <div class="units-list">
-                                    @for ($h = 0; $h < 10; $h++) @component('components.popup.tuong', ['addStyle'=>
-                                        'width: 32px; height:32px'])
-                                        @endcomponent
-                                        @endfor
-                                </div>
-                            </td>
-                            </tr>
-                            @endfor
-                    </tbody>
-                </table>
+                </div>
+                <div class="divider"></div>
+                <div class="update">
+                    <div class="update-patch">Patch 10.10</div>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <div class="legend-up">▴</div>Tier Up
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-down">▾</div>Tier Down
+                        </div>
+                    </div>
+                </div>
+                @for ($j = 0; $j < 5; $j++) <div class="tier-group">
+                    <div class="characters-category tone">
+                        <h3>S</h3>
+                    </div>
+                    <div class="characters-list">
+                        @for ($k = 0; $k < 5; $k++) <div class="characters-item">
+                            @component('components.popup.hetoc')
+                            <div class="character-wrapper">
+                                <img class="character-icon" src="https://rerollcdn.com/icons/blademaster.png"
+                                    alt="Blademaster">
+                                <div class="" style="text-align: center;">Kiếm Khách</div>
+                            </div>
+                            @endcomponent
+                    </div>
+                    @endfor
             </div>
-
         </div>
+        @endfor
     </div>
-    <!-- end classes tab content  -->
 </div>
-<script src="{{ asset('js/cosodulieu.js') }}" rel="stylesheet"></script>
+<!-- end classes tab content  -->
+</div>
 @endsection
