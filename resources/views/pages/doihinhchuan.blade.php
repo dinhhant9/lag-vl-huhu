@@ -39,11 +39,13 @@
           <div class="col-md-4 col-12 center-row">
             <div class="team-name">
               @if ($item->tier === 1)
-                <div class="team-rank tone">S</div>
+                <div class="team-rank tone-s">S</div>
               @elseif ($item->tier === 2)
-                <div class="team-rank tone">A</div>
+                <div class="team-rank tone-a">A</div>
+              @elseif ($item->tier === 3)
+                <div class="team-rank tone-b">B</div>
               @else
-                <div class="team-rank tone">B</div>
+                <div class="team-rank tone-c">C</div>
               @endif
               <div class="team-name-elipsis">{{ $item->name }}</div>
             </div>
@@ -51,10 +53,14 @@
           <div class="col-md-8 col-12 center-row">
             <div>
               <div class="team-characters">
-                  @for ($j = 0; $j < 10; $j++)
+                @foreach ($item->characters as $character)
+                  @component('components.popup.tuong', ['character'=> $character])
+                  @endcomponent
+                @endforeach
+                  {{-- @for ($j = 0; $j < 10; $j++)
                     @component('components.popup.tuong')
                     @endcomponent
-                  @endfor
+                  @endfor --}}
                 </div>
               </div>
             </div>

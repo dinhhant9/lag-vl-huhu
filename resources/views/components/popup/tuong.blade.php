@@ -1,12 +1,23 @@
 <div class="character no-collapsable">
     <div class="character-image">
-        <img src="{{ asset('images/champions/Ekko.png') }}" style = "{{$addStyle or NULL}}"/>
+        @if(empty($character->name))
+            {{-- <p>Có lỗi xảy ra</p> --}}
+            <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
+        @else
+            <img src="{{ asset('images/champions/'.str_replace(' ', '', $character->name).'.png') }}" style="{{$addStyle or NULL}}"/>
+        @endif
+        {{-- <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/> --}}
     </div>
     <!-- start popup  -->
     <div class="row character-popup">
         <div class="col-md-3 col-3 character-info">
-            <img src="{{ asset('images/champions/Ekko.png') }}" />
-            <p>Ekko</p>
+            @if(empty($character->name))
+                {{-- <p>Có lỗi xảy ra</p> --}}
+                <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
+            @else
+                <img src="{{ asset('images/champions/'.str_replace(' ', '', $character->name).'.png') }}" style="{{$addStyle or NULL}}"/>
+            @endif
+            <p>{{ $character->name or null }}</p>
         </div>
         <div class="col-md-7 col-7 charactor-origin-wrap">
             <div class="charactor-origin">
