@@ -30,39 +30,49 @@
   <h3 class="listTeam">Danh sách các đội hình mạnh nhất Đấu Trường Chân Lý</h3>
   <p class="version">Phiên bản mới nhất: Patch 10.8</p>
 
-  @for ($i = 0; $i < 10; $i++) <div data-toggle="collapse" href="#collapseExample{{ $i }}" aria-expanded="false"
-    aria-controls="collapseExample{{ $i }}" class="expend collapsed">
+  @foreach ($doihinhchuan as $item)
+  <div data-toggle="collapse" href="#collapseExample{{ $loop->index }}" aria-expanded="false"
+    aria-controls="collapseExample{{ $loop->index }}" class="expend collapsed">
     <div class="card row-team">
       <div class="card-body team-body padding-1rem">
         <div class="row">
           <div class="col-md-4 col-12 center-row">
             <div class="team-name">
-              <div class="team-rank tone">S</div>
-              <div class="team-name-elipsis">Mech Infiltrators</div>
+              @if ($item->tier === 1)
+                <div class="team-rank tone-s">S</div>
+              @elseif ($item->tier === 2)
+                <div class="team-rank tone-a">A</div>
+              @elseif ($item->tier === 3)
+                <div class="team-rank tone-b">B</div>
+              @else
+                <div class="team-rank tone-c">C</div>
+              @endif
+              <div class="team-name-elipsis">{{ $item->name }}</div>
             </div>
           </div>
           <div class="col-md-8 col-12 center-row">
             <div>
               <div class="team-characters">
-                  @for ($j = 0; $j < 10; $j++) 
-                    @component('components.popup.tuong')
-                    @endcomponent 
-                  @endfor 
+                @foreach ($item->characters as $character)
+                  @component('components.popup.tuong', ['character'=> $character->name])
+                  @endcomponent
+                @endforeach
                 </div>
               </div>
             </div>
           </div>
-          <div class="collapse" id="collapseExample{{ $i }}">
+          <div class="collapse" id="collapseExample{{ $loop->index }}">
             <div class="row row-team-builder">
               <div class="col-md-6 text-center">
                 <div class="wrap-champions">
                   <!-- start  -->
-                  @for ($j = 0; $j < 5; $j++) 
-                    @component('components.popup.tuong') 
-                    @endcomponent 
-                  @endfor <!-- end -->
+                  @foreach ($item->mid as $character)
+                    @component('components.popup.tuong', ['character'=> $character])
+                    @endcomponent
+                  @endforeach
+                  <!-- end -->
                 </div>
-                <div class="option-title">Early Champions</div>
+                <div class="option-title">Tướng đầu trận</div>
               </div>
               <div class="col-md-6 text-center">
                 <div class="wrap-team-builder">
@@ -75,7 +85,7 @@
                             <span>6</span>
                         </div>
                     </div>
-                    @endcomponent 
+                    @endcomponent
                     <!-- end team builder  -->
                     @endfor
                 </div>
@@ -86,45 +96,55 @@
             <div class="row option">
               <div class="col-md-6 text-center">
                 <!-- item option -->
-                @for ($d = 0; $d < 2; $d++) 
+                @for ($d = 0; $d < 2; $d++)
                   <div class="item-option-item">
                     <div class="option-out">
                       <!-- start item  -->
-                      @for ($h = 0; $h < 2; $h++) 
-                        @component('components.popup.trangbi') 
-                        @endcomponent 
+                      @for ($h = 0; $h < 2; $h++)
+                        @component('components.popup.trangbi')
+                        @endcomponent
                       @endfor
                       <!-- end item -->
                     </div>
                     <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
                     <div class="option-in">
-                      @component('components.popup.trangbi') 
+                      @component('components.popup.trangbi')
                       @endcomponent
                     </div>
                   </div>
                 <!-- end item option -->
                 @endfor
-            <div class="option-title">Early Items</div>
+            <div class="option-title">Trang bị đầu trận</div>
           </div>
 
           <div class="col-md-6 text-center">
             <!-- item option -->
-            @for ($n = 0; $n < 2; $n++) <div class="option-character">
+
+
+
+
+
+            @foreach ($item->replacements as $replace) <div class="option-character">
               <div class="option-out-character">
-                @for ($j = 0; $j < 2; $j++) 
-                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px'])
+                @foreach ($replace->out as $out)
+                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px','character'=> $out])
                   @endcomponent
-                @endfor
+                @endforeach
               </div>
               <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
               <div class="option-in-character">
-                @for ($j = 0; $j < 2; $j++) 
-                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px'])
+                @foreach ($replace->in as $in)
+                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px', 'character'=> $in])
                   @endcomponent
-                @endfor
+                @endforeach
               </div>
           </div>
-          @endfor
+          @endforeach
+
+
+
+
+
           <!-- end item option -->
 
           <div class="option-title">Options</div>
@@ -156,7 +176,7 @@
 </div>
 </div>
 
-@endfor
+@endforeach
 </div>
 
 <script>
