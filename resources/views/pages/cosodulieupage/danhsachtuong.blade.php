@@ -52,7 +52,7 @@ Danh Sách Tướng
             <div class="characters-list ">
               @for ($j = 0; $j < 6; $j++) 
                 <div class="characters-item">
-                  @component('components.popup.tuong')
+                  @component('components.popup.tuong', ['character' => 'Yasuo'])
                   @endcomponent 
                 </div>
               @endfor
@@ -65,7 +65,7 @@ Danh Sách Tướng
             <div class="characters-list">
             @for ($j = 0; $j < 10; $j++) 
                 <div class="characters-item">
-                  @component('components.popup.tuong')
+                  @component('components.popup.tuong', ['character' => 'Yasuo'])
                   @endcomponent 
                 </div>
             @endfor
@@ -79,7 +79,7 @@ Danh Sách Tướng
             <div class="characters-list">
             @for ($j = 0; $j < 10; $j++) 
                 <div class="characters-item">
-                  @component('components.popup.tuong')
+                  @component('components.popup.tuong', ['character' => 'Yasuo'])
                   @endcomponent 
                 </div>
             @endfor
@@ -93,7 +93,7 @@ Danh Sách Tướng
             <div class="characters-list">
             @for ($j = 0; $j < 10; $j++) 
                 <div class="characters-item">
-                  @component('components.popup.tuong')
+                  @component('components.popup.tuong', ['character' => 'Yasuo'])
                   @endcomponent 
                 </div>
             @endfor
@@ -106,7 +106,7 @@ Danh Sách Tướng
             <div class="characters-list">
             @for ($j = 0; $j < 10; $j++) 
                 <div class="characters-item">
-                  @component('components.popup.tuong')
+                  @component('components.popup.tuong', ['character' => 'Ahri'])
                   @endcomponent 
                 </div>
             @endfor
