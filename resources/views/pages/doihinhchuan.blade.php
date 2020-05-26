@@ -54,7 +54,7 @@
             <div>
               <div class="team-characters">
                 @foreach ($item->characters as $character)
-                  @component('components.popup.tuong', ['character'=> $character])
+                  @component('components.popup.tuong', ['character'=> $character->name])
                   @endcomponent
                 @endforeach
                   {{-- @for ($j = 0; $j < 10; $j++)

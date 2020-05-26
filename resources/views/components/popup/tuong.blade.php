@@ -1,23 +1,25 @@
 <div class="character no-collapsable">
     <div class="character-image">
-        @if(empty($character->name))
+        @if(empty($character))
             {{-- <p>Có lỗi xảy ra</p> --}}
+            {{-- {{ \App\Http\Controllers\TuongController::someStaticFunction('hihi') }} --}}
             <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
         @else
-            <img src="{{ asset('images/champions/'.str_replace(' ', '', $character->name).'.png') }}" style="{{$addStyle or NULL}}"/>
+            {{-- {{ \App\Http\Controllers\TuongController::someStaticFunction($character) }} --}}
+            <img src="{{ asset('images/champions/'.str_replace(' ', '', $character).'.png') }}" style="{{$addStyle or NULL}}"/>
         @endif
         {{-- <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/> --}}
     </div>
     <!-- start popup  -->
     <div class="row character-popup">
         <div class="col-md-3 col-3 character-info">
-            @if(empty($character->name))
+            @if(empty($character))
                 {{-- <p>Có lỗi xảy ra</p> --}}
                 <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
             @else
-                <img src="{{ asset('images/champions/'.str_replace(' ', '', $character->name).'.png') }}" style="{{$addStyle or NULL}}"/>
+                <img src="{{ asset('images/champions/'.str_replace(' ', '', $character).'.png') }}" style="{{$addStyle or NULL}}"/>
             @endif
-            <p>{{ $character->name or null }}</p>
+            <p>{{ $character or null }}</p>
         </div>
         <div class="col-md-7 col-7 charactor-origin-wrap">
             <div class="charactor-origin">
