@@ -37,7 +37,7 @@
                 @foreach ($arrHe as $he)
                 <div class="charactor-origin">
                     <img src="{{ asset('images/he/'.str_replace(' ', '', strtolower($he)).'.png') }}" />
-                    <p>{{ $he }}</p>
+                    <p>{{ \App\Http\Controllers\HeController::layHeCuaTuongTiengViet($he)->name_vi }}</p>
                 </div>
                 @endforeach
             @endif
