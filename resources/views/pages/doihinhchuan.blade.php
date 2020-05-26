@@ -123,23 +123,23 @@
 
 
 
-{{--Doan nay can phai mo ra
-            @for ($n = 0; $n < 2; $n++) <div class="option-character">
+
+            @foreach ($item->replacements as $replace) <div class="option-character">
               <div class="option-out-character">
-                @for ($j = 0; $j < 2; $j++)
-                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px'])
+                @foreach ($replace->out as $out)
+                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px','character'=> $out])
                   @endcomponent
-                @endfor
+                @endforeach
               </div>
               <i style="font-size:24px" class="fa icon-arrow">&#xf105;</i>
               <div class="option-in-character">
-                @for ($j = 0; $j < 2; $j++)
-                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px'])
+                @foreach ($replace->in as $in)
+                  @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px', 'character'=> $in])
                   @endcomponent
-                @endfor
+                @endforeach
               </div>
           </div>
-          @endfor --}}
+          @endforeach
 
 
 
