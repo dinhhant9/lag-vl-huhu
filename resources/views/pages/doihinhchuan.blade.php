@@ -70,12 +70,13 @@
               <div class="col-md-6 text-center">
                 <div class="wrap-champions">
                   <!-- start  -->
-                  @for ($j = 0; $j < 5; $j++)
-                    @component('components.popup.tuong')
+                  @foreach ($item->mid as $character)
+                    @component('components.popup.tuong', ['character'=> $character])
                     @endcomponent
-                  @endfor <!-- end -->
+                  @endforeach
+                  <!-- end -->
                 </div>
-                <div class="option-title">Early Champions</div>
+                <div class="option-title">Tướng đầu trận</div>
               </div>
               <div class="col-md-6 text-center">
                 <div class="wrap-team-builder">
@@ -117,7 +118,7 @@
                   </div>
                 <!-- end item option -->
                 @endfor
-            <div class="option-title">Early Items</div>
+            <div class="option-title">Trang bị đầu trận</div>
           </div>
 
           <div class="col-md-6 text-center">

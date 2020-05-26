@@ -33,7 +33,13 @@
         </div>
         <div class="col-md-2 col-2 charactor-cost">
             <img src="{{ asset('images/icon-gold.svg') }}" />
-            <div>5</div>
+                <div>
+                @if(empty($character))
+                    Lỗi
+                @else
+                    {{ \App\Http\Controllers\TuongController::layGiaTienCuaTuong($character) }}
+                @endif
+            </div>
         </div>
         <div class="col-md-12 item">
             <div>Items:</div>
