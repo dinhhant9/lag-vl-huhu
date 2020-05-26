@@ -1,45 +1,50 @@
+{{-- Bien $character truyen tu ben ngoai component vao --}}
+@if(!empty($character))
+    @php
+        $tencuatuong = $character;
+        $giatiencuatuong = \App\Http\Controllers\TuongController::layGiaTienCuaTuong($tencuatuong);
+        $arrToc = \App\Http\Controllers\TuongController::layTocCuaTuongTiengAnh($tencuatuong);
+        $arrHe = \App\Http\Controllers\TuongController::layHeCuaTuongTiengAnh($tencuatuong);
+    @endphp
+@endif
 <div class="character no-collapsable">
-    <div class="character-image">
-        @if(empty($character))
-            {{-- <p>Có lỗi xảy ra</p> --}}
-            {{-- {{ \App\Http\Controllers\TuongController::someStaticFunction('hihi') }} --}}
+    <div class="character-image character-cost-{{ $giatiencuatuong }}">
+        @if(empty($tencuatuong))
             <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
         @else
-            {{-- {{ \App\Http\Controllers\TuongController::someStaticFunction($character) }} --}}
-            <img src="{{ asset('images/champions/'.str_replace(' ', '', $character).'.png') }}" style="{{$addStyle or NULL}}"/>
+            <img src="{{ asset('images/champions/'.str_replace(' ', '', $tencuatuong).'.png') }}" style="{{$addStyle or NULL}}"/>
         @endif
-        {{-- <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/> --}}
     </div>
     <!-- start popup  -->
     <div class="row character-popup">
         <div class="col-md-3 col-3 character-info">
-            @if(empty($character))
-                {{-- <p>Có lỗi xảy ra</p> --}}
+            @if(empty($tencuatuong))
                 <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
             @else
-                <img src="{{ asset('images/champions/'.str_replace(' ', '', $character).'.png') }}" style="{{$addStyle or NULL}}"/>
+                <img src="{{ asset('images/champions/'.str_replace(' ', '', $tencuatuong).'.png') }}" style="{{$addStyle or NULL}}"/>
             @endif
-            <p>{{ $character or null }}</p>
+            <p>{{ $tencuatuong or null }}</p>
         </div>
         <div class="col-md-7 col-7 charactor-origin-wrap">
-            <div class="charactor-origin">
-                <img src="{{ asset('images/origin/cybernetic.png') }}" />
-                <p>Siêu Công Nghệ</p>
-            </div>
-            <div class="charactor-origin">
-                <img src="{{ asset('images/origin/infiltrator.png') }}" />
-                <p>Mật Thám</p>
-            </div>
+            @if(!empty($tencuatuong))
+                @foreach ($arrToc as $toc)
+                <div class="charactor-origin">
+                    <img src="{{ asset('images/toc/'.str_replace(' ', '', strtolower($toc)).'.png') }}" />
+                    <p>{{ \App\Http\Controllers\TocController::layTocCuaTuongTiengViet($toc)->name_vi }}</p>
+                </div>
+                @endforeach
+
+                @foreach ($arrHe as $he)
+                <div class="charactor-origin">
+                    <img src="{{ asset('images/he/'.str_replace(' ', '', strtolower($he)).'.png') }}" />
+                    <p>{{ $he }}</p>
+                </div>
+                @endforeach
+            @endif
         </div>
         <div class="col-md-2 col-2 charactor-cost">
             <img src="{{ asset('images/icon-gold.svg') }}" />
-                <div>
-                @if(empty($character))
-                    Lỗi
-                @else
-                    {{ \App\Http\Controllers\TuongController::layGiaTienCuaTuong($character) }}
-                @endif
-            </div>
+                <div>{{ !empty($character) ? \App\Http\Controllers\TuongController::layGiaTienCuaTuong($character) : '' }}</div>
         </div>
         <div class="col-md-12 item">
             <div>Items:</div>

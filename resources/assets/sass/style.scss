@@ -66,15 +66,31 @@ body{
             justify-content: center;
 }
 
+.character-cost-1 {
+    border: 1px solid #213042;
+}
+.character-cost-2 {
+    border: 1px solid #156831;
+}
+.character-cost-3 {
+    border: 1px solid #12407c;
+}
+.character-cost-4 {
+    border: 1px solid #893088;
+}
+.character-cost-5 {
+    border: 1px solid #b89d27;
+}
+
 .character-image img {
     width: 45px;
     height: 45px;
-    border: 1px solid #b89d27;
+    // border: 1px solid #b89d27;
     cursor: pointer;
     -webkit-transition: 1s;
     transition: 1s;
   }
-  
+
   .character-image img:hover {
     border: 1px solid #d47559;
     -webkit-transition: 1s;

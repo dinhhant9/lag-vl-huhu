@@ -57,10 +57,6 @@
                   @component('components.popup.tuong', ['character'=> $character->name])
                   @endcomponent
                 @endforeach
-                  {{-- @for ($j = 0; $j < 10; $j++)
-                    @component('components.popup.tuong')
-                    @endcomponent
-                  @endfor --}}
                 </div>
               </div>
             </div>
@@ -123,6 +119,11 @@
 
           <div class="col-md-6 text-center">
             <!-- item option -->
+
+
+
+
+{{--Doan nay can phai mo ra
             @for ($n = 0; $n < 2; $n++) <div class="option-character">
               <div class="option-out-character">
                 @for ($j = 0; $j < 2; $j++)
@@ -138,7 +139,12 @@
                 @endfor
               </div>
           </div>
-          @endfor
+          @endfor --}}
+
+
+
+
+
           <!-- end item option -->
 
           <div class="option-title">Options</div>
