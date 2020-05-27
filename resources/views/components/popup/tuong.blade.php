@@ -8,12 +8,17 @@
     @endphp
 @endif
 <div class="character no-collapsable">
-    <div class="character-image character-cost-{{ $giatiencuatuong }}">
+    <div class="character-image character-cost-{{ $giatiencuatuong }} l3">
         @if(empty($tencuatuong))
             <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
         @else
             <img src="{{ asset('images/champions/'.str_replace(' ', '', $tencuatuong).'.png') }}" style="{{$addStyle or NULL}}"/>
         @endif
+    </div>
+    <div class="character-items">
+            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
     </div>
     <!-- start popup  -->
     <div class="row character-popup">
