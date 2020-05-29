@@ -161,11 +161,13 @@
           <ul id="hexGrid" class="four-row">
             @for ($k = 0; $k < 28; $k++)
               <li class="hex">s
-                <div class="hexIn hex-in-{{$k}}">
+                <div class="hexIn hex-in-{{ $k}}">
                   <div class="hexLink">
-                    @if($k == 3 || $k == 21 || $k == 22 || $k == 23)
-                    <img src="{{ asset('images/champions/Lulu.png') }}" />
-                    @endif
+                    @foreach(json_decode($item['characters']) as $character)
+                      @if(strval($k) === substr($character->position, 1))
+                        <img src="{{ asset('images/champions/'.str_replace(' ', '', $character->name).'.png') }}" />
+                      @endif
+                    @endforeach
                   </div>
                 </div>
               </li>
