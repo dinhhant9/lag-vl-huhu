@@ -38,22 +38,22 @@
         <div class="row">
           <div class="col-md-4 col-12 center-row">
             <div class="team-name">
-              @if ($item->tier === 1)
+              @if ($item['tier'] === 1)
                 <div class="team-rank tone-s">S</div>
-              @elseif ($item->tier === 2)
+              @elseif ($item['tier'] === 2)
                 <div class="team-rank tone-a">A</div>
-              @elseif ($item->tier === 3)
+              @elseif ($item['tier'] === 3)
                 <div class="team-rank tone-b">B</div>
               @else
                 <div class="team-rank tone-c">C</div>
               @endif
-              <div class="team-name-elipsis">{{ $item->name }}</div>
+              <div class="team-name-elipsis">{{ $item['name'] }}</div>
             </div>
           </div>
           <div class="col-md-8 col-12 center-row">
             <div>
               <div class="team-characters">
-                @foreach ($item->characters as $character)
+                @foreach (json_decode($item['characters']) as $character)
                   @component('components.popup.tuong', ['character'=> $character->name])
                   @endcomponent
                 @endforeach
@@ -66,7 +66,7 @@
               <div class="col-md-6 text-center">
                 <div class="wrap-champions">
                   <!-- start  -->
-                  @foreach ($item->mid as $character)
+                  @foreach (json_decode($item['mid']) as $character)
                     @component('components.popup.tuong', ['character'=> $character])
                     @endcomponent
                   @endforeach
@@ -124,7 +124,7 @@
 
 
 
-            @foreach ($item->replacements as $replace) <div class="option-character">
+            @foreach (json_decode($item['replacements']) as $replace) <div class="option-character">
               <div class="option-out-character">
                 @foreach ($replace->out as $out)
                   <!-- <div class="lv9">lvl 9</div> -->

@@ -5,6 +5,7 @@
         $giatiencuatuong = \App\Http\Controllers\TuongController::layGiaTienCuaTuong($tencuatuong);
         $arrToc = \App\Http\Controllers\TuongController::layTocCuaTuongTiengAnh($tencuatuong);
         $arrHe = \App\Http\Controllers\TuongController::layHeCuaTuongTiengAnh($tencuatuong);
+        $arrTrangBi= \App\Http\Controllers\TuongController::layTrangBiCuaTuong($tencuatuong);
     @endphp
 @endif
 <div class="character no-collapsable">
@@ -53,9 +54,14 @@
         </div>
         <div class="col-md-12 item">
             <div>Items:</div>
-            <img src="{{ asset('images/items/GuardianAngel.png') }}" />
-            <img src="{{ asset('images/items/Morellonomicon.png') }}" />
-            <img src="{{ asset('images/items/SpearofShojin.png') }}" />
+            @foreach ($arrTrangBi as $trangbi)
+                <div class="charactor-origin">
+                    @php
+                        $trangbikhongdaucach = str_replace('\'', '',str_replace(' ', '', $trangbi))
+                    @endphp
+                    <img src="{{ asset('images/items/'.$trangbikhongdaucach.'.png') }}" />
+                </div>
+                @endforeach
         </div>
     </div>
     <!-- end popup  -->
