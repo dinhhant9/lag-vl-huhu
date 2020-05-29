@@ -9,7 +9,7 @@
     @endphp
 @endif
 <div class="character no-collapsable">
-    <div class="character-image character-cost-{{ $giatiencuatuong }} l3">
+    <div class="character-image character-cost-{{ $giatiencuatuong }} lv3">
         @if(empty($tencuatuong))
             <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
         @else
