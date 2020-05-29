@@ -17,16 +17,16 @@ class CreateDoiHinhChuanTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('name_ch');
-            $table->integer('set');
+            $table->longText('set');
             $table->integer('tier');
             $table->boolean('tier_up');
             $table->boolean('tier_down');
-            $table->string('traits');
-            $table->string('synergy');
-            $table->string('characters');
-            $table->string('components');
-            $table->string('mid');
-            $table->string('replacements');
+            $table->longText('traits');
+            $table->longText('synergy');
+            $table->longText('characters');
+            $table->longText('components');
+            $table->longText('mid');
+            $table->longText('replacements');
             $table->timestamps();
         });
     }
