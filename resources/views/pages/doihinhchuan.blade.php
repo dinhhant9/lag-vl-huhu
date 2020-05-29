@@ -72,7 +72,7 @@
                   @endforeach
                   <!-- end -->
                 </div>
-                <div class="option-title">Tướng đầu trận</div>
+                <div class="option-title early-character">Tướng đầu trận</div>
               </div>
               <div class="col-md-6 text-center">
                 <div class="wrap-team-builder">
@@ -89,7 +89,7 @@
                     <!-- end team builder  -->
                     @endfor
                 </div>
-                <div class="option-title">traits</div>
+                <div class="option-title traits">traits</div>
               </div>
             </div>
             <!-- end-team-bilder  -->
@@ -114,7 +114,7 @@
                   </div>
                 <!-- end item option -->
                 @endfor
-            <div class="option-title">Trang bị đầu trận</div>
+            <div class="option-title early-item">Trang bị đầu trận</div>
           </div>
 
           <div class="col-md-6 text-center">
@@ -127,6 +127,7 @@
             @foreach (json_decode($item['replacements']) as $replace) <div class="option-character">
               <div class="option-out-character">
                 @foreach ($replace->out as $out)
+                  <!-- <div class="lv9">lvl 9</div> -->
                   @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px','character'=> $out])
                   @endcomponent
                 @endforeach
@@ -147,7 +148,7 @@
 
           <!-- end item option -->
 
-          <div class="option-title">Options</div>
+          <div class="option-title character-option">Options</div>
         </div>
       </div>
       <!-- end option  -->

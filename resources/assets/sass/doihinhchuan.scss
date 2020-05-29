@@ -67,7 +67,6 @@
 .wrap-champions img {
     width: 40px;
     height: 40px;
-    margin-right: 5px;
 }
 
 .wrap-champions {
@@ -81,15 +80,41 @@
 }
 
 .row-team-builder {
-    padding: 20px 0px;
+    padding: 45px 0px;
     margin-top: 15px;
     border-top: 1px solid #1b2d33;
     margin-left: 0px;
     margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.early-character {
+    position: absolute;
+    top: 130%;
+    left: 40%;
+}
+
+.traits {
+    position: absolute;
+    left: 48%;
+    top: 225%;
+}
+
+.option {
+    justify-content: center;
+    align-items: center;
+
+    .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .option, .position {
-    padding: 10px 0 5px;
+    padding: 10px 0 40px;
     margin-top: 5px;
     border-top: 1px solid #1b2d33;
     margin-left: 0px;
@@ -98,6 +123,28 @@
 
 .option-out-character, .option-in-character {
     display: flex;
+}
+
+.early-item {
+    position: absolute;
+    bottom: -78px;
+}
+
+.character-option {
+    position: absolute;
+    bottom: -40px;
+}
+
+.option-out-character .lv9 {
+    padding: 4px 10px;
+    border-radius: 3px;
+    background: #123040;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+    color: white;
+    height: 30px;
 }
 
 .item-option-item .icon-arrow,  .option-character .icon-arrow{
@@ -113,7 +160,6 @@
 
 .option-character {
     display: flex;
-    justify-content: center;
     margin-top: 10px;
     align-items: center;
 }
