@@ -9,7 +9,7 @@
     @endphp
 @endif
 <div class="character no-collapsable">
-    <div class="character-image character-cost-{{ $giatiencuatuong }} lv3">
+    <div class="character-image character-cost-{{ $giatiencuatuong }} {{ isset($level) ? 'lv3' : '' }} ">
         @if(empty($tencuatuong))
             <img src="{{ asset('images/champions/'.'Ekko'.'.png') }}" style="{{$addStyle or NULL}}"/>
         @else
@@ -17,9 +17,14 @@
         @endif
     </div>
     <div class="character-items">
-            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
-            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
-            <img class="character-icon" src="https://rerollcdn.com/items/GuardianAngel.png" alt="Guardian Angel">
+        @if(isset($items))
+            @foreach($items as $item)
+                @php
+                        $trangbikhongdaucach = str_replace('\\\'', '',str_replace(' ', '', $item))
+                    @endphp
+                <img class="character-icon" src="{{ asset('images/items/'.$trangbikhongdaucach.'.png') }}" alt="{{$item}}" />
+            @endforeach
+        @endif
     </div>
     <!-- start popup  -->
     <div class="row character-popup">

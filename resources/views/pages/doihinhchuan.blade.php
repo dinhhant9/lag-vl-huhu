@@ -54,7 +54,7 @@
             <div>
               <div class="team-characters">
                 @foreach (json_decode($item['characters']) as $character)
-                  @component('components.popup.tuong', ['character'=> $character->name])
+                  @component('components.popup.tuong', ['character'=> $character->name, 'level'=> isset($character->level) ? $character->level : null, 'items'=> isset($character->items) ? $character->items : null])
                   @endcomponent
                 @endforeach
                 </div>
@@ -126,8 +126,10 @@
 
             @foreach (json_decode($item['replacements']) as $replace) <div class="option-character">
               <div class="option-out-character">
+                @if(empty($replace->out))
+                  <div class="lv9">lvl 9</div>
+                @endif
                 @foreach ($replace->out as $out)
-                  <!-- <div class="lv9">lvl 9</div> -->
                   @component('components.popup.tuong', ['addStyle'=> 'width: 32px; height:32px','character'=> $out])
                   @endcomponent
                 @endforeach
@@ -157,14 +159,15 @@
       <div class="row position">
         <div class="team-positioning">
           <ul id="hexGrid" class="four-row">
-            @for ($k = 0; $k < 28; $k++) <li class="hex">s
-              <div class="hexIn hex-in-{{$k}}">
-                <div class="hexLink">
-                  @if($k == 3 || $k == 21 || $k == 22 || $k == 23)
-                  <img src="{{ asset('images/champions/Lulu.png') }}" />
-                  @endif
+            @for ($k = 0; $k < 28; $k++)
+              <li class="hex">s
+                <div class="hexIn hex-in-{{$k}}">
+                  <div class="hexLink">
+                    @if($k == 3 || $k == 21 || $k == 22 || $k == 23)
+                    <img src="{{ asset('images/champions/Lulu.png') }}" />
+                    @endif
+                  </div>
                 </div>
-              </div>
               </li>
               @endfor
           </ul>
