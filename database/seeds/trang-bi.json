@@ -1,16 +1,7 @@
 [
     {
         "name": "B.F. Sword",
-        "name_es": "Espadón",
-        "name_pt": "Espada G. p. C.",
-        "name_de": "Riesenschwert",
-        "name_ru": "Самый Лучший Меч",
-        "name_ch": "暴风大剑",
-        "name_tr": "TEK Kılıcı",
         "name_vi": "Kiếm B.F",
-        "name_fr": "BF Glaive",
-        "name_pl": "K. W. Miecz",
-        "name_it": "M. C. Spada",
         "id": 1,
         "set": [
             3,
@@ -22,34 +13,8 @@
         "bonus": [
             "15 Attack damage."
         ],
-        "bonus_es": [
-            "15 de daño de ataque."
-        ],
-        "bonus_pt": [
-            "15 de Dano de Ataque."
-        ],
-        "bonus_de": [
-            "15 Angriffsschaden."
-        ],
-        "bonus_ru": [
-            "15 силы атаки"
-        ],
-        "bonus_ch": [
-            "15攻击力"
-        ],
-        "bonus_tr": [
-            "15 Saldırı Hasarı."
-        ],
         "bonus_vi": [
             "Tăng 15 sát thương vật lý."
-        ],
-        "bonus_fr": ["15 de dégats d\\'attaque"
-        ],
-        "bonus_pl": [
-            "15 Punktów Ataku."
-        ],
-        "bonus_it": [
-            "15 Danno Fisico"
         ],
         "into": [
             "Blade of the Ruined King",
@@ -59,7 +24,8 @@
             "Hextech Gunblade",
             "Infinity Edge",
             "Deathblade",
-            "Spear of Shojin","Zeke\\'s Herald"
+            "Spear of Shojin",
+            "Zeke\\'s Herald"
         ],
         "stats": [
             {
@@ -70,16 +36,7 @@
     },
     {
         "name": "Chain Vest",
-        "name_es": "Chaleco de cadenas",
-        "name_pt": "Cota de Malha",
-        "name_de": "Kettenweste",
-        "name_ru": "Кольчуга",
-        "name_ch": "锁子甲",
-        "name_tr": "Zincir Yelek",
         "name_vi": "Giáp lưới",
-        "name_fr": "Cotte de maille",
-        "name_pl": "Kamizelka Kolcza",
-        "name_it": "Cotta di maglia",
         "id": 5,
         "set": [
             3,
@@ -91,34 +48,8 @@
         "bonus": [
             "25 Armor."
         ],
-        "bonus_es": [
-            "25 de armadura."
-        ],
-        "bonus_pt": [
-            "25 de armadura"
-        ],
-        "bonus_de": [
-            "25 Rüstung."
-        ],
-        "bonus_ru": [
-            "25 брони"
-        ],
-        "bonus_ch": [
-            "25护甲"
-        ],
-        "bonus_tr": [
-            "25 Zırh."
-        ],
         "bonus_vi": [
             "Tăng 25 giáp."
-        ],
-        "bonus_fr": ["25 d\\'armure"
-        ],
-        "bonus_pl": [
-            "25 Pancerza."
-        ],
-        "bonus_it": [
-            "25 Armatura"
         ],
         "into": [
             "Bramble Vest",
@@ -128,7 +59,8 @@
             "Rebel Medal",
             "Red Buff",
             "Shroud of Stillness",
-            "Sword Breaker","Titan\\'s Resolve"
+            "Sword Breaker",
+            "Titan\\'s Resolve"
         ],
         "stats": [
             {
@@ -138,17 +70,8 @@
         ]
     },
     {
-        "name":"Giant\\'s Belt",
-        "name_es": "Cinturón de gigante",
-        "name_pt": "Cinto do Gigante",
-        "name_de": "Gürtel des Riesen",
-        "name_ru": "Пояс великана",
-        "name_ch": "巨人腰带",
-        "name_tr": "Dev Kemeri",
+        "name": "Giant\\'s Belt",
         "name_vi": "Đai khổng lồ",
-        "name_fr": "Ceinture du géant",
-        "name_pl": "Pas Giganta",
-        "name_it": "Cintura del gigante",
         "id": 7,
         "set": [
             3,
@@ -160,42 +83,19 @@
         "bonus": [
             "200 Health."
         ],
-        "bonus_es": [
-            "200 de vida."
-        ],
-        "bonus_pt": [
-            "200 de vida"
-        ],
-        "bonus_de": [
-            "200 Leben."
-        ],
-        "bonus_ru": [
-            "200 здоровья"
-        ],
-        "bonus_ch": [
-            "200生命值"
-        ],
-        "bonus_tr": [
-            "200 Can."
-        ],
         "bonus_vi": [
             "Tăng 200 máu."
         ],
-        "bonus_fr": [
-            "200 points de vie"
-        ],
-        "bonus_pl": [
-            "200 Zdrowia."
-        ],
-        "bonus_it": [
-            "200 Salute"
-        ],
         "into": [
-            "Morellonomicon","Protector\\'s Chestguard",
+            "Morellonomicon",
+            "Protector\\'s Chestguard",
             "Red Buff",
             "Redemption",
-            "Trap Claw","Warmog\\'s Armor","Zeke\\'s Herald",
-            "Zephyr","Zz\\'Rot Portal"
+            "Trap Claw",
+            "Warmog\\'s Armor",
+            "Zeke\\'s Herald",
+            "Zephyr",
+            "Zz\\'Rot Portal"
         ],
         "stats": [
             {
@@ -206,16 +106,7 @@
     },
     {
         "name": "Needlessly Large Rod",
-        "name_es": "Vara grande",
-        "name_pt": "Bastão Grande",
-        "name_de": "Übergroßer Stab",
-        "name_ru": "Слишком Большой Жезл",
-        "name_ch": "无用大棒",
-        "name_tr": "Aşırı Büyük Sopa",
         "name_vi": "Gậy quá khổ",
-        "name_fr": "Baguette trop grosse",
-        "name_pl": "Absurdalnie Wielka Różdżka",
-        "name_it": "Bastone colossale",
         "id": 3,
         "set": [
             3,
@@ -227,43 +118,20 @@
         "bonus": [
             "20 Spell power."
         ],
-        "bonus_es": [
-            "20 de poder de hechizo."
-        ],
-        "bonus_pt": [
-            "20 de Poder de Habilidade."
-        ],
-        "bonus_de": [
-            "20 Fähigkeitsschaden."
-        ],
-        "bonus_ru": [
-            "20 силы умений"
-        ],
-        "bonus_ch": [
-            "20技能伤害"
-        ],
-        "bonus_tr": [
-            "20 Yetenek Gücü."
-        ],
         "bonus_vi": [
             "Tăng 20% sức mạnh phép thuật."
         ],
-        "bonus_fr": [
-            "20 de puissance des sorts"
-        ],
-        "bonus_pl": [
-            "20 Mocy Umiejętności"
-        ],
-        "bonus_it": [
-            "20 danno dalle abilità"
-        ],
         "into": [
-            "Battlecast Hex Core","Demolitionist\\'s Charge","Guinsoo\\'s Rageblade",
+            "Battlecast Hex Core",
+            "Demolitionist\\'s Charge",
+            "Guinsoo\\'s Rageblade",
             "Hextech Gunblade",
             "Ionic Spark",
             "Jeweled Gauntlet",
-            "Locket of the Iron Solari","Luden\\'s Echo",
-            "Morellonomicon","Rabadon\\'s Deathcap"
+            "Locket of the Iron Solari",
+            "Luden\\'s Echo",
+            "Morellonomicon",
+            "Rabadon\\'s Deathcap"
         ],
         "stats": [
             {
@@ -274,16 +142,7 @@
     },
     {
         "name": "Negatron Cloak",
-        "name_es": "Capa negatrón",
-        "name_pt": "Capa Negatron",
-        "name_de": "Negatron-Mantel",
-        "name_ru": "Поглощающий плащ",
-        "name_ch": "负极斗篷",
-        "name_tr": "Negatron Pelerini",
         "name_vi": "Áo choàng bạc",
-        "name_fr": "Manteau du Négatron",
-        "name_pl": "Płaszcz Negacji",
-        "name_it": "Mantello di Negatron",
         "id": 6,
         "set": [
             3,
@@ -295,42 +154,17 @@
         "bonus": [
             "25 Magic resist."
         ],
-        "bonus_es": [
-            "25 de resistencia mágica."
-        ],
-        "bonus_pt": [
-            "25 de Magic resist"
-        ],
-        "bonus_de": [
-            "25 Magieresistenz."
-        ],
-        "bonus_ru": [
-            "25 сопротивления магии"
-        ],
-        "bonus_ch": [
-            "25魔抗"
-        ],
-        "bonus_tr": [
-            "25 Büyü Direnci."
-        ],
         "bonus_vi": [
             "Tăng 25 kháng phép."
-        ],
-        "bonus_fr": [
-            "25 de résistance magique"
-        ],
-        "bonus_pl": [
-            "25 Magic resist."
-        ],
-        "bonus_it": [
-            "25 Resistenza Magica"
         ],
         "into": [
             "Bloodthirster",
             "Celestial Orb",
-            "Chalice of Favor","Dragon\\'s Claw",
+            "Chalice of Favor",
+            "Dragon\\'s Claw",
             "Ionic Spark",
-            "Quicksilver","Runaan\\'s Hurricane",
+            "Quicksilver",
+            "Runaan\\'s Hurricane",
             "Sword Breaker",
             "Zephyr"
         ],
@@ -343,16 +177,7 @@
     },
     {
         "name": "Recurve Bow",
-        "name_es": "Arco curvo",
-        "name_pt": "Arco Recurvo",
-        "name_de": "Rekursivbogen",
-        "name_ru": "Изогнутый Лук",
-        "name_ch": "反曲之弓",
-        "name_tr": "Nişancı Yayı",
         "name_vi": "Cung gỗ",
-        "name_fr": "Arc courbe",
-        "name_pl": "Wygięty Łuk",
-        "name_it": "Arco ricurvo",
         "id": 2,
         "set": [
             3,
@@ -364,39 +189,19 @@
         "bonus": [
             "20% Attack speed."
         ],
-        "bonus_es": [
-            "20% de velocidad de ataque."
-        ],
-        "bonus_pt": [
-            "20% de Velocidade de Ataque."
-        ],
-        "bonus_de": [
-            "20% Angriffstempo."
-        ],
-        "bonus_ru": [
-            "20 скорости атаки"
-        ],
-        "bonus_ch": [
-            "20%攻速"
-        ],
-        "bonus_tr": [
-            "20% Nişancı Yayı."
-        ],
         "bonus_vi": [
             "Tăng 20% tốc độ đánh."
         ],
-        "bonus_fr": ["20% de vitesse d\\'attaque"
-        ],
-        "bonus_pl": [
-            "20% Prędkości Ataku."
-        ],
-        "bonus_it": ["20% velocità d\\'attacco"
-        ],
         "into": [
-            "Giant Slayer","Guinsoo\\'s Rageblade","Infiltrator\\'s Talons",
+            "Giant Slayer",
+            "Guinsoo\\'s Rageblade",
+            "Infiltrator\\'s Talons",
             "Last Whisper",
-            "Rapid Firecannon","Runaan\\'s Hurricane",
-            "Statikk Shiv","Titan\\'s Resolve","Zz\\'Rot Portal"
+            "Rapid Firecannon",
+            "Runaan\\'s Hurricane",
+            "Statikk Shiv",
+            "Titan\\'s Resolve",
+            "Zz\\'Rot Portal"
         ],
         "stats": [
             {
@@ -407,16 +212,7 @@
     },
     {
         "name": "Sparring Gloves",
-        "name_es": "Guantes de combate",
-        "name_pt": "Luvas do Pugilista",
-        "name_de": "Kampfhandschuhe",
-        "name_ru": "Тренировочные перчатки",
-        "name_ch": "拳套",
-        "name_tr": "İdman Eldiveni",
         "name_vi": "Găng đấu tập",
-        "name_fr":"Gants d\\'entraînement",
-        "name_pl": "Rękawica Sparingowa",
-        "name_it": "Guantoni",
         "id": 9,
         "set": [
             3,
@@ -428,42 +224,18 @@
         "bonus": [
             "10% Crit and +10% Dodge chance."
         ],
-        "bonus_es": [
-            "10% de crítico y +10% de esquivar."
-        ],
-        "bonus_pt": [
-            "10% de chance de acerto crítico de esquivar."
-        ],
-        "bonus_de": [
-            "10% Chance auf kritische Treffer und +10% Chance auf Ausweichen."
-        ],
-        "bonus_ru": [
-            "10% шанса критического удара +10% шанса уклонения"
-        ],
-        "bonus_ch": [
-            "10% 暴击几率和+10%的闪避几率"
-        ],
-        "bonus_tr": [
-            "10% Kritik Vuruş İhtimali ve +10% Sakınma İhtimali"
-        ],
         "bonus_vi": [
             "Tăng 10% tỷ lệ chí mạng và 10% tỷ lệ né."
         ],
-        "bonus_fr": ["10% de chances de coup critique et +10% de chances d\\'esquiver"
-        ],
-        "bonus_pl": [
-            "10% szany na Trafienie Krytyczne +10% szany na Unik"
-        ],
-        "bonus_it": [
-            "10% Critico e +10% Possibilità di schivare"
-        ],
-        "into": ["Dark Star\\'s Heart",
+        "into": [
+            "Dark Star\\'s Heart",
             "Hand of Justice",
             "Infinity Edge",
             "Jeweled Gauntlet",
             "Last Whisper",
             "Quicksilver",
-            "Shroud of Stillness","Thief\\'s Gloves",
+            "Shroud of Stillness",
+            "Thief\\'s Gloves",
             "Trap Claw"
         ],
         "stats": [
@@ -479,16 +251,7 @@
     },
     {
         "name": "Spatula",
-        "name_es": "Espátula",
-        "name_pt": "Espátula",
-        "name_de": "Goldener Pfannenwender",
-        "name_ru": "Лопатка",
-        "name_ch": "铲子",
-        "name_tr": "Spatula",
         "name_vi": "Xẻng vàng",
-        "name_fr": "Spatule",
-        "name_pl": "Szpatula",
-        "name_it": "Spatola",
         "id": 8,
         "set": [
             3,
@@ -500,56 +263,25 @@
         "bonus": [
             "It must do something..."
         ],
-        "bonus_es": [
-            "Tiene que hacer algo..."
-        ],
-        "bonus_pt": [
-            "Isso deve fazer alguma coisa..."
-        ],
-        "bonus_de": [
-            "Er muss doch irgendwas bewirken …"
-        ],
-        "bonus_ru": [
-            "Для чего-то это пригодится..."
-        ],
-        "bonus_ch": [
-            "它必须做点什么……"
-        ],
-        "bonus_tr": [
-            "En azından bir işe yarıyordur..."
-        ],
         "bonus_vi": [
             "Nó chắc hẳn phải làm được gì đó..."
-        ],
-        "bonus_fr": [
-            "Ca doit bien servir à quelque chose..."
-        ],
-        "bonus_pl": [
-            "Coś musi robić..."
-        ],
-        "bonus_it": [
-            "Dovrà pur far qualcosa..."
         ],
         "into": [
             "Battlecast Hex Core",
             "Blade of the Ruined King",
-            "Force of Nature","Star Guardian\\'s Charm","Dark Star\\'s Heart","Infiltrator\\'s Talons","Protector\\'s Chestguard","Demolitionist\\'s Charge",
+            "Force of Nature",
+            "Star Guardian\\'s Charm",
+            "Dark Star\\'s Heart",
+            "Infiltrator\\'s Talons",
+            "Protector\\'s Chestguard",
+            "Demolitionist\\'s Charge",
             "Celestial Orb",
             "Rebel Medal"
         ]
     },
     {
         "name": "Tear of the Goddess",
-        "name_es": "Lágrima de la diosa",
-        "name_pt": "Lágrima da Deusa",
-        "name_de": "Träne der Göttin",
-        "name_ru": "Слеза богини",
-        "name_ch": "女神之泪",
-        "name_tr":"Tanrıça\\'nın Gözyaşı",
         "name_vi": "Nước mắt nữ thần",
-        "name_fr": "Larme de la déesse",
-        "name_pl": "Łza Bogini",
-        "name_it": "Lacrima della dea",
         "id": 4,
         "set": [
             3,
@@ -561,44 +293,20 @@
         "bonus": [
             "15 Mana."
         ],
-        "bonus_es": [
-            "15 de mana."
-        ],
-        "bonus_pt": [
-            "15 Mana."
-        ],
-        "bonus_de": [
-            "15 Mana."
-        ],
-        "bonus_ru": [
-            "15 маны"
-        ],
-        "bonus_ch": [
-            "15法力值"
-        ],
-        "bonus_tr": [
-            "15 Mana."
-        ],
         "bonus_vi": [
             "Tăng 15 năng lượng."
-        ],
-        "bonus_fr": [
-            "15 de mana"
-        ],
-        "bonus_pl": [
-            "15 Many"
-        ],
-        "bonus_it": [
-            "15 Mana"
         ],
         "into": [
             "Blue Buff",
             "Chalice of Favor",
             "Frozen Heart",
-            "Hand of Justice","Luden\\'s Echo",
-            "Redemption","Seraph\\'s Embrace",
+            "Hand of Justice",
+            "Luden\\'s Echo",
+            "Redemption",
+            "Seraph\\'s Embrace",
             "Spear of Shojin",
-            "Statikk Shiv","Star Guardian\\'s Charm"
+            "Statikk Shiv",
+            "Star Guardian\\'s Charm"
         ],
         "stats": [
             {
@@ -609,16 +317,7 @@
     },
     {
         "name": "Battlecast Hex Core",
-        "name_es": "Battlecast Hex Core",
-        "name_pt": "Battlecast Hex Core",
-        "name_de": "Battlecast Hex Core",
-        "name_ru": "Battlecast Hex Core",
-        "name_ch": "Battlecast Hex Core",
-        "name_tr": "Battlecast Hex Core",
         "name_vi": "Battlecast Hex Core",
-        "name_fr": "Battlecast Hex Core",
-        "name_pl": "Battlecast Hex Core",
-        "name_it": "Battlecast Hex Core",
         "id": 38,
         "set": [
             3.5
@@ -629,34 +328,7 @@
         "bonus": [
             "Wearer is also a Battlecast"
         ],
-        "bonus_es": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_pt": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_de": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_ru": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_ch": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_tr": [
-            "Wearer is also a Battlecast"
-        ],
         "bonus_vi": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_fr": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_pl": [
-            "Wearer is also a Battlecast"
-        ],
-        "bonus_it": [
             "Wearer is also a Battlecast"
         ],
         "combine": [
@@ -672,16 +344,7 @@
     },
     {
         "name": "Blade of the Ruined King",
-        "name_es": "Hoja del rey arruinado",
-        "name_pt": "Espada do Rei Destruído",
-        "name_de": "Klinge des gestürzten Königs",
-        "name_ru": "Клинок уничтоженного короля",
-        "name_ch": "破败王者之刃",
-        "name_tr": "Mahvolmuş Kralın Kılıcı",
         "name_vi": "Gươm của vua vô danh",
-        "name_fr": "Lame du roi déchu",
-        "name_pl": "Ostrze Zniszczonego Króla",
-        "name_it": "Lama del re in rovina",
         "id": 18,
         "set": [
             3,
@@ -693,34 +356,8 @@
         "bonus": [
             "Wearer is also a Blademaster."
         ],
-        "bonus_es": [
-            "El portador también es un Espadachín."
-        ],
-        "bonus_pt": [
-            "Usuário também é um Mestre das Lâminas."
-        ],
-        "bonus_de": [
-            "Träger ist gleichzeitig ein Klingenmeister."
-        ],
-        "bonus_ru": [
-            "Владелец также становится мастером клинка."
-        ],
-        "bonus_ch": [
-            "携带者也是剑士"
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Kılıç Ustası."
-        ],
         "bonus_vi": [
             "Người sử dụng đồng thời là một Kiếm khách"
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un maitre des lames"
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu jest Mistrzem Miecza."
-        ],
-        "bonus_it": ["Conferisce \\'Maestro d\\'armi\\' a chi lo indossa"
         ],
         "combine": [
             "Spatula",
@@ -735,16 +372,7 @@
     },
     {
         "name": "Bloodthirster",
-        "name_es": "Sanguinaria",
-        "name_pt": "Sedenta por Sangue",
-        "name_de": "Blutdürster",
-        "name_ru": "Кровопийца",
-        "name_ch": "饮血剑",
-        "name_tr": "Kanasusamış",
         "name_vi": "Huyết kiếm",
-        "name_fr": "Soif de sang",
-        "name_pl": "Krwiopijca",
-        "name_it": "La Bramasangue",
         "id": 16,
         "set": [
             3,
@@ -756,35 +384,8 @@
         "bonus": [
             "Basic Attacks heal the wearer for 35% of the damage dealt."
         ],
-        "bonus_es": [
-            "Los ataques curan un 35% del daño."
-        ],
-        "bonus_pt": [
-            "Ataques curam em 35% do dano."
-        ],
-        "bonus_de": [
-            "Der Träger heilt sich mit normalen Angriffen um 35% des verursachten Schadens"
-        ],
-        "bonus_ru": [
-            "Автоатаки лечат владельца на 35% от наносимого урона."
-        ],
-        "bonus_ch": [
-            "普攻回复35％普攻伤害值的血量。"
-        ],
-        "bonus_tr": [
-            "Normal saldırılar, kullanıcıyı verilen hasarın 35% kadarına eşdeğer miktarda iyileştirir."
-        ],
         "bonus_vi": [
             "Đòn đánh thường hồi máu bằng 35% sát thương."
-        ],
-        "bonus_fr": [
-            "Le porteur régénère des PV qui équivaut à 35% des dégâts de ses attaques de base."
-        ],
-        "bonus_pl": [
-            "Ataki podstawowe leczą za 35% zadanych obrażeń."
-        ],
-        "bonus_it": [
-            "Gli attacchi curano il 35% del danno inflitto"
         ],
         "combine": [
             "B.F. Sword",
@@ -803,16 +404,7 @@
     },
     {
         "name": "Blue Buff",
-        "name_es": "Blue Buff",
-        "name_pt": "Blue Buff",
-        "name_de": "Blue Buff",
-        "name_ru": "Blue Buff",
-        "name_ch": "Blue Buff",
-        "name_tr": "Blue Buff",
         "name_vi": "Blue Buff",
-        "name_fr": "Blue Buff",
-        "name_pl": "Blue Buff",
-        "name_it": "Blue Buff",
         "id": 44,
         "set": [
             3.5
@@ -820,27 +412,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 3,
-        "bonus": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
+        "bonus": [
+            "[UNIQUE] Sets holder\\'s mana to 20 after each cast."
         ],
-        "bonus_es": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_pt": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_de": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_ru": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_ch": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_tr": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_vi": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_fr": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_pl": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
-        ],
-        "bonus_it": ["[UNIQUE] Sets holder\\'s mana to 20 after each cast."
+        "bonus_vi": [
+            "[UNIQUE] Sets holder\\'s mana to 20 after each cast."
         ],
         "combine": [
             "Tear of the Goddess",
@@ -855,16 +431,7 @@
     },
     {
         "name": "Bramble Vest",
-        "name_es": "Chaleco de zarzas",
-        "name_pt": "Colete Espinhoso",
-        "name_de": "Dornenweste",
-        "name_ru": "Терновый жилет",
-        "name_ch": "荆棘背心",
-        "name_tr": "Dikenli Yelek",
         "name_vi": "Áo choàng gai",
-        "name_fr": "Armure de Ronces",
-        "name_pl": "Kamizelka Cierniowa",
-        "name_it": "Corpetto di rovi",
         "id": 55,
         "set": [
             3,
@@ -876,35 +443,8 @@
         "bonus": [
             "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer’s Star Level."
         ],
-        "bonus_es": [
-            "Anula el daño adicional de los golpes críticos recibidos. Al ser golpeado por un ataque básico, inflige 100/140/200 de daño mágico a todos los enemigos cercanos (una vez cada 2.5s)."
-        ],
-        "bonus_pt": [
-            "Nega o dano adicional de Acertos Críticos sofridos. Ao ser atingido por um ataque básico, causa 140/140/200 de Dano Mágico a todos os inimigos próximos (uma vez a cada 2.5s)."
-        ],
-        "bonus_de": [
-            "Ignoriert den zusätzlichen Schaden durch kritische Treffer. Wirst du von einem normalen Angriff getroffen, erleiden alle nahen Gegner 140/140/200 magischen Schaden (einmal alle 2.5 Sekunde)."
-        ],
-        "bonus_ru": [
-            "Защищает владельца от дополнительного урона критических ударов. Когда к владельцу применяют автоатаку, он наносит 140/140/200 магического урона всем врагам поблизости (не более одного раза в 2.5 секунду). Сила предмета зависит от количества звезд владельца."
-        ],
-        "bonus_ch": [
-            "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 140/140/200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer’s Star Level."
-        ],
-        "bonus_tr": [
-            "Kritik vuruşlardan alınan ilave hasarı yok sayar. Bir normal saldırıdan isabet alındığında yakındaki tüm rakiplere 80/120/160 Büyü Hasarı verir. Bu etki her saniye en fazla 1 defa gerçekleşir. Kullanıcının yıldız seviyesine bağlı olarak güçlenir."
-        ],
         "bonus_vi": [
             "Loại bỏ sát thương cộng thêm từ đòn đánh chí mạng lên người sở hữu. Nếu mục tiêu sở hữu này bị tấn công bởi đòn đánh thường, các kẻ địch xung quanh sẽ chịu sát thương phép (sát thương tăng theo cấp sao của tướng và chỉ có thể gây sát thương 1 lần/1 giây)."
-        ],
-        "bonus_fr": [
-            "Annule les dégats supplémentaires des coups critiques qui frappent le porteur. Quand le porteur est touché par une attaque de base, inflige 100/140/200 dégats magiques à tous les ennemis proches (une fois toutes les 2,5 secondes)"
-        ],
-        "bonus_pl": [
-            "Neguje dodatkowe obrażenia trafień krytycznych. Gdy posiadacz tego przedmiotu zostanie trafiony atakiem podstawowym, zadaje 140/140/200 pkt. obrażeń magicznych wszystkim wrogom w pobliżu (efekt występuje raz na 2.5 sekund)."
-        ],
-        "bonus_it": [
-            "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 140/140/200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer’s Star Level."
         ],
         "combine": [
             "Chain Vest",
@@ -919,16 +459,7 @@
     },
     {
         "name": "Celestial Orb",
-        "name_es": "Orbe celestial",
-        "name_pt": "Orbe Celestial",
-        "name_de": "Kosmische Kugel",
-        "name_ru": "Сфера Небожителей",
-        "name_ch": "Celestial Orb",
-        "name_tr": "Celestial Orb",
         "name_vi": "Quả cầu Thiên Tinh",
-        "name_fr": "Orbe céleste",
-        "name_pl": "Astralna Kula",
-        "name_it": "Sfera Celestiale",
         "id": 68,
         "set": [
             3,
@@ -940,35 +471,8 @@
         "bonus": [
             "The wearer gains the Celestial trait."
         ],
-        "bonus_es": [
-            "El portador obtiene el atributo Celestial."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Celestial."
-        ],
-        "bonus_de": [
-            "Stirbt der Träger, dann werden alle Verbündeten um 1000/2000/3000 geheilt."
-        ],
-        "bonus_ru": [
-            "Когда владелец умирает, Робот с 1000/2000/3000 здоровья возникает, чтобы продолжить борьбу."
-        ],
-        "bonus_ch": [
-            "The wearer gains the Celestial trait."
-        ],
-        "bonus_tr": [
-            "The wearer gains the Celestial trait."
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là Tướng Vũ Trụ."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un être céleste."
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu zyskuje cechę Astralni."
-        ],
-        "bonus_it": [
-            "The wearer gains the Celestial trait."
         ],
         "combine": [
             "Spatula",
@@ -983,16 +487,7 @@
     },
     {
         "name": "Chalice of Favor",
-        "name_es": "Cáliz de favor",
-        "name_pt": "Cálice da Graça",
-        "name_de": "Kelch der Gefälligkeit",
-        "name_ru": "Chalice of Favor",
-        "name_ch": "Chalice of Favor",
-        "name_tr": "Chalice of Favor",
         "name_vi": "Chén ân huệ",
-        "name_fr": "Calice des grâces",
-        "name_pl": "Puchar Przychylności",
-        "name_it": "Quiete",
         "id": 46,
         "set": [
             3
@@ -1003,34 +498,7 @@
         "bonus": [
             "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
         ],
-        "bonus_es": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_pt": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_de": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_ru": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_ch": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_tr": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
         "bonus_vi": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_fr": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_pl": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_it": [
             "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
         ],
         "combine": [
@@ -1050,16 +518,7 @@
     },
     {
         "name": "Chalice of Favor",
-        "name_es": "Cáliz de favor",
-        "name_pt": "Cálice da Graça",
-        "name_de": "Kelch der Gefälligkeit",
-        "name_ru": "Chalice of Favor",
-        "name_ch": "Chalice of Favor",
-        "name_tr": "Chalice of Favor",
         "name_vi": "Chén ân huệ",
-        "name_fr": "Calice des grâces",
-        "name_pl": "Puchar Przychylności",
-        "name_it": "Quiete",
         "id": 46,
         "set": [
             3.5
@@ -1070,35 +529,8 @@
         "bonus": [
             "When combat begins, the wearer and all allies within 1 hex in the same row gain +35 AP for the rest of combat."
         ],
-        "bonus_es": [
-            "Cuando el portador lanza una habilidad, restaura 8 de maná a los aliados que se encuentren a 2 hexágonos o menos de distancia."
-        ],
-        "bonus_pt": [
-            "Quando o usuário conjura uma habilidade, restaura 8 de Mana aos aliados dentro de 2 casas."
-        ],
-        "bonus_de": [
-            "Immer wenn der Träger eine Fähigkeit einsetzt, erhalten alle Verbündeten in der Nähe 208 Mana."
-        ],
-        "bonus_ru": [
-            "Всякий раз, когда владелец произносит заклинание, дает всем ближайшим союзникам 8 маны."
-        ],
-        "bonus_ch": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
-        "bonus_tr": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
-        ],
         "bonus_vi": [
             "Mỗi khi chủ sở hữu thi triển kỹ năng,đồng minh xung quanh được nhận thêm 8 năng lượng."
-        ],
-        "bonus_fr": [
-            "Quand le porteur lance un sort, rend 8 points de mana aux alliés dans un rayon de deux hexagones"
-        ],
-        "bonus_pl": [
-            "Ilekroć posiadacz tego przedmiotu rzuca zaklęcie, przywraca 8 pkt. many sojusznikom w odległości 2 pól."
-        ],
-        "bonus_it": [
-            "When the wearer casts a spell, restores 8 mana to allies within 2 hexes."
         ],
         "combine": [
             "Negatron Cloak",
@@ -1116,17 +548,8 @@
         ]
     },
     {
-        "name":"Dark Star\\'s Heart",
-        "name_es":"Dark Star\\'s Heart",
-        "name_pt": "Estrela Negra",
-        "name_de": "Herz des Sternenvernichters",
-        "name_ru": "Сердце Тёмной Звезды",
-        "name_ch":"Dark Star\\'s Heart",
-        "name_tr":"Dark Star\\'s Heart",
+        "name": "Dark Star\\'s Heart",
         "name_vi": "Trái tim Hắc Tinh",
-        "name_fr": "Cœur du pulsar sombre",
-        "name_pl": "Serce Mrocznej Gwiazdy",
-        "name_it": "Cuore della Stella Oscura",
         "id": 89,
         "set": [
             3,
@@ -1138,34 +561,7 @@
         "bonus": [
             "Wearer is also a Dark Star."
         ],
-        "bonus_es": [
-            "El portador también es una Estrella Oscura."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica de Estrela Negra"
-        ],
-        "bonus_de": [
-            "Der Träger ist gleichzeitig ein Sternenvernichter."
-        ],
-        "bonus_ru": [
-            "Носящий также Темная звезда."
-        ],
-        "bonus_ch": [
-            "Wearer is also a Dark Star."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Sonsuz Karanlık."
-        ],
         "bonus_vi": [
-            "Wearer is also a Dark Star."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un pulsar sombre."
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu zyskuje cechę Mroczna Gwiazda."
-        ],
-        "bonus_it": [
             "Wearer is also a Dark Star."
         ],
         "combine": [
@@ -1185,16 +581,7 @@
     },
     {
         "name": "Deathblade",
-        "name_es": "Filo mortal",
-        "name_pt": "Lâmina Mortal",
-        "name_de": "Todesklinge",
-        "name_ru": "Клинок смерти",
-        "name_ch": "死亡之刃",
-        "name_tr": "Ölüm Kılıcı",
         "name_vi": "Gươm Tử Thần",
-        "name_fr": "Lame funeste",
-        "name_pl": "Ostrze Śmierci",
-        "name_it": "Lama mortale",
         "id": 11,
         "set": [
             3,
@@ -1206,33 +593,8 @@
         "bonus": [
             "Contributing to a kill grants +30 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 1)."
         ],
-        "bonus_es": [
-            "Al participar en una eliminación, otorga 30 de daño de ataque adicional hasta que finalice el combate. Se puede acumular de forma infinita."
-        ],
-        "bonus_pt": [
-            "A cada abate ou assistência, receba mais 30 de Dano de Ataque até o final do combate. Acumula infinitamente."
-        ],
-        "bonus_de": [
-            "Wenn der Träger einen Gegner tötet oder an einem Kill beteiligt ist, erhält er +30 Angriffsschaden für den Rest des Kampfes. Dieser Effekt kann beliebig oft gesteigert werden."
-        ],
-        "bonus_ru": [
-            "Когда владелец убивает врага или участвует в убийстве, он получает +30 силы атаки до конца боя. Этот эффект может суммироваться бесконечно."
-        ],
-        "bonus_ch": [
-            "携带者击杀或助攻后，获得额外30攻击伤害，持续到战斗结束，可以无限叠加。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı ne zaman bir rakibi katletse veya katledilmesine yardım etse, çatışmanın geri kalanı boyunca Saldırı Gücü kazanır. Bu etki sınırsız kez birikebilir."
-        ],
         "bonus_vi": [
             "Mỗi khi chủ sở hữu hạ gục hoặc tham gia hạ gục một kẻ địch, họ được cộng thêm 30 Sát thương Đòn đánh cho đến khi giao chiến kết thúc (Hiệu ứng có thể cộng dồn vô hạn)."
-        ],
-        "bonus_fr": ["Quand le porteur assiste ou tue un champion, il gagne 30 de dégâts d\\'attaque. Cumulable à l\\'infini"
-        ],
-        "bonus_pl": [
-            "Contributing to a kill grants +30 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 1)."
-        ],
-        "bonus_it": ["Quando il campione che lo indossa ottiene un uccisione o partecipa ad un uccisione, ottiene +30 Danno fisico per il resto del combattimento. Può essere accumulato all\\'infinito"
         ],
         "combine": [
             "B.F. Sword",
@@ -1246,17 +608,8 @@
         ]
     },
     {
-        "name":"Demolitionist\\'s Charge",
-        "name_es": "Carga del pirotécnico",
-        "name_pt": "Carga do Demolidor",
-        "name_de": "Sprengmeisterladung",
-        "name_ru": "Заряд подрывника",
-        "name_ch":"Demolitionist\\'s Charge",
-        "name_tr":"Demolitionist\\'s Charge",
+        "name": "Demolitionist\\'s Charge",
         "name_vi": "Bọc Bộc Phá",
-        "name_fr": "Charge du démolisseur",
-        "name_pl": "Ładunek Dewastatora",
-        "name_it": "Carica del demolitore",
         "id": 38,
         "set": [
             3
@@ -1267,35 +620,8 @@
         "bonus": [
             "Wearer is also a Demolitionist"
         ],
-        "bonus_es": [
-            "El portador también es un Pirotécnico."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Demolidor."
-        ],
-        "bonus_de": [
-            "Der Träger ist zusätzlich ein Sprengmeister."
-        ],
-        "bonus_ru": [
-            "Носящий также Подрывник"
-        ],
-        "bonus_ch": [
-            "Wearer is also a Demolitionist"
-        ],
-        "bonus_tr": [
-            "Wearer is also a Demolitionist"
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là Tướng Bộc Phá."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un demolisseur"
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu jest Dewastatorem."
-        ],
-        "bonus_it": [
-            "Wearer is also a Demolitionist"
         ],
         "combine": [
             "Spatula",
@@ -1309,17 +635,8 @@
         ]
     },
     {
-        "name":"Dragon\\'s Claw",
-        "name_es": "Garra de dragón",
-        "name_pt": "Garra do Dragão",
-        "name_de": "Drachenklaue",
-        "name_ru": "Коготь дракона",
-        "name_ch": "巨龙之爪",
-        "name_tr": "Ejder Pençesi",
+        "name": "Dragon\\'s Claw",
         "name_vi": "Vuốt rồng",
-        "name_fr": "Griffe de dragon",
-        "name_pl": "Smoczy Pazur",
-        "name_it": "Artiglio del drago",
         "id": 66,
         "set": [
             3,
@@ -1331,35 +648,8 @@
         "bonus": [
             "Reduces incoming magic damage by 50%"
         ],
-        "bonus_es": [
-            "Obtiene un 50% de resistencia al daño mágico."
-        ],
-        "bonus_pt": [
-            "Recebe 50% de Resistência a Dano Mágico."
-        ],
-        "bonus_de": [
-            "Der Träger erhält 50% Resistenz gegen magischen Schaden"
-        ],
-        "bonus_ru": [
-            "Владелец получает 50% сопротивления магическому урону."
-        ],
-        "bonus_ch": [
-            "获得50％的魔法伤害抗性。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı büyü hasarına karşı 50% direnç kazanır."
-        ],
         "bonus_vi": [
             "Giảm 50% sát thương phép nhận vào."
-        ],
-        "bonus_fr": [
-            "Réduit les dégâts magiques subis de 50%."
-        ],
-        "bonus_pl": [
-            "Zmniejsza otrzymywane obrażenia magiczne o 50%."
-        ],
-        "bonus_it": [
-            "Gain 50% resistance to magic damage."
         ],
         "combine": [
             "Negatron Cloak",
@@ -1374,16 +664,7 @@
     },
     {
         "name": "Force of Nature",
-        "name_es": "Fuerza de la naturaleza",
-        "name_pt": "Força da Natureza",
-        "name_de": "Naturgewalt",
-        "name_ru": "Сила природы",
-        "name_ch": "自然之力",
-        "name_tr": "Doğanın Kudreti",
         "name_vi": "Giáp thiên nhiên",
-        "name_fr": "Force de la nature",
-        "name_pl": "Siła Natury",
-        "name_it": "Forza della natura",
         "id": 88,
         "set": [
             3,
@@ -1395,34 +676,8 @@
         "bonus": [
             "Gain +1 team size."
         ],
-        "bonus_es": [
-            "Obtiene +1 de tamaño del equipo."
-        ],
-        "bonus_pt": [
-            "Recebe +1 de tamanho da equipe."
-        ],
-        "bonus_de": [
-            "Das Team des Trägers erhält +1 max Teamgröße"
-        ],
-        "bonus_ru": [
-            "Максимальный размер команды владельца увеличивается на 1."
-        ],
-        "bonus_ch": [
-            "可上阵人数+1。"
-        ],
-        "bonus_tr": [
-            "Kullanıcının takımı +1 Azami Takım Büyüklüğü kazanır."
-        ],
         "bonus_vi": [
             "Thêm 1 đồng minh."
-        ],
-        "bonus_fr": ["Le nombre places disponibles dans l\\'équipe du porteur augmente de 1."
-        ],
-        "bonus_pl": [
-            "Maksymalny rozmiar drużyny posiadacza tego przedmiotu zwiększa się o 1."
-        ],
-        "bonus_it": [
-            "Gain +1 team size."
         ],
         "combine": [
             "Spatula",
@@ -1431,16 +686,7 @@
     },
     {
         "name": "Frozen Heart",
-        "name_es": "Corazón de hielo",
-        "name_pt": "Coração Congelado",
-        "name_de": "Gefrorenes Herz",
-        "name_ru": "Ледяное сердце",
-        "name_ch": "冰霜之心",
-        "name_tr": "Donmuş Yürek",
         "name_vi": "Tim băng",
-        "name_fr": "Coeur Gelé",
-        "name_pl": "Lodowe Serce",
-        "name_it": "Fulcro dei geli",
         "id": 45,
         "set": [
             3,
@@ -1452,32 +698,8 @@
         "bonus": [
             "Adjacent enemies lose 50% Attack Speed. (Stacking increases the radius of this effect, not the amount of the slow)"
         ],
-        "bonus_es": [
-            "Reduce en un 50% la velocidad de ataque de los enemigos cercanos. Cada Corazón de hielo adicional que porte un campeón aumenta el radio de efecto."
-        ],
-        "bonus_pt": [
-            "Inimigos próximos tem sua Velocidade de Ataque diminuída em 50%. (Acumulação aumenta o raio de alcance, não a quantidade de lentidão)"
-        ],
-        "bonus_de": [
-            "Das Angriffstempo naher Gegner ist um 50% verringert. (Stacken erhöht den Radius, nicht den Effekt)"
-        ],
-        "bonus_ru": [
-            "Уменьшает скорость атаки ближайших врагов на 50%. (С каждым новым Ледяным сердцем увеличивается радиус его эффекта, а не сила замедления.)"
-        ],
-        "bonus_ch": ["Nearby enemies\\' attack speed is slowed by 50%. (Stacking increases the radius of this effect, not the amount of the slow)"
-        ],
-        "bonus_tr": [
-            "Yakındaki rakiplerin saldırı hızını %50 azaltır. İlkinden sonra şampiyona verilen her Donmuş Yürek, bu etkinin yarıçapını genişletir."
-        ],
         "bonus_vi": [
             "Đối phương gần đó bị giảm 50% tốc độ đánh (cộng dồn trang bị tăng tầm hiệu ứng, không tăng tỷ lệ làm chậm)."
-        ],
-        "bonus_fr": ["Réduit de 50% la vitesse d\\'attaque des ennemis proches. Chaque coeur gelé supplémentaire que porte le champion augmente le rayon de cet effet"
-        ],
-        "bonus_pl": [
-            "Zmniejsza prędkość ataku pobliskich wrogów o 50%. Każde dodatkowe Mroźne Serce zwiększa obszar działania tego efektu."
-        ],
-        "bonus_it": ["Nearby enemies\\' attack speed is slowed by 50%. (Stacking increases the radius of this effect, not the amount of the slow)"
         ],
         "combine": [
             "Chain Vest",
@@ -1496,16 +718,7 @@
     },
     {
         "name": "Giant Slayer",
-        "name_es": "Verdugo de gigantes",
-        "name_pt": "Mata-Gigantes",
-        "name_de": "Riesentöter",
-        "name_ru": "Убийца великанов",
-        "name_ch": "巨人杀手",
-        "name_tr": "Dev Katili",
         "name_vi": "Diệt khổng lồ",
-        "name_fr": "Tueur de Géants",
-        "name_pl": "Pogromca Olbrzymów",
-        "name_it": "Uccisore di giganti",
         "id": 12,
         "set": [
             3
@@ -1516,34 +729,7 @@
         "bonus": [
             "Attacks deal an additional 12% enemy current Health as Physical Damage."
         ],
-        "bonus_es": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_pt": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_de": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_ru": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_ch": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_tr": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
         "bonus_vi": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_fr": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_pl": [
-            "Attacks deal an additional 12% enemy current Health as Physical Damage."
-        ],
-        "bonus_it": [
             "Attacks deal an additional 12% enemy current Health as Physical Damage."
         ],
         "combine": [
@@ -1563,16 +749,7 @@
     },
     {
         "name": "Giant Slayer",
-        "name_es": "Verdugo de gigantes",
-        "name_pt": "Mata-Gigantes",
-        "name_de": "Riesentöter",
-        "name_ru": "Убийца великанов",
-        "name_ch": "巨人杀手",
-        "name_tr": "Dev Katili",
         "name_vi": "Diệt khổng lồ",
-        "name_fr": "Tueur de Géants",
-        "name_pl": "Pogromca Olbrzymów",
-        "name_it": "Uccisore di giganti",
         "id": 12,
         "set": [
             3.5
@@ -1583,34 +760,8 @@
         "bonus": [
             "Attacks and spells deal 20% bonus damage as true damage. This bonus increases to 80% if the target has more than 1500 health."
         ],
-        "bonus_es": [
-            "Los ataques infligen un 12% adicional de la vida máxima del enemigo como daño verdadero."
-        ],
-        "bonus_pt": [
-            "Ataques causam um adicional de 12% da vida máxima do inimigo como dano verdadeiro."
-        ],
-        "bonus_de": [
-            "Die normalen Angriffe des Trägers verursachen zusätzlich 12% des aktuellen Lebens des Ziels als normalen Schaden."
-        ],
-        "bonus_ru": [
-            "Автоатаки владельца дополнительно наносят физический урон в размере 12% от текущего здоровья цели."
-        ],
-        "bonus_ch": [
-            "攻击会额外造成目标12%最大生命值的真实伤害。"
-        ],
-        "bonus_tr": [
-            "Kullanıcının normal saldırıları hedefin mevcut canının 12% kadarını fazladan fiziksel hasar olarak verir."
-        ],
         "bonus_vi": [
             "Đòn đánh gây 12% máu tối đa đối phương thành sát thương chuẩn."
-        ],
-        "bonus_fr": ["Les attaques de base du porteur infligent des dégâts supplémentaires équivalents à 12% des PV actuels de l\\'ennemi."
-        ],
-        "bonus_pl": [
-            "Ataki zadają dodatkowe obrażenia w wysokości 12% maksymalnego życia przeciwnika jako obrażenia nieuchronne."
-        ],
-        "bonus_it": [
-            "Gli attacchi infliggono un ulteriore 12% della salute massima del nemico come danno Puro"
         ],
         "combine": [
             "B.F. Sword",
@@ -1629,16 +780,7 @@
     },
     {
         "name": "Guardian Angel",
-        "name_es": "Ángel de la guarda",
-        "name_pt": "Anjo Guardião",
-        "name_de": "Schutzengel",
-        "name_ru": "Ангел-хранитель",
-        "name_ch": "守护天使",
-        "name_tr": "Koruyucu Melek",
         "name_vi": "Giáp thiên thần",
-        "name_fr": "Ange gardien",
-        "name_pl": "Anioł Stróż",
-        "name_it": "Angelo custode",
         "id": 15,
         "set": [
             3,
@@ -1650,35 +792,8 @@
         "bonus": [
             "Wearer revives with 400 HP"
         ],
-        "bonus_es": [
-            "El portador revive con 400 de vida después de un retraso de 2 segundos."
-        ],
-        "bonus_pt": [
-            "O usuário ressuscita com 400 de vida depois de um atraso de 2 segundos."
-        ],
-        "bonus_de": [
-            "Stirbt der Träger, werden negative Effekte neutralisiert und er wird nach einer Verzögerung von 2 Sekunden mit bis zu 500 Leben wiederbelebt."
-        ],
-        "bonus_ru": [
-            "Погибая, владелец снимает с себя отрицательные эффекты и возрождается спустя 2 сек., восстанавливая себе до 400 здоровья. Этот эффект срабатывает лишь раз за сражение."
-        ],
-        "bonus_ch": [
-            "云顶，云顶之奕，云顶助手，云顶盒子，英雄联盟，英雄联盟助手，英雄联盟盒子"
-        ],
-        "bonus_tr": [
-            "Kullanıcı katledildiğinde üstündeki tüm olumsuz etkiler temizlenir ve 2 saniyelik bir gecikmenin ardından 500 Canla dirilir."
-        ],
         "bonus_vi": [
             "Chủ sở hữu hồi sinh với 500 máu sau 2 giây."
-        ],
-        "bonus_fr": [
-            "le porteur revit après 2 secondes avec 400 PV."
-        ],
-        "bonus_pl": [
-            "Zapobiega pierwszej śmierci posiadacza tego przedmiotu. Po 2 sekunach posiadacz powraca z 500 Punktami Zdrowia."
-        ],
-        "bonus_it": [
-            "Rinasci con 500 di salute dopo un attesa di 2 secondi"
         ],
         "combine": [
             "B.F. Sword",
@@ -1696,17 +811,8 @@
         ]
     },
     {
-        "name":"Guinsoo\\'s Rageblade",
-        "name_es": "Hoja de furia de Guinsoo",
-        "name_pt": "Lâmina da Fúria de Guinsoo",
-        "name_de": "Guinsoos Wutklinge",
-        "name_ru": "Клинок ярости Гинсу",
-        "name_ch": "鬼索的狂暴之刃",
-        "name_tr":"Guinsoo\\'nun Hiddeti",
+        "name": "Guinsoo\\'s Rageblade",
         "name_vi": "Cuồng đao Guinsoo",
-        "name_fr": "Lame enragée de Guinsoo",
-        "name_pl": "Ostrze Gniewu Guinsoo",
-        "name_it": "Furia di Guinsoo",
         "id": 23,
         "set": [
             3,
@@ -1718,33 +824,8 @@
         "bonus": [
             "Basic Attacks grant +5% bonus Attack Speed for the rest of combat. No stacking limit."
         ],
-        "bonus_es": [
-            "Los ataques proporcionan un 5% de velocidad de ataque. Se acumula de forma infinita."
-        ],
-        "bonus_pt": [
-            "Ataques concedem 5% de Velocidade de Ataque. Acumula infinitamente."
-        ],
-        "bonus_de": [
-            "Normale Angriffe verleihen dem Träger +5% zusätzliches Angriffstempo für den Rest des Kampfes. Dieser Effekt kann beliebig oft gesteigert werden."
-        ],
-        "bonus_ru": [
-            "Автоатаки увеличивают скорость атаки владельца на 5% до конца боя. Этот эффект может суммироваться бесконечно."
-        ],
-        "bonus_ch": [
-            "每次攻击可使攻击速度提高5％，可无限堆叠。"
-        ],
-        "bonus_tr": [
-            "Normal saldırılar kullanıcıya çatışmanın geri kalanı boyunca +5% İlave Saldırı Hızı sağlar."
-        ],
         "bonus_vi": [
             "Mỗi đòn đánh tăng 5% tốc độ đánh. Cộng dồn vô hạn."
-        ],
-        "bonus_fr": ["Jusqu\\'à la fin du combat, le porteur gagne +5% de vitesse d\\'attaque à chaque de ses attaques de base. Cet effet est cumulable à l\\'infini"
-        ],
-        "bonus_pl": [
-            "Ataki zwiększają prędkość ataku o 5%. Kumuluje się w nieskończoność."
-        ],
-        "bonus_it": ["Gli attacchi conferiscono 5% velocità d\\'attacco. Si accumula all\\'infinito"
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -1763,16 +844,7 @@
     },
     {
         "name": "Hand of Justice",
-        "name_es": "Mano de la justicia",
-        "name_pt": "Mão da Justiça",
-        "name_de": "Hand der Gerechtigkeit",
-        "name_ru": "Рука правосудия",
-        "name_ch": "正义之手",
-        "name_tr": "Adaletin Eli",
         "name_vi": "Bàn tay công lý",
-        "name_fr": "Main de la justice",
-        "name_pl": "Ręka Sprawiedliwości",
-        "name_it": "Mano della giustizia",
         "id": 49,
         "set": [
             3,
@@ -1784,34 +856,8 @@
         "bonus": [
             "Each planning phase, gain one: Deal +50% more damage / Basic Attack heal 50 health on Hit"
         ],
-        "bonus_es": [
-            "Al comienzo de una ronda, otorga un 50% de daño adicional o 50 de vida al golpear."
-        ],
-        "bonus_pt": [
-            "No começo da rodada, receba 50% a mais de dano ou 50 de Vida ao contato."
-        ],
-        "bonus_de": [
-            "Zu Beginn jeder Planungsphase erhält der Träger einen der folgenden Boni: Normale Angriffe und Fähigkeiten verursachen +50% Schaden oder normale Angriffe heilen um 50 Leben bei einem Treffer"
-        ],
-        "bonus_ru": [
-            "В начале каждой фазы планирования владелец получает один из следующих эффектов: Автоатаки и умения наносят на 50% больше урона. При попадании автоатаки восстанавливают 50 здоровья владельцу"
-        ],
-        "bonus_ch": [
-            "在回合开始时，获得额外的50％伤害或者每次普攻回复50点生命。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı her planlama evresinin başında bunlardan birini kazanır:Normal saldırılar ve yetenekler +50% Hasar verir yada Normal saldırılar isabet halinde 50 Can iyileştirir"
-        ],
         "bonus_vi": [
             "Bắt đầu trặn đấu ngẫu nhiên tăng 50% sát thương hoặc hồi 50 máu mỗi đòn đánh."
-        ],
-        "bonus_fr": ["Au début du conbat, le porteur a 50% de chance d\\'avoir les bonus suivants : ses attaques de base et ses sorts infligent +10% de dégâts. A l\\'impact, ses attaques de base lui rendent 10 PV."
-        ],
-        "bonus_pl": [
-            "Na początku rozgrywki, posiadacz przedmiotu zadaje 50% więcej lub obrażeń, lub leczy się za 50 pkt. co atak."
-        ],
-        "bonus_it": [
-            "On round start, either gain 50% more damage or 50 life on hit."
         ],
         "combine": [
             "Tear of the Goddess",
@@ -1834,16 +880,7 @@
     },
     {
         "name": "Hextech Gunblade",
-        "name_es": "Sable-pistola hextech",
-        "name_pt": "Pistola Laminar Hextec",
-        "name_de": "Hextech-Gunblade",
-        "name_ru": "Хекстековый штык",
-        "name_ch": "海克斯科技枪刃",
-        "name_tr": "Hextech Silahkılıç",
         "name_vi": "Kiếm súng Hextech",
-        "name_fr": "Pistolame hextech",
-        "name_pl": "Miecz-Pistolet Hextech",
-        "name_it": "Pistola a lame hextech",
         "id": 13,
         "set": [
             3
@@ -1854,34 +891,7 @@
         "bonus": [
             "Heal for 25% of all damage dealt"
         ],
-        "bonus_es": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_pt": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_de": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_ru": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_ch": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_tr": [
-            "Heal for 25% of all damage dealt"
-        ],
         "bonus_vi": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_fr": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_pl": [
-            "Heal for 25% of all damage dealt"
-        ],
-        "bonus_it": [
             "Heal for 25% of all damage dealt"
         ],
         "combine": [
@@ -1901,16 +911,7 @@
     },
     {
         "name": "Hextech Gunblade",
-        "name_es": "Sable-pistola hextech",
-        "name_pt": "Pistola Laminar Hextec",
-        "name_de": "Hextech-Gunblade",
-        "name_ru": "Хекстековый штык",
-        "name_ch": "海克斯科技枪刃",
-        "name_tr": "Hextech Silahkılıç",
         "name_vi": "Kiếm súng Hextech",
-        "name_fr": "Pistolame hextech",
-        "name_pl": "Miecz-Pistolet Hextech",
-        "name_it": "Pistola a lame hextech",
         "id": 13,
         "set": [
             3.5
@@ -1921,34 +922,7 @@
         "bonus": [
             "Heal for 35% of all spell damage dealt"
         ],
-        "bonus_es": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_pt": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_de": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_ru": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_ch": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_tr": [
-            "Heal for 35% of all spell damage dealt"
-        ],
         "bonus_vi": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_fr": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_pl": [
-            "Heal for 35% of all spell damage dealt"
-        ],
-        "bonus_it": [
             "Heal for 35% of all spell damage dealt"
         ],
         "combine": [
@@ -1967,17 +941,8 @@
         ]
     },
     {
-        "name":"Infiltrator\\'s Talons",
-        "name_es": "Garras del infiltrado",
-        "name_pt": "Garras do Infiltrado",
-        "name_de": "Infiltrator-Klauen",
-        "name_ru":"Infiltrator\\'s Talons",
-        "name_ch":"Infiltrator\\'s Talons",
-        "name_tr":"Infiltrator\\'s Talons",
+        "name": "Infiltrator\\'s Talons",
         "name_vi": "Móng vuốt Mật thám",
-        "name_fr":"Griffe de l\\'Infiltrateur",
-        "name_pl": "Szpony Infiltratora",
-        "name_it":"Mantello dell\\'infiltrato",
         "id": 28,
         "set": [
             3,
@@ -1989,35 +954,8 @@
         "bonus": [
             "Wearer is also an Infiltrator."
         ],
-        "bonus_es": [
-            "El portador obtiene el atributo Infiltrado."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Infiltrado."
-        ],
-        "bonus_de": [
-            "Der Träger ist gleichzeitig ein Infiltrator"
-        ],
-        "bonus_ru": [
-            "Носящий также Нарушитель."
-        ],
-        "bonus_ch": [
-            "Wearer is also an Infiltrator."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Casus."
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là một Tướng Mật Thám."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un infiltrateur"
-        ],
-        "bonus_pl": [
-            "Posiadacz przedmiotu jest Infiltratorem."
-        ],
-        "bonus_it": [
-            "Wearer is also an Infiltrator."
         ],
         "combine": [
             "Spatula",
@@ -2032,16 +970,7 @@
     },
     {
         "name": "Infinity Edge",
-        "name_es": "Filo infinito",
-        "name_pt": "Gume do Infinito",
-        "name_de": "Klinge der Unendlichkeit:",
-        "name_ru": "Грань Бесконечности",
-        "name_ch": "无尽之刃",
-        "name_tr": "Ebedi Kılıç",
         "name_vi": "Vô cực kiếm",
-        "name_fr":"Lame d\\'infini",
-        "name_pl": "Ostrze Nieskończoności",
-        "name_it":"Frammento d\\'infinito",
         "id": 19,
         "set": [
             3
@@ -2052,34 +981,7 @@
         "bonus": [
             "100% critical strike damage."
         ],
-        "bonus_es": [
-            "100% critical strike damage."
-        ],
-        "bonus_pt": [
-            "100% critical strike damage."
-        ],
-        "bonus_de": [
-            "100% critical strike damage."
-        ],
-        "bonus_ru": [
-            "100% critical strike damage."
-        ],
-        "bonus_ch": [
-            "100% critical strike damage."
-        ],
-        "bonus_tr": [
-            "100% critical strike damage."
-        ],
         "bonus_vi": [
-            "100% critical strike damage."
-        ],
-        "bonus_fr": [
-            "100% critical strike damage."
-        ],
-        "bonus_pl": [
-            "100% critical strike damage."
-        ],
-        "bonus_it": [
             "100% critical strike damage."
         ],
         "combine": [
@@ -2099,16 +1001,7 @@
     },
     {
         "name": "Infinity Edge",
-        "name_es": "Filo infinito",
-        "name_pt": "Gume do Infinito",
-        "name_de": "Klinge der Unendlichkeit:",
-        "name_ru": "Грань Бесконечности",
-        "name_ch": "无尽之刃",
-        "name_tr": "Ebedi Kılıç",
         "name_vi": "Vô cực kiếm",
-        "name_fr":"Lame d\\'infini",
-        "name_pl": "Ostrze Nieskończoności",
-        "name_it":"Frammento d\\'infinito",
         "id": 19,
         "set": [
             3.5
@@ -2119,35 +1012,8 @@
         "bonus": [
             "[UNIQUE] The holder gains 100% critical hit chance, and 20% bonus critical strike damage."
         ],
-        "bonus_es": [
-            "100% de daño de impacto crítico."
-        ],
-        "bonus_pt": [
-            "100% de dano de acerto crítico."
-        ],
-        "bonus_de": [
-            "Der Träger erhält +100% kritischen Trefferschaden."
-        ],
-        "bonus_ru": [
-            "Увеличивает критический урон владельца на 100%"
-        ],
-        "bonus_ch": [
-            "100％爆击伤害。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı +100% Kritik Vuruş Hasarı kazanır."
-        ],
         "bonus_vi": [
             "Sát thương chí mạng tăng 100%."
-        ],
-        "bonus_fr": [
-            "100% de dégats des coups critiques"
-        ],
-        "bonus_pl": [
-            "100% obrażeń od trafień krytycznych."
-        ],
-        "bonus_it": [
-            "100% danno dai colpi critici"
         ],
         "combine": [
             "B.F. Sword",
@@ -2166,16 +1032,7 @@
     },
     {
         "name": "Ionic Spark",
-        "name_es": "Chispa iónica",
-        "name_pt": "Centelha Iônica",
-        "name_de": "Ionischer Funke",
-        "name_ru": "Ионийская искра",
-        "name_ch": "离子火花",
-        "name_tr": "İyon Kıvılcımı",
         "name_vi": "Nỏ sét",
-        "name_fr": "Etincelle ionique",
-        "name_pl": "Jonowa Iskra",
-        "name_it": "Scintilla ionica",
         "id": 36,
         "set": [
             3,
@@ -2187,35 +1044,8 @@
         "bonus": [
             "Enemies within 2 hexes have their Magic Resist reduced by 50% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
         ],
-        "bonus_es": [
-            "Los enemigos situados a 2 hexágonos ven reducida su resistencia mágica un 50% (no se acumula). Cuando lanzan una habilidad, reciben una descarga de daño mágico equivalente al 225% de su maná máximo."
-        ],
-        "bonus_pt": [
-            "Inimigos dentro de três casas têm sua Resistência Mágica reduzida em 50%(não acumula). Quando conjurarem uma habilidade, eles serão eletrocutados, sofrendo Dano Mágico igual a 225% de sua Mana máxima."
-        ],
-        "bonus_de": [
-            "Gegner, die eine Fähigkeit einsetzen, werden geschockt und erleiden magischen Schaden in Höhe von 225% ihres maximalen Manas."
-        ],
-        "bonus_ru": [
-            "Когда враги, находящиеся в пределах 3 ячеек, применяют умение, они получают магический урон в размере 225% от их максимального запаса маны."
-        ],
-        "bonus_ch": [
-            "Enemies within 2 hexes have their Magic Resist reduced by 50% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
-        ],
-        "bonus_tr": [
-            "Enemies within 2 hexes have their Magic Resist reduced by 50% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
-        ],
         "bonus_vi": [
             "Đối phương trong vòng 2 ô bị giật sét khi dùng kỹ năng, nhận sát thương phép bằng 225% năng lượng tối đa của chúng."
-        ],
-        "bonus_fr": [
-            "La résistance magique des ennemis dans un rayon de 2 hexagones est réduit de 50% (pas accumulable). quand les adversaires lancent un sort, il se font électrocutés et subissent des dégâts magiques équivalents à 225% de leur mana max."
-        ],
-        "bonus_pl": [
-            "Wrogowie w odległości 2 pól od posiadacza tego przedmiotu mają odporność na magię zmniejszoną o 50%, a kiedy rzucą zaklęcie, zostaną porażeni i otrzymają obrażenia magiczne równe 225% ich maksymalnej many."
-        ],
-        "bonus_it": [
-            "Enemies within 2 hexes have their Magic Resist reduced by 50% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2234,16 +1064,7 @@
     },
     {
         "name": "Jeweled Gauntlet",
-        "name_es": "Guantelete enjoyado",
-        "name_pt": "Manopla Adornada",
-        "name_de": "Juwelenbesetzter Handschuh",
-        "name_ru": "Драгоценная перчатка",
-        "name_ch": "珠光护手",
-        "name_tr": "Mücevherli Eldiven",
         "name_vi": "Găng bảo thạch",
-        "name_fr": "Gantelet givrant",
-        "name_pl": "Brylantowa Rękawica",
-        "name_it": "Guanto ingioiellato",
         "id": 39,
         "set": [
             3
@@ -2251,27 +1072,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 2,
-        "bonus": ["The wearer\\'s spells can critically strike."
+        "bonus": [
+            "The wearer\\'s spells can critically strike."
         ],
-        "bonus_es": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_pt": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_de": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_ru": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_ch": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_tr": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_vi": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_fr": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_pl": ["The wearer\\'s spells can critically strike."
-        ],
-        "bonus_it": ["The wearer\\'s spells can critically strike."
+        "bonus_vi": [
+            "The wearer\\'s spells can critically strike."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2290,16 +1095,7 @@
     },
     {
         "name": "Jeweled Gauntlet",
-        "name_es": "Guantelete enjoyado",
-        "name_pt": "Manopla Adornada",
-        "name_de": "Juwelenbesetzter Handschuh",
-        "name_ru": "Драгоценная перчатка",
-        "name_ch": "珠光护手",
-        "name_tr": "Mücevherli Eldiven",
         "name_vi": "Găng bảo thạch",
-        "name_fr": "Gantelet givrant",
-        "name_pl": "Brylantowa Rękawica",
-        "name_it": "Guanto ingioiellato",
         "id": 39,
         "set": [
             3.5
@@ -2307,36 +1103,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 2,
-        "bonus": ["The wearer\\'s spells can critically strike and deal 20% bonus damage when they do."
-        ],
-        "bonus_es": [
-            "Los hechizos pueden infligir daño crítico."
-        ],
-        "bonus_pt": [
-            "Suas habilidades podem causar acerto crítico."
-        ],
-        "bonus_de": [
-            "Die Fähigkeiten des Trägers können kritisch treffen."
-        ],
-        "bonus_ru": [
-            "Применения умений владельца могут быть критическими."
-        ],
-        "bonus_ch": [
-            "携带者技能可以暴击。"
-        ],
-        "bonus_tr": [
-            "Kullanıcının yetenekleri de kritik vuruş yapabilir."
+        "bonus": [
+            "The wearer\\'s spells can critically strike and deal 20% bonus damage when they do."
         ],
         "bonus_vi": [
             "Kỹ năng có thể chí mạng."
-        ],
-        "bonus_fr": [
-            "Les sorts peuvent infliger un coup critique"
-        ],
-        "bonus_pl": [
-            "Zaklęcia posiadacza tego przedmiotu mogą trafiać krytycznie."
-        ],
-        "bonus_it": ["The wearer\\'s spells can critically strike."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2355,16 +1126,7 @@
     },
     {
         "name": "Last Whisper",
-        "name_es": "Últimas palabras",
-        "name_pt": "Último Sussurro",
-        "name_de": "Letzter Atemzug",
-        "name_ru": "Предсмертный шепот",
-        "name_ch": "最后的轻语",
-        "name_tr": "Son Fısıltı",
         "name_vi": "Cung xanh",
-        "name_fr": "Dernier Souffle",
-        "name_pl": "Ostatni Szept",
-        "name_it": "Sussurro fatale",
         "id": 29,
         "set": [
             3,
@@ -2376,34 +1138,8 @@
         "bonus": [
             "Critical hits reduce the target’s Armor by 75% for 3 seconds. This effect does not stack."
         ],
-        "bonus_es": [
-            "Cuando el portador asesta un golpe crítico, la armadura del objetivo se reduce un 75% durante 3s. Este efecto no se acumula."
-        ],
-        "bonus_pt": [
-            "Quando o usuário causar Acerto Crítico, a Armadura do alvo será reduzida em 75% por 3s. Esse efeito não acumula."
-        ],
-        "bonus_de": [
-            "Kritische Treffer verringern die Rüstung des Ziels um 75%."
-        ],
-        "bonus_ru": [
-            "Критические удары уменьшают броню цели на 75% на 3 секунды. Этот эффект не суммируется."
-        ],
-        "bonus_ch": [
-            "Critical hits reduce the target’s Armor by 75% for 3 seconds. This effect does not stack."
-        ],
-        "bonus_tr": [
-            "Kritik vuruşlar hedefin zırhını 3 saniyeliğine %75 azaltır. Bu etki birikmez. (Özel - Şampiyon Başına Sadece Bir Adet)"
-        ],
         "bonus_vi": [
             "Đòn chí mạng giảm giáp đối phương 75% trong vòng 3 giây. Hiệu ứng không cộng dồn."
-        ],
-        "bonus_fr": ["Quand le porteur inflige un coup critique, l\\'armure de la cible est réduite de 75% pendant 3 secondes. Cet effet ne se cumule pas (Unique - Un seul exemplaire par champion)"
-        ],
-        "bonus_pl": [
-            "Gdy posiadacz tego przedmiotu zada trafienie krytyczne, pancerz celu zostanie zmniejszony o 75% na 3 sek. Ten efekt się nie kumuluje."
-        ],
-        "bonus_it": [
-            "Critical hits reduce the target’s Armor by 75% for 3 seconds. This effect does not stack."
         ],
         "combine": [
             "Recurve Bow",
@@ -2422,16 +1158,7 @@
     },
     {
         "name": "Locket of the Iron Solari",
-        "name_es": "Medallón de los Solari de Hierro",
-        "name_pt": "Medalhão dos Solari de Ferro",
-        "name_de": "Amulett der eisernen Solari",
-        "name_ru": "Медальон Железных Солари",
-        "name_ch": "钢铁烈焰之匣",
-        "name_tr":"Demir Solari\\'nin Broşu",
         "name_vi": "Dây chuyền Iron Solari",
-        "name_fr":"Médaillon de l\\'Iron Solari",
-        "name_pl": "Naszyjnik Żelaznych Solari",
-        "name_it": "Medaglione dei Solari di ferro",
         "id": 35,
         "set": [
             3,
@@ -2443,35 +1170,8 @@
         "bonus": [
             "Shields allies within two hexes in the same row for 250 / 275 / 350 damage for 8 seconds (scales with wearer’s Star Level)"
         ],
-        "bonus_es": [
-            "Al comienzo del combate, el portador y todos los aliados que estén a 2 hexágonos de distancia en la misma fila obtienen un escudo que bloquea 250/275/350 de daño durante 2 s."
-        ],
-        "bonus_pt": [
-            "No início do combate, o usuário e todos os aliados em até 2 casas na mesma linha recebem um escudo que bloqueia 250/275/350 de dano por 8s"
-        ],
-        "bonus_de": [
-            "Alle Verbündeten innerhalb zwei Felder in der selben Reihe erhalten 8 Sekunden lang ein Schild, der 250/275/350 Schaden abfängt."
-        ],
-        "bonus_ru": [
-            "Накладывает на союзников в пределах двух ячеек в том же ряду щит прочностью 250/275/350 на 8 секунд (сила предмета зависит от количества звезд владельца)"
-        ],
-        "bonus_ch": [
-            "Shields allies within two hexes in the same row for 250/275/350 damage for 8 seconds (scales with wearer’s Star Level)"
-        ],
-        "bonus_tr": [
-            "Çatışmanın başında kullanıcı ve aynı yatay çizgi üstündeki 2 hücrelik bir alan içinde bulunan takım arkadaşları 8 saniyeliğine 250/275/350 Hasar engelleyen bir kalkan kazanır."
-        ],
         "bonus_vi": [
             "Tạo 250/275/350 giáp cho đồng minh trong vòng 2 ô cùng hàng trong vòng 8 giây (tăng theo cấp sao của tướng)."
-        ],
-        "bonus_fr": [
-            "Au début du combat, le porteur et ses alliés dans un rayon de 2 hexagones à sa gauche et à sa droite reçoivent un bouclier de 250/275/350 PV pendant 8 secondes"
-        ],
-        "bonus_pl": [
-            "Na początku walki posiadacz tego przedmiotu i wszyscy sojusznicy znajdujący się w tym samym rzędzie w odległości do 2 pól od niego zyskują tarczę, która blokuje 250/275/350 pkt. obrażeń przez 8 sek."
-        ],
-        "bonus_it": [
-            "Shields allies within two hexes in the same row for 250/275/350 damage for 8 seconds (scales with wearer’s Star Level)"
         ],
         "combine": [
             "Chain Vest",
@@ -2489,17 +1189,8 @@
         ]
     },
     {
-        "name":"Luden\\'s Echo",
-        "name_es": "Eco de Luden",
-        "name_pt": "Eco de Luden",
-        "name_de": "Ludens Echo",
-        "name_ru": "Эхо Людена",
-        "name_ch": "卢登的回声",
-        "name_tr":"Luden\\'in Feryadı",
+        "name": "Luden\\'s Echo",
         "name_vi": "Vọng âm Luden",
-        "name_fr": "Echo de Luden",
-        "name_pl": "Echo Luden",
-        "name_it": "Eco di Luden",
         "id": 34,
         "set": [
             3
@@ -2510,34 +1201,8 @@
         "bonus": [
             "When the wearer casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 150 / 175 / 225 magic damage."
         ],
-        "bonus_es": [
-            "Los hechizos infligen 150/175/225 de daño por salpicadura al impactar."
-        ],
-        "bonus_pt": [
-            "Habilidades causam 150/175/225 de dano de dispersão ao contato."
-        ],
-        "bonus_de": [
-            "Wenn der Träger mit seiner Fähigkeit Schaden verursacht, erleiden das erste getroffene Ziel sowie bis zu 4 Gegner in der Nähe zusätzlich 150/175/225 magischen Schaden."
-        ],
-        "bonus_ru": [
-            "Когда владелец наносит урон с помощью умения, первая пораженная цель и до 3 врагов поблизости дополнительно получают 150/175/225 магического урона."
-        ],
-        "bonus_ch": [
-            "技能命中时，对附近最多3个敌人造成150/175/225点魔法伤害。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı, yeteneğiyle hasar verdiğinde isabet alan ilk hedef ve yakınındaki en fazla 3 rakip fazladan 150/175/225 Büyü Hasarı alır."
-        ],
         "bonus_vi": [
             "Mỗi kỹ năng gây thêm 150/175/225 sát thương lan."
-        ],
-        "bonus_fr": ["Quand le porteur lance son sort, la première cible touchée subit des dégats magiques et jusqu\\'à 3 ennemis proches subissent 150/175/225 points de dégats magiques supplémentaires"
-        ],
-        "bonus_pl": [
-            "Kiedy posiadacz tego przedmiotu rzuca zaklęcie, pierwszy cel, któremu zadano obrażenia magiczne, i maksymalnie 3 pobliskich wrogów otrzymują dodatkowo 150/175/225 pkt. obrażeń magicznych."
-        ],
-        "bonus_it": [
-            "Spells deal 150/175/225 splash damage on hit."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2555,17 +1220,8 @@
         ]
     },
     {
-        "name":"Luden\\'s Echo",
-        "name_es": "Eco de Luden",
-        "name_pt": "Eco de Luden",
-        "name_de": "Ludens Echo",
-        "name_ru": "Эхо Людена",
-        "name_ch": "卢登的回声",
-        "name_tr":"Luden\\'in Feryadı",
+        "name": "Luden\\'s Echo",
         "name_vi": "Vọng âm Luden",
-        "name_fr": "Echo de Luden",
-        "name_pl": "Echo Luden",
-        "name_it": "Eco di Luden",
         "id": 34,
         "set": [
             3.5
@@ -2576,34 +1232,8 @@
         "bonus": [
             "When the wearer casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 200 magic damage."
         ],
-        "bonus_es": [
-            "Los hechizos infligen 150/175/225 de daño por salpicadura al impactar."
-        ],
-        "bonus_pt": [
-            "Habilidades causam 150/175/225 de dano de dispersão ao contato."
-        ],
-        "bonus_de": [
-            "Wenn der Träger mit seiner Fähigkeit Schaden verursacht, erleiden das erste getroffene Ziel sowie bis zu 4 Gegner in der Nähe zusätzlich 150/175/225 magischen Schaden."
-        ],
-        "bonus_ru": [
-            "Когда владелец наносит урон с помощью умения, первая пораженная цель и до 3 врагов поблизости дополнительно получают 150/175/225 магического урона."
-        ],
-        "bonus_ch": [
-            "技能命中时，对附近最多3个敌人造成150/175/225点魔法伤害。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı, yeteneğiyle hasar verdiğinde isabet alan ilk hedef ve yakınındaki en fazla 3 rakip fazladan 150/175/225 Büyü Hasarı alır."
-        ],
         "bonus_vi": [
             "Mỗi kỹ năng gây thêm 150/175/225 sát thương lan."
-        ],
-        "bonus_fr": ["Quand le porteur lance son sort, la première cible touchée subit des dégats magiques et jusqu\\'à 3 ennemis proches subissent 150/175/225 points de dégats magiques supplémentaires"
-        ],
-        "bonus_pl": [
-            "Kiedy posiadacz tego przedmiotu rzuca zaklęcie, pierwszy cel, któremu zadano obrażenia magiczne, i maksymalnie 3 pobliskich wrogów otrzymują dodatkowo 150/175/225 pkt. obrażeń magicznych."
-        ],
-        "bonus_it": [
-            "Spells deal 150/175/225 splash damage on hit."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2622,16 +1252,7 @@
     },
     {
         "name": "Morellonomicon",
-        "name_es": "Morellonomicón",
-        "name_pt": "Morellonomicon",
-        "name_de": "Morellonomikon",
-        "name_ru": "Мореллономикон",
-        "name_ch": "莫雷洛秘典",
-        "name_tr": "Morellonomikon",
         "name_vi": "Quỷ thư Morello",
-        "name_fr": "Morellonomicon",
-        "name_pl": "Morellonomicon",
-        "name_it": "Morellonomicon",
         "id": 37,
         "set": [
             3,
@@ -2640,36 +1261,14 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 1,
-        "bonus": ["When the wearer deals damage with their spell, they burn the target, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
-        ],
-        "bonus_es": [
-            "Los hechizos infligen daño por quemadura equivalente al 25% de la vida máxima del enemigo a lo largo de 10 segundos e impiden que el objetivo se cure."
-        ],
-        "bonus_pt": [
-            "Habilidades causam dano de queimadura igual a 25% da Vida máxima do inimigo por 10s e impedem cura."
-        ],
-        "bonus_de": [
-            "Wenn der Träger mit seiner Fähigkeit Schaden verursacht, verbrennt er das Ziel und fügt ihm über 10 Sekunden absoluten Schaden in Höhe von 25% seines max Lebens zu. Für die Dauer der Verbrennung werden 50% jeglicher Heilung verhindert."
-        ],
-        "bonus_ru": [
-            "Когда владелец наносит урон с помощью умения, он поджигает цель, нанося чистый урон в размере 25% от ее максимального запаса здоровья в течение 10 сек. Пока действует эффект, эффективность лечения, применяемого к цели, уменьшается на 50%."
-        ],
-        "bonus_ch": [
-            "技能造成伤害时，在10秒内造成相当于目标最大生命值27％的灼伤，并阻止50%的治疗效果。"
-        ],
-        "bonus_tr": ["Kullanıcı, yeteneğiyle hasar verdiğinde hedefini yakarak ona 10 saniye boyunca azami canının 25% kadarına eşdeğer miktarda gerçek hasar verir. Yanma süresi boyunca tüm iyileştirme etkilerinin %50\\'lik kısmı engellenir."
+        "bonus": [
+            "When the wearer deals damage with their spell, they burn the target, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
         ],
         "bonus_vi": [
             "Kỹ năng thiêu đốt 25% máu tối đa kẻ địch trong 10 giây và ngăn hồi chúng máu."
         ],
-        "bonus_fr": ["Quand le porteur utilise sont sort, il brûle l\\'ennemi en infligeant des dégâts bruts équivalents à 25% des PV max de la cible pendant 10 sec et réduit les soins de 50%."
-        ],
-        "bonus_pl": [
-            "Kiedy posiadacz tego przedmiotu zadaje obrażenia za pomocą zaklęcia, podpala cel, zadając obrażenia nieuchronne w wysokości 25% maksymalnego zdrowia ofiary w ciągu 10 sek. W czasie działania podpalenia leczenie jest zmniejszone o 50%."
-        ],
-        "bonus_it": ["When the wearer deals damage with their spell, they burn the target, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
-        ],
-        "combine": ["Giant\\'s Belt",
+        "combine": [
+            "Giant\\'s Belt",
             "Needlessly Large Rod"
         ],
         "stats": [
@@ -2684,17 +1283,8 @@
         ]
     },
     {
-        "name":"Protector\\'s Chestguard",
-        "name_es": "Coraza del protector",
-        "name_pt": "Peitoral do Protetor",
-        "name_de": "Brustpanzer des Beschützers",
-        "name_ru": "Нагрудник Заступника",
-        "name_ch":"Protector\\'s Chestguard",
-        "name_tr":"Protector\\'s Chestguard",
+        "name": "Protector\\'s Chestguard",
         "name_vi": "Hộ vệ Tâm giáp",
-        "name_fr": "Plastron du protecteur",
-        "name_pl": "Napierśnik Protektora",
-        "name_it": "Armatura dei Protettori",
         "id": 78,
         "set": [
             3,
@@ -2706,38 +1296,12 @@
         "bonus": [
             "Wearer is also a Protector."
         ],
-        "bonus_es": [
-            "El portador obtiene el atributo Protector."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Protetor."
-        ],
-        "bonus_de": [
-            "Der Träger ist gleichzeitig ein Beschützer."
-        ],
-        "bonus_ru": [
-            "Носящий также Защитник."
-        ],
-        "bonus_ch": [
-            "Wearer is also a Protector."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Koruyucu."
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là Tướng Hộ Vệ."
         ],
-        "bonus_fr": [
-            "Le porteur devient aussi un protecteur."
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu zyskuję cechę protektor."
-        ],
-        "bonus_it": [
-            "Wearer is also a Protector."
-        ],
         "combine": [
-            "Spatula","Giant\\'s Belt"
+            "Spatula",
+            "Giant\\'s Belt"
         ],
         "stats": [
             {
@@ -2748,16 +1312,7 @@
     },
     {
         "name": "Quicksilver",
-        "name_es": "Fajín",
-        "name_pt": "Mercúrio",
-        "name_de": "Quecksilber",
-        "name_ru": "Стремительное серебро",
-        "name_ch": "水银",
-        "name_tr": "Cıva",
         "name_vi": "Áo choàng thủy ngân",
-        "name_fr": "Mercure",
-        "name_pl": "Żywe Srebro",
-        "name_it": "Argento vivo",
         "id": 69,
         "set": [
             3,
@@ -2769,34 +1324,7 @@
         "bonus": [
             "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
         ],
-        "bonus_es": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_pt": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_de": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_ru": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_ch": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_tr": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
         "bonus_vi": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_fr": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_pl": [
-            "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        ],
-        "bonus_it": [
             "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
         ],
         "combine": [
@@ -2815,17 +1343,8 @@
         ]
     },
     {
-        "name":"Rabadon\\'s Deathcap",
-        "name_es": "Sombrero mortal de Rabadon",
-        "name_pt": "Capuz da Morte de Rabadon",
-        "name_de": "Rabadons Todeshaube",
-        "name_ru": "Смертельная шляпа Рабадона",
-        "name_ch": "灭世者的死亡帽",
-        "name_tr":"Rabadon\\'un Şapkası",
+        "name": "Rabadon\\'s Deathcap",
         "name_vi": "Mũ phù thủy Rabadon",
-        "name_fr": "Coiffe de Rabadon",
-        "name_pl": "Zabójczy Kapelusz Rabadona",
-        "name_it": "Copricapo di Rabadon",
         "id": 33,
         "set": [
             3,
@@ -2834,35 +1353,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 2,
-        "bonus": ["Wearer\\'s Spell Power stat is amplified by 50%"
-        ],
-        "bonus_es": [
-            "El poder de hechizo del portador aumenta un 75%."
-        ],
-        "bonus_pt": [
-            "O atributo de Poder de Habilidade do usuário é amplificado em 75%."
-        ],
-        "bonus_de": [
-            "Der Träger erhält +50% Fähigkeitsschadenssteigerung (Alle Fähigkeitsschadensquellen sind 50% effektiver.)"
-        ],
-        "bonus_ru": [
-            "Владелец получает +70% повышения силы умений"
-        ],
-        "bonus_ch": [
-            "穿用者的法术强度数值提高50％。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı +50% Yetenek Gücü Artışı kazanır."
+        "bonus": [
+            "Wearer\\'s Spell Power stat is amplified by 50%"
         ],
         "bonus_vi": [
             "Sát thương kỹ năng mạnh hơn 50% từ mọi nguồn."
-        ],
-        "bonus_fr": ["Octroie +50% d\\'amplification de la puissance des sorts"
-        ],
-        "bonus_pl": [
-            "Moc zaklęć posiadacza tego przedmiotu jest zwiększona o 50%."
-        ],
-        "bonus_it": ["Wearer\\'s Spell Power stat is amplified by 50%."
         ],
         "combine": [
             "Needlessly Large Rod",
@@ -2877,16 +1372,7 @@
     },
     {
         "name": "Rapid Firecannon",
-        "name_es": "Cañón de fuego rápido",
-        "name_pt": "Canhão Fumegante",
-        "name_de": "Schnellfeuer-Geschütz",
-        "name_ru": "Скорострельная пушка",
-        "name_ch": "疾射火炮",
-        "name_tr": "Bombardıman Topu",
         "name_vi": "Đại bác liên thanh",
-        "name_fr": "Canon ultrarapide",
-        "name_pl": "Ognista Armata",
-        "name_it": "Archibugio a ripetizione",
         "id": 22,
         "set": [
             3
@@ -2897,34 +1383,7 @@
         "bonus": [
             "Attack Range is triple."
         ],
-        "bonus_es": [
-            "Attack Range is triple."
-        ],
-        "bonus_pt": [
-            "Attack Range is triple."
-        ],
-        "bonus_de": [
-            "Attack Range is triple."
-        ],
-        "bonus_ru": [
-            "Attack Range is triple."
-        ],
-        "bonus_ch": [
-            "Attack Range is triple."
-        ],
-        "bonus_tr": [
-            "Attack Range is triple."
-        ],
         "bonus_vi": [
-            "Attack Range is triple."
-        ],
-        "bonus_fr": [
-            "Attack Range is triple."
-        ],
-        "bonus_pl": [
-            "Attack Range is triple."
-        ],
-        "bonus_it": [
             "Attack Range is triple."
         ],
         "combine": [
@@ -2940,16 +1399,7 @@
     },
     {
         "name": "Rapid Firecannon",
-        "name_es": "Cañón de fuego rápido",
-        "name_pt": "Canhão Fumegante",
-        "name_de": "Schnellfeuer-Geschütz",
-        "name_ru": "Скорострельная пушка",
-        "name_ch": "疾射火炮",
-        "name_tr": "Bombardıman Topu",
         "name_vi": "Đại bác liên thanh",
-        "name_fr": "Canon ultrarapide",
-        "name_pl": "Ognista Armata",
-        "name_it": "Archibugio a ripetizione",
         "id": 22,
         "set": [
             3.5
@@ -2960,34 +1410,7 @@
         "bonus": [
             "Attack Range is tripled and attacks cannot miss."
         ],
-        "bonus_es": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_pt": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_de": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_ru": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_ch": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_tr": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
         "bonus_vi": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_fr": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_pl": [
-            "Attack Range is tripled and attacks cannot miss."
-        ],
-        "bonus_it": [
             "Attack Range is tripled and attacks cannot miss."
         ],
         "combine": [
@@ -3003,16 +1426,7 @@
     },
     {
         "name": "Rebel Medal",
-        "name_es": "Medalla rebelde",
-        "name_pt": "Medalha do Rebelde",
-        "name_de": "Rebellen-Medaille",
-        "name_ru": "Медаль повстанца",
-        "name_ch": "Rebel Medal",
-        "name_tr": "Rebel Medal",
         "name_vi": "Huy hiệu Nổi Loạn",
-        "name_fr": "Médaille du rebel",
-        "name_pl": "Medal Buntownika",
-        "name_it": "Medaglia dei Ribelli",
         "id": 58,
         "set": [
             3,
@@ -3024,35 +1438,8 @@
         "bonus": [
             "Wearer is also a Rebel."
         ],
-        "bonus_es": [
-            "El portador también es un Rebelde."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Rebelde."
-        ],
-        "bonus_de": [
-            "Der Träger ist gleichzeitig ein Rebell."
-        ],
-        "bonus_ru": [
-            "Носящий также Повстанец."
-        ],
-        "bonus_ch": [
-            "Wearer is also a Rebel."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Semavi."
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là Tướng Nổi Loạn."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un rebelle."
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu zyskuje cechę buntownik."
-        ],
-        "bonus_it": [
-            "Wearer is also a Rebel."
         ],
         "combine": [
             "Spatula",
@@ -3067,16 +1454,7 @@
     },
     {
         "name": "Red Buff",
-        "name_es": "Mejora roja",
-        "name_pt": "Efeito Vermelho",
-        "name_de": "Roter Buff",
-        "name_ru": "Красное усиление",
-        "name_ch": "红buff",
-        "name_tr": "Kırmızı Güçlendirme",
         "name_vi": "Bùa đỏ",
-        "name_fr": "Buff rouge",
-        "name_pl": "Czerwone Wzmocnienie",
-        "name_it": "Buff rosso",
         "id": 57,
         "set": [
             3,
@@ -3085,37 +1463,15 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 1,
-        "bonus": ["Wearer\\'s Basic Attacks burn the target on-hit, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
-        ],
-        "bonus_es": [
-            "Los ataques infligen daño por quemadura equivalente al 25% de la vida máxima del enemigo a lo largo de 10s e impiden que el objetivo se cure."
-        ],
-        "bonus_pt": [
-            "Ataques causam dano de queimadura igual a 25% da Vida máxima do inimigo por 10s e impedem cura."
-        ],
-        "bonus_de": [
-            "Die normalen Angriffe des Träger verbrennen das Ziel, wodurch es über 10 Sekunden absoluten Schaden in Höhe von 25% seines max. Lebens erleidet. Für die Dauer der Verbrennung werden 50% jeglicher Heilung verhindert."
-        ],
-        "bonus_ru": [
-            "При попадании автоатаки владельца поджигают цель, нанося чистый урон в размере 25% от ее максимального запаса здоровья в течение 10 сек. Пока действует эффект, эффективность лечения, применяемого к цели, уменьшается на 50%."
-        ],
-        "bonus_ch": [
-            "攻击在10秒钟内造成灼伤，并造成敌人最大生命值的25％，并且无法恢复生命。"
-        ],
-        "bonus_tr": ["Kullanıcının normal saldırıları hedefini yakarak ona 10 saniye boyunca azami canının 25% kadarına eşdeğer miktarda gerçek hasar verir. Yanma süresi boyunca tüm iyileştirme etkilerinin %50\\'lik kısmı engellenir."
+        "bonus": [
+            "Wearer\\'s Basic Attacks burn the target on-hit, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
         ],
         "bonus_vi": [
             "Đòn đánh thiêu đốt 25% máu tối đa đối phương trong 10 giây và ngăn chúng hồi máu."
         ],
-        "bonus_fr": ["Quand le porteur utilise ses attaques de base, il brûle l\\'ennemi en infligeant des dégâts bruts équivalents à 25% des PV max de la cible pendant 10 sec et réduit les soins de 50%."
-        ],
-        "bonus_pl": [
-            "Ataki podstawowe posiadacza tego przedmiotu przy trafieniu podpalają cel, zadając mu obrażenia nieuchronne w wysokości 25% jego maksymalnego zdrowia w ciągu 10 sek. W czasie działania podpalenia leczenie będzie zmniejszone o 50%."
-        ],
-        "bonus_it": ["Wearer\\'s Basic Attacks burn the target on-hit, dealing 25% of the target\\'s Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
-        ],
         "combine": [
-            "Chain Vest","Giant\\'s Belt"
+            "Chain Vest",
+            "Giant\\'s Belt"
         ],
         "stats": [
             {
@@ -3130,16 +1486,7 @@
     },
     {
         "name": "Redemption",
-        "name_es": "Redención",
-        "name_pt": "Redemption",
-        "name_de": "Befreiungsschlag",
-        "name_ru": "Искупление",
-        "name_ch": "救赎",
-        "name_tr": "Kefaret",
         "name_vi": "Dây chuyền chuộc tội",
-        "name_fr": "Rédemption",
-        "name_pl": "Odkupienie",
-        "name_it": "Redenzione",
         "id": 47,
         "set": [
             3,
@@ -3151,37 +1498,11 @@
         "bonus": [
             "When the wearer dies, allies are healed for 800 Health."
         ],
-        "bonus_es": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_pt": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_de": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_ru": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_ch": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_tr": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
         "bonus_vi": [
             "When the wearer dies, allies are healed for 800 Health."
         ],
-        "bonus_fr": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_pl": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "bonus_it": [
-            "When the wearer dies, allies are healed for 800 Health."
-        ],
-        "combine": ["Giant\\'s Belt",
+        "combine": [
+            "Giant\\'s Belt",
             "Tear of the Goddess"
         ],
         "stats": [
@@ -3196,17 +1517,8 @@
         ]
     },
     {
-        "name":"Runaan\\'s Hurricane",
-        "name_es": "Huracán de Runaan",
-        "name_pt": "Furacão de Runaan",
-        "name_de": "Runaans Wirbelsturm",
-        "name_ru": "Ураган Рунаан",
-        "name_ch": "卢安娜的飓风",
-        "name_tr":"Runaan\\'ın Kasırgası",
+        "name": "Runaan\\'s Hurricane",
         "name_vi": "Cuồng cung Runaan",
-        "name_fr": "Ouragan de Runaan",
-        "name_pl": "Huragan Runaana",
-        "name_it": "Uragano di Runaan",
         "id": 26,
         "set": [
             3,
@@ -3215,34 +1527,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 3,
-        "bonus": ["Basic Attacks fire a bolt at another nearby enemy, dealing 70% of the wearer\\'s Attack Damage and applying on-hit effects."
-        ],
-        "bonus_es": [
-            "Los ataques básicos disparan un proyectil adicional a otro enemigo cercano que inflige un 70% del daño de ataque del portador y aplica efectos de impacto."
-        ],
-        "bonus_pt": [
-            "Ataques básicos disparam um projétil adicional em outro inimigo próximo, causando 70% do Dano de Ataque do usuário e aplicando efeitos ao contato."
-        ],
-        "bonus_de": [
-            "Normale Angriffe feuern ein zusätzliches Geschoss auf einen weiteren Gegner in der Nähe, das Schaden in Höhe von 70% des Angriffsschadens des Trägers verursacht und Treffereffekte auslöst"
-        ],
-        "bonus_ru": [
-            "Автоатаки выпускают дополнительный снаряд в другого врага поблизости, нанося урон в размере 70% от силы атаки владельца и накладывая эффекты при попадании."
-        ],
-        "bonus_ch": [
-            "普攻向附近的另一个敌人发射一枚额外的弹体，造成携带者70％的攻击力的伤害并附带攻击特效。"
-        ],
-        "bonus_tr": ["Basic Attacks fire a bolt at another nearby enemy, dealing 70% of the wearer\\'s Attack Damage and applying on-hit effects."
+        "bonus": [
+            "Basic Attacks fire a bolt at another nearby enemy, dealing 70% of the wearer\\'s Attack Damage and applying on-hit effects."
         ],
         "bonus_vi": [
             "Đòn đánh thường có thêm chớp lửa gây sát thương bằng 70% sát thương vật lí và đi kèm hiệu ứng đòn đánh lên đối phương cạnh đó."
-        ],
-        "bonus_fr": ["Les attaques de base tirent un projectile sur un autre ennemi proche infligeant 70% des dégats d\\'attaque et appliquant ses effets à l\\'impact"
-        ],
-        "bonus_pl": [
-            "Podstawowe Ataki wystrzeliwują dodatkowe dwa pociski atakujące losowych wrogich bohaterów zadając 70% obrażeń i nakładając efekty przy trafieniu."
-        ],
-        "bonus_it": ["Basic Attacks fire a bolt at another nearby enemy, dealing 70% of the wearer\\'s Attack Damage and applying on-hit effects."
         ],
         "combine": [
             "Negatron Cloak",
@@ -3260,17 +1549,8 @@
         ]
     },
     {
-        "name":"Seraph\\'s Embrace",
-        "name_es": "Abrazo del serafín",
-        "name_pt": "Abraço de Seraph",
-        "name_de": "Stab des Erzengels",
-        "name_ru": "Объятья серафима",
-        "name_ch": "炽天使之拥",
-        "name_tr":"Seraph\\'ın Şefkati",
+        "name": "Seraph\\'s Embrace",
         "name_vi": "Quyền trượng đại thiên sứ",
-        "name_fr": "Entreinte du séraphin",
-        "name_pl": "Uścisk Serafina",
-        "name_it": "Abbraccio serafico",
         "id": 44,
         "set": [
             3
@@ -3281,35 +1561,8 @@
         "bonus": [
             "Wearer regains 20 mana after spellcast"
         ],
-        "bonus_es": [
-            "El portador recupera 20 de maná después de lanzar una habilida."
-        ],
-        "bonus_pt": [
-            "Usuário recobra 20 de mana depois da conjuração da habilidade."
-        ],
-        "bonus_de": [
-            "Wenn der Träger seine Fähigkeit eingesetzt hat, stellt er 20 Mana wieder her."
-        ],
-        "bonus_ru": [
-            "После применения умения владелец восстанавливает 20 маны."
-        ],
-        "bonus_ch": [
-            "携带者每次施法后，回复20点法力值。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı, yeteneğini kullandıktan sonra 20 Mana yeniler."
-        ],
         "bonus_vi": [
             "Sau khi thi triển kỹ năng,chủ sở hữu hồi 20 năng lượng."
-        ],
-        "bonus_fr": [
-            "Après avoir lancé un sort, le porteur gagne 20 points de mana"
-        ],
-        "bonus_pl": [
-            "Po rzuceniu zaklęcia posiadacz tego przedmiotu zyskuje 20 pkt. many."
-        ],
-        "bonus_it": [
-            "After casting their spell, the wearer restores 20 Mana."
         ],
         "combine": [
             "Tear of the Goddess",
@@ -3324,16 +1577,7 @@
     },
     {
         "name": "Shroud of Stillness",
-        "name_es": "Velo de sosiego",
-        "name_pt": "Manto da Imobilidade",
-        "name_de": "Tuch der Stille",
-        "name_ru": "Shroud of Stillness",
-        "name_ch": "Shroud of Stillness",
-        "name_tr": "Shroud of Stillness",
         "name_vi": "Áo choàng tĩnh lặng",
-        "name_fr":"Linceul d\\'apaisement",
-        "name_pl": "Całun Bezruchu",
-        "name_it": "Velo della Fermezza",
         "id": 59,
         "set": [
             3,
@@ -3342,33 +1586,11 @@
         "tier_up": false,
         "tier_down": false,
         "tier": 3,
-        "bonus": ["When combat begins, shoots a beam straight ahead that delays affected enemies\\' first spellcast, increasing their max Mana by 40% until they cast."
-        ],
-        "bonus_es": [
-            "Cuando empieza el combate, dispara un rayo en línea recta que retrasa el primer lanzamiento de las habilidades de los enemigos afectados, ya que aumenta su maná un 40% hasta que realizan el lanzamiento."
-        ],
-        "bonus_pt": [
-            "No início do combate, lança à sua frente um raio que atrasa a primeira conjuração do inimigo afetado, aumentando a Mana máxima dele em 40% até a conjuração."
-        ],
-        "bonus_de": [
-            "Ein Strahl schießt zu Kampfbeginn geradeaus und verzögert den ersten Zauber der getroffenen Gegner und erhöht ihr max. Mana um 40% bis zu ihrem ersten Zauber."
-        ],
-        "bonus_ru": [
-            "Когда начинается бой, выстреливает лучом прямо вперед, который замедляет применение первой способности пораженных врагов, увеличивая их максимальный запас маны на 40%, пока они не используют способность."
-        ],
-        "bonus_ch": ["When combat begins, shoots a beam straight ahead that delays affected enemies\\' first spellcast, increasing their max Mana by 40% until they cast."
-        ],
-        "bonus_tr": ["When combat begins, shoots a beam straight ahead that delays affected enemies\\' first spellcast, increasing their max Mana by 40% until they cast."
+        "bonus": [
+            "When combat begins, shoots a beam straight ahead that delays affected enemies\\' first spellcast, increasing their max Mana by 40% until they cast."
         ],
         "bonus_vi": [
             "Khi bắt đầu trận đấu,bắn 1 tia sáng theo đường thẳng,ngăn kẻ địch trúng phải sử dụng kỹ năng đồng thời tăng năng lượng cần để tung chiêu của mục tiêu thêm 40%."
-        ],
-        "bonus_fr": ["Au début du combat, lance un rayon droit devant, ce qui retarde le premier sort des ennemis touchés en augmentant leur mana max de 40% jusqu\\'au lancement du sort."
-        ],
-        "bonus_pl": [
-            "Na początku walki posiadacz tego przedmiotu wystrzeliwuje przed siebie promień, który wpływa na pierwsze rzucenie zaklęcia przez wrogów objętych jego działaniem i zwiększa ich maksymalną manę o 40%, dopóki nie rzucą zaklęcia."
-        ],
-        "bonus_it": ["When combat begins, shoots a beam straight ahead that delays affected enemies\\' first spellcast, increasing their max Mana by 40% until they cast."
         ],
         "combine": [
             "Chain Vest",
@@ -3383,16 +1605,7 @@
     },
     {
         "name": "Spear of Shojin",
-        "name_es": "Lanza de Shojin",
-        "name_pt": "Lança de Shojin",
-        "name_de": "Speer von Shojin",
-        "name_ru": "Копье Седзина",
-        "name_ch": "朔极之矛",
-        "name_tr":"Shojin\\'in Mızrağı",
         "name_vi": "Ngọn giáo Shojin",
-        "name_fr": "Lance de Shojin",
-        "name_pl": "Włócznia Shojin",
-        "name_it": "Lancia di Shojin",
         "id": 14,
         "set": [
             3,
@@ -3404,34 +1617,8 @@
         "bonus": [
             "After casting, wearer gains 18% of its max Mana per attack"
         ],
-        "bonus_es": [
-            "Tras el lanzamiento, el portador obtiene un 18% de su maná máximo por ataque."
-        ],
-        "bonus_pt": [
-            "Depois de conjurar, o usuário recebe 18% da sua mana máxima por ataque."
-        ],
-        "bonus_de": [
-            "Wenn der Träger seine Fähigkeit eingesetzt hat, stellen seine normalen Angriffe 18% seines max. Manas wieder her."
-        ],
-        "bonus_ru": [
-            "После применения умения автоатаки владельца восстанавливают 18% от максимального запаса маны."
-        ],
-        "bonus_ch": [
-            "使用技能后，携带者的每次攻击回复18％的最大法力值。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı, yeteneğini kullandıktan sonra her bir normal saldırısıyla azami manasının 18% kadarını yeniler."
-        ],
         "bonus_vi": [
             "Sau khi dùng phép, đòn đánh hồi 18% năng lượng tối đa."
-        ],
-        "bonus_fr": [
-            "Après avoir lancé un sort, le porteur gagne 20 points de mana."
-        ],
-        "bonus_pl": [
-            "Po rzuceniu zaklęcia, posiadacz przedmiotu otrzymuje 18% swojej maksymalnej many co atak."
-        ],
-        "bonus_it": ["Dopo aver lanciato un\\'incantesimo, ottieni 18% del mana massimo per ogni attacco."
         ],
         "combine": [
             "B.F. Sword",
@@ -3449,17 +1636,8 @@
         ]
     },
     {
-        "name":"Star Guardian\\'s Charm",
-        "name_es": "Amuleto de las guardianas",
-        "name_pt": "Pingente da Guardiã Estelar",
-        "name_de": "Sternenwächter-Amulett",
-        "name_ru": "Кулон Звёздного Защитника",
-        "name_ch":"Star Guardian\\'s Charm",
-        "name_tr":"Star Guardian\\'s Charm",
+        "name": "Star Guardian\\'s Charm",
         "name_vi": "Bùa Vệ Binh Tinh Tú",
-        "name_fr": "Charme du gardien des étoiles",
-        "name_pl": "Urok Czarodziejki Gwiazd",
-        "name_it": "Ciondolo delle Guardiane stellari",
         "id": 48,
         "set": [
             3,
@@ -3471,35 +1649,8 @@
         "bonus": [
             "Wearer is also a Star Guardian."
         ],
-        "bonus_es": [
-            "El portador obtiene el atributo Guardiana de las estrellas."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Guardiã Estelar."
-        ],
-        "bonus_de": [
-            "Der Träger erhält das Attribut „Kosmisch“."
-        ],
-        "bonus_ru": [
-            "Носящий также Вечный."
-        ],
-        "bonus_ch": [
-            "Wearer is also a Star Guardian."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Semavi."
-        ],
         "bonus_vi": [
             "Chủ sở hữu đồng thời là Tướng Vệ Binh Tinh Tú."
-        ],
-        "bonus_fr": [
-            "Le porteur devient aussi un Gardien des étoiles"
-        ],
-        "bonus_pl": [
-            "Posiadacz tego przedmiotu jest Czarodziejką Gwiazd."
-        ],
-        "bonus_it": [
-            "Wearer is also a Star Guardian."
         ],
         "combine": [
             "Spatula",
@@ -3514,16 +1665,7 @@
     },
     {
         "name": "Statikk Shiv",
-        "name_es": "Puñal de Statikk",
-        "name_pt": "Faca de Statikk",
-        "name_de": "Statikks Stich",
-        "name_ru": "Заточка Статикка",
-        "name_ch": "斯塔缇克电刃",
-        "name_tr": "Statikk Hançer",
         "name_vi": "Dao điện Statikk",
-        "name_fr": "Poignard de Statikk",
-        "name_pl": "Kosa Statikka",
-        "name_it": "Pugnale di Statikk",
         "id": 24,
         "set": [
             3,
@@ -3535,35 +1677,8 @@
         "bonus": [
             "Every third Basic Attack from the wearer deals 80 magic damage to 3/4/5 enemies."
         ],
-        "bonus_es": [
-            "Cada tercer ataque inflige 80 de daño mágico por salpicadura para 3/4/5 campeões adicionais."
-        ],
-        "bonus_pt": [
-            "O 3º ataque causa 80 de Dano Mágico de dispersão."
-        ],
-        "bonus_de": [
-            "Jeder dritte normale Angriff des Trägers fügt 3/4/5 zusätzlichen Gegnern 80 magischen Schaden zu."
-        ],
-        "bonus_ru": [
-            "Каждая третья автоатака владельца наносит 80 магического урона 3 врагам."
-        ],
-        "bonus_ch": [
-            "每3次攻击都会对3/4/5个额外目标造成80飞溅的魔法伤害。"
-        ],
-        "bonus_tr": [
-            "Kullanıcının her üçüncü normal saldırısı 3/4/5 rakibe 80 Büyü Hasarı verir."
-        ],
         "bonus_vi": [
             "Mỗi đòn đánh thứ 3 gây 80 sát thương phép lan tối đa 3/4/5 kẻ địch."
-        ],
-        "bonus_fr": [
-            "Toutes les 3 attaques de base, le porteur inflige 80 points de dégats magiques a 3/4/5 ennemis"
-        ],
-        "bonus_pl": [
-            "Każdy co trzeci atak zadaje 80 obrażeń magicznym 3/4/5 wrogom."
-        ],
-        "bonus_it": [
-            "Ogni terzo attacco infligge 80 danni magici a 3/4/5 bersagli"
         ],
         "combine": [
             "Recurve Bow",
@@ -3582,16 +1697,7 @@
     },
     {
         "name": "Sword Breaker",
-        "name_es": "Rompeespadas",
-        "name_pt": "Quebra-espada",
-        "name_de": "Schwertbrecher",
-        "name_ru": "Мечелом",
-        "name_ch": "折剑者",
-        "name_tr": "Kılıç Kıran",
         "name_vi": "Phá kiếm",
-        "name_fr":"Briseur d\\'épée",
-        "name_pl": "Łamacz Mieczy",
-        "name_it": "Spaccaspada",
         "id": 56,
         "set": [
             3,
@@ -3603,35 +1709,8 @@
         "bonus": [
             "25% chance to disarm for 3 seconds"
         ],
-        "bonus_es": [
-            "Los ataques tienen probabilidad del 25% de desarmar durante 3 segundos."
-        ],
-        "bonus_pt": [
-            "Ataques têm 25% chance de desarmar por 3 segundos."
-        ],
-        "bonus_de": [
-            "Bei normalen Angriffen des Trägers besteht eine Chance von 25%, das Ziel 3 Sekunden lang zu entwaffnen, sodass der Gegner nicht normal angreifen kann."
-        ],
-        "bonus_ru": [
-            "У автоатак владельца есть 25% шанс разоружить цель на 3 сек., лишив ее возможности использовать автоатаки."
-        ],
-        "bonus_ch": [
-            "普攻命中后，有25％的几率缴械目标，让敌人停止攻击3秒。"
-        ],
-        "bonus_tr": [
-            "Kullanıcının normal saldırıları 25% ihtimalle ve 3 saniyeliğine hedefi silahsız bırakarak bu rakibin normal saldırı yapmasını engeller."
-        ],
         "bonus_vi": [
             "Đòn đánh có 25% tỷ lệ giải giới."
-        ],
-        "bonus_fr": [
-            "Les attaques de bases ont 25% de chances de désarmer leur cible pendant 3 secondes."
-        ],
-        "bonus_pl": [
-            "Ataki podstawowe posiadacza tego przedmiotu mają 25% szansy na rozbrojenie celu na 3 sek., przez co wróg nie może wykonywać ataków podstawowych."
-        ],
-        "bonus_it": [
-            "Attacks have a 25% chance to disarm for 3 seconds."
         ],
         "combine": [
             "Chain Vest",
@@ -3649,17 +1728,8 @@
         ]
     },
     {
-        "name":"Thief\\'s Gloves",
-        "name_es": "Guantes de ladrón",
-        "name_pt": "Luvas do Ladrão",
-        "name_de": "Handschuhe des Diebes",
-        "name_ru": "Перчатки вора",
-        "name_ch": "窃贼手套",
-        "name_tr": "Hırsız Eldiveni",
+        "name": "Thief\\'s Gloves",
         "name_vi": "Bao tay đạo tặc",
-        "name_fr": "Gants de voleur",
-        "name_pl": "Rękawica Złodzieja",
-        "name_it": "Guanti del ladro",
         "id": 99,
         "set": [
             3,
@@ -3671,34 +1741,8 @@
         "bonus": [
             "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
         ],
-        "bonus_es": [
-            "Este objeto ocupa los tres huecos para objetos. Al comenzar la ronda, copia dos objetos al azar."
-        ],
-        "bonus_pt": [
-            "Esse item preenche os três espaços de itens. No começo da rodada, copia dois itens aleatórios."
-        ],
-        "bonus_de": [
-            "Zu Beginn jeder Planungsphase rüstet der Träger 2 temporäre Gegenstände aus. Temporäre Gegenstände werden abhängig von deiner Stufe stärker."
-        ],
-        "bonus_ru": [
-            "В начале каждой фазы планирования владелец получает 2 временных предмета, качество которых зависит от уровня игрока."
-        ],
-        "bonus_ch": [
-            "该物品占据了三个物品插槽。在回合开始时，随机装备两个装备。装备品质取决于玩家等级。"
-        ],
-        "bonus_tr": [
-            "Kullanıcı her planlama evresinin başında 2 geçici eşya kuşanır. Geçici eşyaların gücü oyuncu seviyesine bağlı olarak artar."
-        ],
         "bonus_vi": [
             "Trang bị này chiếm 3 ô đồ. Mỗi khi vòng đấu bắt đầu, nhận thêm 2 trang bị ngẫu nhiên."
-        ],
-        "bonus_fr": ["(Nécéssite les trois places d\\'objets disponibles). Au début de chaque combat, le porteur s\\'équipe de 2 objets aléatoires et qui dure jusqu\\'à la fin du tour."
-        ],
-        "bonus_pl": [
-            "Na początku każdej fazy planowania posiadacz tego przedmiotu otrzymuje 2 tymczasowe przedmioty. Moc tymczasowych przedmiotów zwiększa się wraz z twoim poziomem.[Zajmuje trzy miejsca na przedmioty]"
-        ],
-        "bonus_it": [
-            "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
         ],
         "combine": [
             "Sparring Gloves",
@@ -3716,17 +1760,8 @@
         ]
     },
     {
-        "name":"Titan\\'s Resolve",
-        "name_es": "Resolución titánica",
-        "name_pt": "Determinação Titânica",
-        "name_de": "Entschlossenheit des Titanen",
-        "name_ru": "Решимость титана",
-        "name_ch": "泰坦之甲",
-        "name_tr": "Titanın Azmi",
+        "name": "Titan\\'s Resolve",
         "name_vi": "Quyền năng khổng lồ",
-        "name_fr": "Détermination du Titan",
-        "name_pl": "Determinacja Kolosa",
-        "name_it": "Determinazione del titano",
         "id": 25,
         "set": [
             3,
@@ -3738,33 +1773,8 @@
         "bonus": [
             "When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 50 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size."
         ],
-        "bonus_es": [
-            "Cuando el portador recibe daño o inflige un golpe crítico, obtiene un 25% de daño adicional acumulable. Cuando se ha acumulado 2 veces, el portador aumenta de tamaño y obtiene 25 de armadura y resistencia mágica."
-        ],
-        "bonus_pt": [
-            "Quando o usuário sofrer dano ou causar um Acerto Crítico, ele recebe 2% de dano adicional acumulado. Acumula até 50 vezes, e então o usuário ganha 25 de Armadura e Resistência Mágica, além de aumentar de tamanho"
-        ],
-        "bonus_de": [
-            "Wenn der Träger einen kritischen Treffer zufügt oder zugefügt bekommt, erhält der 2% Schadenserhöhung. Bei 50 Stacks erhält er 25 Rüstung und Magieresistenz und wird größer."
-        ],
-        "bonus_ru": [
-            "Когда владелец получает урон или наносит критический удар, его урон увеличивается на 2% – вплоть до 100%. При накоплении 50 зарядов владелец получает 25 брони и сопротивления магии и увеличивается в размере. Эффект сбрасывается каждый раунд."
-        ],
-        "bonus_ch": [
-            "When the wearer is hit or inflicts a critical strike, they gain a 2% stacking damage bonus, up to 100%. At 50 stacks, the wearer gains 25 Armor and MR; and increases in size. Resets every round."
-        ],
-        "bonus_tr": ["Kullanıcı bir saldırıdan isabet aldığında veya kritik vuruş yaptığında en fazla %100\\'e ulaşan %2 Hasar İlavesi kazanır. 50 yüke ulaşıldığında, kullanıcı 25 Zırh ve Büyü Direnci kazanır. Ayrıca kullanıcının cüssesi büyür. Her tur sıfırlanır."
-        ],
         "bonus_vi": [
             "Mỗi khi chủ sở hữu nhận hoặc gây sát thương chí mạng, nhận 2% sát thương cộng dồn, tối đa 100%. Ở 50 cộng dồn, chủ sở hữu nhận 25 giáp và kháng phép, và tăng kích thước. Đặt lại mỗi trận đấu."
-        ],
-        "bonus_fr": ["Quand le porteur subit des dégats ou inflige un coup critique, il augmente ses dégats de 2% (effet cumulable 50 fois). Au maximum d\\'effets cumulés, le porteur gagne un bonus de 25 en armure et en résistance magique et il grandit"
-        ],
-        "bonus_pl": [
-            "Kiedy posiadacz tego przedmiotu zada lub otrzyma trafienie krytyczne, zyskuje kumulującą się premię do obrażeń równą 2%. Efekt kumuluje się do 50 razy, a gdy to nastąpi, posiadacz tego przedmiotu rośnie i zyskuje 25 pkt. pancerza i odporności na magię."
-        ],
-        "bonus_it": [
-            "quando il campione viene colpito o infiligge un colpo critico, guadagna un danno bonus cumulativo del 2%, fino al 100%. Al raggiungimento del 50, il campione ottiene 25 armatura e resistenza magica."
         ],
         "combine": [
             "Chain Vest",
@@ -3783,16 +1793,7 @@
     },
     {
         "name": "Trap Claw",
-        "name_es": "Garra trampa",
-        "name_pt": "Armadilha de Garra",
-        "name_de": "Fallenklaue",
-        "name_ru": "Ловушка-клешня",
-        "name_ch": "伏击之爪",
-        "name_tr": "Kapan Pençe",
         "name_vi": "Vuốt bẫy",
-        "name_fr": "Piège à pince",
-        "name_pl": "Szpon Pułapka",
-        "name_it": "Artiglio insidioso",
         "id": 79,
         "set": [
             3,
@@ -3804,37 +1805,11 @@
         "bonus": [
             "Start combat with a spell shield. Stun the champion that breaks it for 4 sec"
         ],
-        "bonus_es": [
-            "Al comenzar el combate, otorga un escudo de hechizos. Cuando desaparece, aturde al campeón que lo ha roto durante 4 segundos."
-        ],
-        "bonus_pt": [
-            "No começo do combate, receba um escudo de feitiço. Quando for quebrado, ele atordoa o Campeão que o quebrou durante 4 segundos"
-        ],
-        "bonus_de": [
-            "Der Träger erhält einen Schild, der die erste Fähigkeit blockt, die den Träger trifft. Der Gegner, der den Schild zerstört, wird 4 Sekunden lang betäubt"
-        ],
-        "bonus_ru": [
-            "Накладывает щит, который блокирует первое примененное к владельцу вражеское умение. Враг, уничтоживший щит, оглушается на 4 сек."
-        ],
-        "bonus_ch": [
-            "战斗开始时，获得法术护盾。当它破裂时，使打破护盾的敌人眩晕4秒。"
-        ],
-        "bonus_tr": [
-            "Kendisine isabet eden ilk rakip yeteneği engelleyen bir kalkan verir. Kalkanı kıran rakip 4 saniye sersemler."
-        ],
         "bonus_vi": [
             "Bắt đầu vòng đấu nhận một khiên. Kẻ địch phá vỡ khiên bị choáng 4 giây."
         ],
-        "bonus_fr": [
-            "Bloque le premier sort ennemi qui touche le porteur et étourdit le lanceur du sort pendant 4 sec."
-        ],
-        "bonus_pl": [
-            "Blokuje pierwsze zaklęcie, które trafiłoby posiadacza tego przedmiotu, i ogłusza rzucającego na 4 sek."
-        ],
-        "bonus_it": [
-            "Start combat with a spell shield. Stun the champion that breaks it for 4 sec"
-        ],
-        "combine": ["Giant\\'s Belt",
+        "combine": [
+            "Giant\\'s Belt",
             "Sparring Gloves"
         ],
         "stats": [
@@ -3849,17 +1824,8 @@
         ]
     },
     {
-        "name":"Warmog\\'s Armor",
-        "name_es": "Armadura de Warmog",
-        "name_pt": "Armadura de Warmog",
-        "name_de": "Warmogs Rüstung",
-        "name_ru": "Доспех Вармога",
-        "name_ch": "狂徒铠甲",
-        "name_tr":"Warmog\\'un Zırhı",
+        "name": "Warmog\\'s Armor",
         "name_vi": "Giáp máu Warmog",
-        "name_fr":"Warmog, l\\'Armure Vivante",
-        "name_pl": "Plemienna Zbroja",
-        "name_it": "Armatura di Warmog",
         "id": 77,
         "set": [
             3
@@ -3870,37 +1836,12 @@
         "bonus": [
             "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
         ],
-        "bonus_es": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_pt": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_de": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_ru": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_ch": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_tr": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
         "bonus_vi": [
             "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
         ],
-        "bonus_fr": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_pl": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "bonus_it": [
-            "The wearer regenerates 5% of their missing Health per second. (max of 150 HP/tick)"
-        ],
-        "combine": ["Giant\\'s Belt","Giant\\'s Belt"
+        "combine": [
+            "Giant\\'s Belt",
+            "Giant\\'s Belt"
         ],
         "stats": [
             {
@@ -3910,17 +1851,8 @@
         ]
     },
     {
-        "name":"Warmog\\'s Armor",
-        "name_es": "Armadura de Warmog",
-        "name_pt": "Armadura de Warmog",
-        "name_de": "Warmogs Rüstung",
-        "name_ru": "Доспех Вармога",
-        "name_ch": "狂徒铠甲",
-        "name_tr":"Warmog\\'un Zırhı",
+        "name": "Warmog\\'s Armor",
         "name_vi": "Giáp máu Warmog",
-        "name_fr":"Warmog, l\\'Armure Vivante",
-        "name_pl": "Plemienna Zbroja",
-        "name_it": "Armatura di Warmog",
         "id": 77,
         "set": [
             3.5
@@ -3931,37 +1863,12 @@
         "bonus": [
             "Grants 1000 health."
         ],
-        "bonus_es": [
-            "Grants 1000 health."
-        ],
-        "bonus_pt": [
-            "Grants 1000 health."
-        ],
-        "bonus_de": [
-            "Grants 1000 health."
-        ],
-        "bonus_ru": [
-            "Grants 1000 health."
-        ],
-        "bonus_ch": [
-            "Grants 1000 health."
-        ],
-        "bonus_tr": [
-            "Grants 1000 health."
-        ],
         "bonus_vi": [
             "Grants 1000 health."
         ],
-        "bonus_fr": [
-            "Grants 1000 health."
-        ],
-        "bonus_pl": [
-            "Grants 1000 health."
-        ],
-        "bonus_it": [
-            "Grants 1000 health."
-        ],
-        "combine": ["Giant\\'s Belt","Giant\\'s Belt"
+        "combine": [
+            "Giant\\'s Belt",
+            "Giant\\'s Belt"
         ],
         "stats": [
             {
@@ -3971,17 +1878,8 @@
         ]
     },
     {
-        "name":"Zeke\\'s Herald",
-        "name_es": "Heraldo de Zeke",
-        "name_pt": "Arauto de Zeke",
-        "name_de": "Zekes Herold",
-        "name_ru": "Вестник Зика",
-        "name_ch": "基克的先驱",
-        "name_tr":"Zeke\\'nin Sancağı",
+        "name": "Zeke\\'s Herald",
         "name_vi": "Cờ hiệu Zeke",
-        "name_fr": "Héraut de Zeke",
-        "name_pl":"Herold Zeke\\'a",
-        "name_it": "Araldo di Zeke",
         "id": 17,
         "set": [
             3,
@@ -3993,37 +1891,12 @@
         "bonus": [
             "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
         ],
-        "bonus_es": [
-            "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
-        ],
-        "bonus_pt": [
-            "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
-        ],
-        "bonus_de": [
-            "Zu Kampfbeginn erhalten der Träger und alle Verbündeten innerhalb von 1 Feldern in derselben Reihe für den Rest des Kampfes +30% Angriffstempo"
-        ],
-        "bonus_ru": [
-            "В начале боя владелец и его союзники в том же ряду в пределах 1 ячеек получают +30% скорости атаки до конца боя."
-        ],
-        "bonus_ch": [
-            "在战斗开始时，同一排1格内的友军获得+30％的攻速，直到本回合结束。"
-        ],
-        "bonus_tr": [
-            "Çatışmanın başında kullanıcı ve aynı yatay çizgi üstündeki 1 hücrelik bir alan içinde bulunan takım arkadaşları, çatışmanın geri kalanı boyunca 30% Saldırı Hızı kazanır."
-        ],
         "bonus_vi": [
             "Bắt đầu trận đấu, đồng minh cùng hàng tăng 30% tốc độ đánh đến hết vòng."
         ],
-        "bonus_fr": ["Au début du combat, le porteur et les alliés dans un rayong de 1 hexagones à gauche et à droite gagnent 30% de vitesse d\\'attaque tous le combat."
-        ],
-        "bonus_pl": [
-            "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
-        ],
-        "bonus_it": [
-            "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
-        ],
         "combine": [
-            "B.F. Sword","Giant\\'s Belt"
+            "B.F. Sword",
+            "Giant\\'s Belt"
         ],
         "stats": [
             {
@@ -4038,16 +1911,7 @@
     },
     {
         "name": "Zephyr",
-        "name_es": "Céfiro",
-        "name_pt": "Zéfiro",
-        "name_de": "Zephir",
-        "name_ru": "Западный ветер",
-        "name_ch": "灵风",
-        "name_tr": "Karayel",
         "name_vi": "Phong kiếm",
-        "name_fr": "Zéphyr",
-        "name_pl": "Wygnanie Zefira",
-        "name_it": "Zefiro",
         "id": 67,
         "set": [
             3,
@@ -4059,37 +1923,11 @@
         "bonus": [
             "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds."
         ],
-        "bonus_es": [
-            "Al comienzo del combate, destierra a un enemigo durante 7 segundos."
-        ],
-        "bonus_pt": [
-            "No início do combate, bane um inimigo por 7 segundos."
-        ],
-        "bonus_de": [
-            "Zu Kampfbeginn beschwört der Träger einen Wirbelwind auf der entgegengesetzten Seite der Arena, der den nächststehenden Gegner 7 Sekunden lang außer Gefecht setzt."
-        ],
-        "bonus_ru": [
-            "В начале боя владелец создает вихрь на противоположной части арены, который не дает ближайшему врагу участвовать в бою в течение 6 сек."
-        ],
-        "bonus_ch": [
-            "战斗开始时，将敌人放逐7秒。"
-        ],
-        "bonus_tr": [
-            "Çatışmanın başında kullanıcı arenanın karşı tarafında bir hortum oluşturarak en yakındaki rakibi 7 saniyeliğine çatışma dışı bırakır."
-        ],
         "bonus_vi": [
             "Bắt đầu vòng đấu, lốc một kẻ địch lên không trung trong 7 giây."
         ],
-        "bonus_fr": [
-            "Au début du combat, bannis un ennemi pedant 7 sec."
-        ],
-        "bonus_pl": [
-            "Na początku walki posiadacz tego przedmiotu przyzywa trąbę powietrzną po przeciwnej stronie areny, która usuwa najbliższego wroga z walki na 7 sek."
-        ],
-        "bonus_it": [
-            "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds."
-        ],
-        "combine": ["Giant\\'s Belt",
+        "combine": [
+            "Giant\\'s Belt",
             "Negatron Cloak"
         ],
         "stats": [
@@ -4104,17 +1942,8 @@
         ]
     },
     {
-        "name":"Zz\\'Rot Portal",
-        "name_es":"Portal Zz\\'Rot",
-        "name_pt":"Portal de Zz\\'rot",
-        "name_de":"Zz\\'Rot Portal",
-        "name_ru": "Портал ЗзРота",
-        "name_ch":"Zz\\'Rot Portal",
-        "name_tr":"Zz\\'Rot Portalı",
-        "name_vi":"Thông đạo Zz\\'Rot",
-        "name_fr":"Portail Zz\\'Rot",
-        "name_pl":"Portal Zz\\'Rot",
-        "name_it":"Portale di Zz\\'Rot",
+        "name": "Zz\\'Rot Portal",
+        "name_vi": "Thông đạo Zz\\'Rot",
         "id": 27,
         "set": [
             3,
@@ -4126,37 +1955,11 @@
         "bonus": [
             "When the wearer dies, a Construct with 1000/2000/3000 ★ Health aries to continue the fight."
         ],
-        "bonus_es": [
-            "Cuando el portador muere, emerge un avatar para continuar la lucha."
-        ],
-        "bonus_pt": [
-            "O usuário ganha a característica Estrela Negra."
-        ],
-        "bonus_de": [
-            "Der Träger ist gleichzeitig ein Sternenwächter."
-        ],
-        "bonus_ru": [
-            "Носящий также Звездный защитник."
-        ],
-        "bonus_ch": [
-            "When the wearer dies, a Construct with 1000/2000/3000 ★ Health aries to continue the fight."
-        ],
-        "bonus_tr": [
-            "Kullanıcı ayrıca bir Yıldız Muhafızı."
-        ],
         "bonus_vi": [
             "Khi chủ sở hữu chết,triệu hồi 1 Bọ Hư Không tiếp tục chiến đấu."
         ],
-        "bonus_fr": [
-            "Quand le porteur meurt, un golem se dresse pour continuer le combat"
-        ],
-        "bonus_pl": [
-            "Kiedy posiadacz tego przedmiotu zginie, pojawi się stwór, który będzie kontynuował walkę."
-        ],
-        "bonus_it": [
-            "When the wearer dies, a Construct with 1000/2000/3000 ★ Health aries to continue the fight."
-        ],
-        "combine": ["Giant\\'s Belt",
+        "combine": [
+            "Giant\\'s Belt",
             "Recurve Bow"
         ],
         "stats": [

@@ -1,16 +1,7 @@
 [
     {
         "name": "Astro",
-        "name_es": "Astro",
-        "name_pt": "Astro",
-        "name_de": "Astro",
-        "name_ru": "Astro",
-        "name_ch": "Astro",
-        "name_tr": "Astro",
         "name_vi": "Astro",
-        "name_fr": "Astro",
-        "name_pl": "Astro",
-        "name_it": "Astro",
         "set": [
             3.5
         ],
@@ -21,31 +12,13 @@
             {
                 "count": 3,
                 "value": "Astros have 30 reduced mana cost",
-                "value_es": "Astros have 30 reduced mana cost",
-                "value_pt": "Astros have 30 reduced mana cost",
-                "value_de": "Astros have 30 reduced mana cost",
-                "value_ru": "Astros have 30 reduced mana cost",
-                "value_ch": "Astros have 30 reduced mana cost",
-                "value_tr": "Astros have 30 reduced mana cost",
-                "value_vi": "Astros have 30 reduced mana cost",
-                "value_fr": "Astros have 30 reduced mana cost",
-                "value_pl": "Astros have 30 reduced mana cost",
-                "value_it": "Astros have 30 reduced mana cost"
+                "value_vi": "Astros have 30 reduced mana cost"
             }
         ]
     },
     {
         "name": "Battlecast",
-        "name_es": "Battlecast",
-        "name_pt": "Battlecast",
-        "name_de": "Battlecast",
-        "name_ru": "Battlecast",
-        "name_ch": "Battlecast",
-        "name_tr": "Battlecast",
         "name_vi": "Battlecast",
-        "name_fr": "Battlecast",
-        "name_pl": "Battlecast",
-        "name_it": "Battlecast",
         "set": [
             3.5
         ],
@@ -53,73 +26,28 @@
         "tier_down": false,
         "tier": 3,
         "effect": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_es": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_pt": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_de": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_ru": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_ch": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_tr": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
         "effect_vi": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_fr": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_pl": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
-        "effect_it": "Upon dealing or taking 10 instances of damage, Battlecast champions heal if below half health or deal damage to the nearest enemy if above half health.",
         "bonus": [
             {
                 "count": 2,
                 "value": "75 Healing or Damage",
-                "value_es": "75 Healing or Damage",
-                "value_pt": "75 Healing or Damage",
-                "value_de": "75 Healing or Damage",
-                "value_ru": "75 Healing or Damage",
-                "value_ch": "75 Healing or Damage",
-                "value_tr": "75 Healing or Damage",
-                "value_vi": "75 Healing or Damage",
-                "value_fr": "75 Healing or Damage",
-                "value_pl": "75 Healing or Damage",
-                "value_it": "75 Healing or Damage"
+                "value_vi": "75 Healing or Damage"
             },
             {
                 "count": 4,
                 "value": "150 Healing or Damage",
-                "value_es": "150 Healing or Damage",
-                "value_pt": "150 Healing or Damage",
-                "value_de": "150 Healing or Damage",
-                "value_ru": "150 Healing or Damage",
-                "value_ch": "150 Healing or Damage",
-                "value_tr": "150 Healing or Damage",
-                "value_vi": "150 Healing or Damage",
-                "value_fr": "150 Healing or Damage",
-                "value_pl": "150 Healing or Damage",
-                "value_it": "150 Healing or Damage"
+                "value_vi": "150 Healing or Damage"
             },
             {
                 "count": 6,
                 "value": "250 Healing or Damage",
-                "value_es": "250 Healing or Damage",
-                "value_pt": "250 Healing or Damage",
-                "value_de": "250 Healing or Damage",
-                "value_ru": "250 Healing or Damage",
-                "value_ch": "250 Healing or Damage",
-                "value_tr": "250 Healing or Damage",
-                "value_vi": "250 Healing or Damage",
-                "value_fr": "250 Healing or Damage",
-                "value_pl": "250 Healing or Damage",
-                "value_it": "250 Healing or Damage"
+                "value_vi": "250 Healing or Damage"
             }
         ]
     },
     {
         "name": "Celestial",
-        "name_es": "Celestial",
-        "name_pt": "Celestial",
-        "name_de": "Kosmisch",
-        "name_ru": "Небожитель",
-        "name_ch": "星神",
-        "name_tr": "Semavi",
         "name_vi": "Vũ Trụ",
-        "name_fr": "Être céleste",
-        "name_pl": "Astralny",
-        "name_it": "Celestiali",
         "set": [
             3
         ],
@@ -127,73 +55,28 @@
         "tier_down": false,
         "tier": 3,
         "effect": "All allies heal for a percent of the damage they deal with spells and attacks.",
-        "effect_es": "Todos los aliados se curan parte del daño que infligen con habilidades y ataques.",
-        "effect_pt": "Todos os aliados curam-se em parte do dano que causam com habilidades e ataques.",
-        "effect_de": "Alle Verbündeten heilen sich um einen Teil des Schadens, den sie durch Fähigkeiten und Angriffe verursachen.",
-        "effect_ru": "Все союзники исцеляются на процент наносимого урона от автоатак и умений.",
-        "effect_ch": "All allies heal for a percent of the damage they deal with spells and attacks.",
-        "effect_tr": "Tüm takım arkadaşları yetenek ve saldırılarla verdiği hasarın yüzdelik bir kısmını iyileşme olarak kazanır. (2) 10% İyileşme, (4) 20% İyileşme, (6) 45% İyileşme.",
         "effect_vi": "Tất cả đồng minh được hồi máu dựa trên % sát thương họ gây ra tính cả kỹ năng và đòn đánh thường.",
-        "effect_fr":"Tous les alliés se soignent en fonction du pourcentage de dégat qu\\'ils infligent.",
-        "effect_pl": "Wszyscy sojusznicy leczą się o procent obrażen zadanych z czarów i ataków.",
-        "effect_it": "tutti gli alleati si curano per una percentuale del danno che infliggono con incantesimi ed attacchi",
         "bonus": [
             {
                 "count": 2,
                 "value": "15% Healing",
-                "value_es": "15% de curación",
-                "value_pt": "15% de cura",
-                "value_de": "15% Heilung",
-                "value_ru": "15% Исцеления",
-                "value_ch": "15%治疗量",
-                "value_tr": "%15 iyileşme",
-                "value_vi": "15% Hồi máu",
-                "value_fr": "15% de soins",
-                "value_pl": "15% Leczenia",
-                "value_it": "cura pari al 15%"
+                "value_vi": "15% Hồi máu"
             },
             {
                 "count": 4,
                 "value": "35% Healing",
-                "value_es": "35% de curación",
-                "value_pt": "35% de cura",
-                "value_de": "35% Heilung",
-                "value_ru": "35% Исцеления",
-                "value_ch": "35%治疗量",
-                "value_tr": "%35 iyileşme",
-                "value_vi": "35% Hồi máu",
-                "value_fr": "35% de soins",
-                "value_pl": "35% Leczenia",
-                "value_it": "cura pari al 35%"
+                "value_vi": "35% Hồi máu"
             },
             {
                 "count": 6,
                 "value": "60% Healing",
-                "value_es": "60% de curación",
-                "value_pt": "60% de cura",
-                "value_de": "60% Heilung",
-                "value_ru": "60% Исцеления",
-                "value_ch": "60％治疗量",
-                "value_tr": "%60 iyileşme",
-                "value_vi": "60% Hồi máu",
-                "value_fr": "60% de soins",
-                "value_pl": "60% Leczenia",
-                "value_it": "cura pari al 60%"
+                "value_vi": "60% Hồi máu"
             }
         ]
     },
     {
         "name": "Celestial",
-        "name_es": "Celestial",
-        "name_pt": "Celestial",
-        "name_de": "Kosmisch",
-        "name_ru": "Небожитель",
-        "name_ch": "星神",
-        "name_tr": "Semavi",
         "name_vi": "Vũ Trụ",
-        "name_fr": "Être céleste",
-        "name_pl": "Astralny",
-        "name_it": "Celestiali",
         "set": [
             3.5
         ],
@@ -201,73 +84,28 @@
         "tier_down": false,
         "tier": 3,
         "effect": "All allies heal for a percent of the damage they deal with spells and attacks.",
-        "effect_es": "Todos los aliados se curan parte del daño que infligen con habilidades y ataques.",
-        "effect_pt": "Todos os aliados curam-se em parte do dano que causam com habilidades e ataques.",
-        "effect_de": "Alle Verbündeten heilen sich um einen Teil des Schadens, den sie durch Fähigkeiten und Angriffe verursachen.",
-        "effect_ru": "Все союзники исцеляются на процент наносимого урона от автоатак и умений.",
-        "effect_ch": "All allies heal for a percent of the damage they deal with spells and attacks.",
-        "effect_tr": "Tüm takım arkadaşları yetenek ve saldırılarla verdiği hasarın yüzdelik bir kısmını iyileşme olarak kazanır. (2) 10% İyileşme, (4) 20% İyileşme, (6) 45% İyileşme.",
         "effect_vi": "Tất cả đồng minh được hồi máu dựa trên % sát thương họ gây ra tính cả kỹ năng và đòn đánh thường.",
-        "effect_fr":"Tous les alliés se soignent en fonction du pourcentage de dégat qu\\'ils infligent.",
-        "effect_pl": "Wszyscy sojusznicy leczą się o procent obrażen zadanych z czarów i ataków.",
-        "effect_it": "tutti gli alleati si curano per una percentuale del danno che infliggono con incantesimi ed attacchi",
         "bonus": [
             {
                 "count": 2,
                 "value": "15% Healing",
-                "value_es": "15% de curación",
-                "value_pt": "15% de cura",
-                "value_de": "15% Heilung",
-                "value_ru": "15% Исцеления",
-                "value_ch": "15%治疗量",
-                "value_tr": "%15 iyileşme",
-                "value_vi": "15% Hồi máu",
-                "value_fr": "15% de soins",
-                "value_pl": "15% Leczenia",
-                "value_it": "cura pari al 15%"
+                "value_vi": "15% Hồi máu"
             },
             {
                 "count": 4,
                 "value": "35% Healing",
-                "value_es": "35% de curación",
-                "value_pt": "35% de cura",
-                "value_de": "35% Heilung",
-                "value_ru": "35% Исцеления",
-                "value_ch": "35%治疗量",
-                "value_tr": "%35 iyileşme",
-                "value_vi": "35% Hồi máu",
-                "value_fr": "35% de soins",
-                "value_pl": "35% Leczenia",
-                "value_it": "cura pari al 35%"
+                "value_vi": "35% Hồi máu"
             },
             {
                 "count": 6,
                 "value": "80% Healing",
-                "value_es": "80% de curación",
-                "value_pt": "80% de cura",
-                "value_de": "80% Heilung",
-                "value_ru": "80% Исцеления",
-                "value_ch": "80％治疗量",
-                "value_tr": "%80 iyileşme",
-                "value_vi": "80% Hồi máu",
-                "value_fr": "80% de soins",
-                "value_pl": "80% Leczenia",
-                "value_it": "cura pari al 80%"
+                "value_vi": "80% Hồi máu"
             }
         ]
     },
     {
         "name": "Chrono",
-        "name_es": "Crono",
-        "name_pt": "Temporal",
-        "name_de": "Chrono",
-        "name_ru": "Хроновоин",
-        "name_ch": "未来战士",
-        "name_tr": "Zaman Bükücü",
         "name_vi": "Thời Không",
-        "name_fr": "Chrononaute",
-        "name_pl": "Chronomistrz",
-        "name_it": "Crononauti",
         "set": [
             3
         ],
@@ -275,73 +113,28 @@
         "tier_down": false,
         "tier": 2,
         "effect": "All allies gain 15% Attack Speed.",
-        "effect_es": "Todos los aliados obtienen 15% velocidad de ataque.",
-        "effect_pt": "Todos os aliados recebem 15% Velocidade de Ataque.",
-        "effect_de": "Alle Verbündeten erhalten 15% Angriffstempo.",
-        "effect_ru": "Все союзники получают дополнительную 15% скорость атаки.",
-        "effect_ch": "队友每4秒或得攻速加成",
-        "effect_tr": "Takım arkadaşları 15% saldırı hızı kazanır.",
         "effect_vi": "Tất cả đồng minh tăng 15% tốc độ đánh.",
-        "effect_fr":"Tous les alliés gagnent de la 15% vitesse d\\'attaque.",
-        "effect_pl": "Wszyscy sojucznicy otrzymują 15% Prędkość Ataku.",
-        "effect_it":"Tutti gli alleati guadagnano 15% velocità d\\'attacco.",
         "bonus": [
             {
                 "count": 2,
                 "value": "Every 8 seconds",
-                "value_es": "Every 8 seconds",
-                "value_pt": "Every 8 seconds",
-                "value_de": "Every 8 seconds",
-                "value_ru": "Every 8 seconds",
-                "value_ch": "Every 8 seconds",
-                "value_tr": "Every 8 seconds",
-                "value_vi": "Every 8 seconds",
-                "value_fr": "Every 8 seconds",
-                "value_pl": "Every 8 seconds",
-                "value_it": "Every 8 seconds"
+                "value_vi": "Every 8 seconds"
             },
             {
                 "count": 4,
                 "value": "Every 3.5 seconds",
-                "value_es": "Every 3.5 seconds",
-                "value_pt": "Every 3.5 seconds",
-                "value_de": "Every 3.5 seconds",
-                "value_ru": "Every 3.5 seconds",
-                "value_ch": "Every 3.5 seconds",
-                "value_tr": "Every 3.5 seconds",
-                "value_vi": "Every 3.5 seconds",
-                "value_fr": "Every 3.5 seconds",
-                "value_pl": "Every 3.5 seconds",
-                "value_it": "Every 3.5 seconds"
+                "value_vi": "Every 3.5 seconds"
             },
             {
                 "count": 6,
                 "value": "Every 1.5 seconds",
-                "value_es": "Every 1.5 seconds",
-                "value_pt": "Every 1.5 seconds",
-                "value_de": "Every 1.5 seconds",
-                "value_ru": "Every 1.5 seconds",
-                "value_ch": "Every 1.5 seconds",
-                "value_tr": "Every 1.5 seconds",
-                "value_vi": "Every 1.5 seconds",
-                "value_fr": "Every 1.5 seconds",
-                "value_pl": "Every 1.5 seconds",
-                "value_it": "Every 1.5 seconds"
+                "value_vi": "Every 1.5 seconds"
             }
         ]
     },
     {
         "name": "Chrono",
-        "name_es": "Crono",
-        "name_pt": "Temporal",
-        "name_de": "Chrono",
-        "name_ru": "Хроновоин",
-        "name_ch": "未来战士",
-        "name_tr": "Zaman Bükücü",
         "name_vi": "Thời Không",
-        "name_fr": "Chrononaute",
-        "name_pl": "Chronomistrz",
-        "name_it": "Crononauti",
         "set": [
             3.5
         ],
@@ -349,87 +142,33 @@
         "tier_down": false,
         "tier": 2,
         "effect": "All allies gain 15% Attack Speed.",
-        "effect_es": "Todos los aliados obtienen 15% velocidad de ataque.",
-        "effect_pt": "Todos os aliados recebem 15% Velocidade de Ataque.",
-        "effect_de": "Alle Verbündeten erhalten 15% Angriffstempo.",
-        "effect_ru": "Все союзники получают дополнительную 15% скорость атаки.",
-        "effect_ch": "队友每4秒或得攻速加成",
-        "effect_tr": "Takım arkadaşları 15% saldırı hızı kazanır.",
         "effect_vi": "Tất cả đồng minh tăng 15% tốc độ đánh.",
-        "effect_fr":"Tous les alliés gagnent de la 15% vitesse d\\'attaque.",
-        "effect_pl": "Wszyscy sojucznicy otrzymują 15% Prędkość Ataku.",
-        "effect_it":"Tutti gli alleati guadagnano 15% velocità d\\'attacco.",
         "bonus": [
             {
                 "count": 2,
                 "value": "Every 8 seconds",
-                "value_es": "Every 8 seconds",
-                "value_pt": "Every 8 seconds",
-                "value_de": "Every 8 seconds",
-                "value_ru": "Every 8 seconds",
-                "value_ch": "Every 8 seconds",
-                "value_tr": "Every 8 seconds",
-                "value_vi": "Every 8 seconds",
-                "value_fr": "Every 8 seconds",
-                "value_pl": "Every 8 seconds",
-                "value_it": "Every 8 seconds"
+                "value_vi": "Every 8 seconds"
             },
             {
                 "count": 4,
                 "value": "Every 3.5 seconds",
-                "value_es": "Every 3.5 seconds",
-                "value_pt": "Every 3.5 seconds",
-                "value_de": "Every 3.5 seconds",
-                "value_ru": "Every 3.5 seconds",
-                "value_ch": "Every 3.5 seconds",
-                "value_tr": "Every 3.5 seconds",
-                "value_vi": "Every 3.5 seconds",
-                "value_fr": "Every 3.5 seconds",
-                "value_pl": "Every 3.5 seconds",
-                "value_it": "Every 3.5 seconds"
+                "value_vi": "Every 3.5 seconds"
             },
             {
                 "count": 6,
                 "value": "Every 1.5 seconds",
-                "value_es": "Every 1.5 seconds",
-                "value_pt": "Every 1.5 seconds",
-                "value_de": "Every 1.5 seconds",
-                "value_ru": "Every 1.5 seconds",
-                "value_ch": "Every 1.5 seconds",
-                "value_tr": "Every 1.5 seconds",
-                "value_vi": "Every 1.5 seconds",
-                "value_fr": "Every 1.5 seconds",
-                "value_pl": "Every 1.5 seconds",
-                "value_it": "Every 1.5 seconds"
+                "value_vi": "Every 1.5 seconds"
             },
             {
                 "count": 8,
                 "value": "Every 0.75 seconds",
-                "value_es": "Every 0.75 seconds",
-                "value_pt": "Every 0.75 seconds",
-                "value_de": "Every 0.75 seconds",
-                "value_ru": "Every 0.75 seconds",
-                "value_ch": "Every 0.75 seconds",
-                "value_tr": "Every 0.75 seconds",
-                "value_vi": "Every 0.75 seconds",
-                "value_fr": "Every 0.75 seconds",
-                "value_pl": "Every 0.75 seconds",
-                "value_it": "Every 0.75 seconds"
+                "value_vi": "Every 0.75 seconds"
             }
         ]
     },
     {
         "name": "Cybernetic",
-        "name_es": "Cibernético",
-        "name_pt": "Cibernético",
-        "name_de": "Kybernetisch",
-        "name_ru": "Кибервоин",
-        "name_ch": "源计划",
-        "name_tr": "Sibernetik",
         "name_vi": "Siêu Công Nghệ",
-        "name_fr": "Cyborg",
-        "name_pl": "Cyborg",
-        "name_it": "Cibernetici",
         "set": [
             3
         ],
@@ -437,59 +176,23 @@
         "tier_down": false,
         "tier": 2,
         "effect": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-        "effect_es": "Los campeones cibernéticos con al menos un objeto obtienen vida y daño de ataque.",
-        "effect_pt": "Campeões Cibernéticos com ao menos um item recebem Vida e Dano de Ataque.",
-        "effect_de": "Kybernetische Champions mit mind. 1 Gegenstand erhalten Leben und Angriffsschaden.",
-        "effect_ru": "Если Кибервоин экипирован предметом, то он получит бонус к силе атаки и здоровью.",
-        "effect_ch": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-        "effect_tr": "En az bir eşyaya sahip Sibernetik şampiyonlar can ve saldırı gücü kazanır.(3) 300 Can & 30 Saldırı Gücü (6) 800 Can & 80 Saldırı Gücü.",
         "effect_vi": "Tướng Siêu Công Nghệ khi mang tối thiểu 1 trang bị sẽ được tăng máu và sát thương.",
-        "effect_fr":"Les champions Cyborg équipés d\\'un objet obtiennent des PV et des dégats d\\'attaque.",
-        "effect_pl": "Cybernetyczni bohaterowie z przynajmniej jednym przedmiotem otrzymują Życie i Obrażenia od Ataku.",
-        "effect_it": "i campioni cibernetici con almeno un oggetto ottengono salute e danno extra",
         "bonus": [
             {
                 "count": 3,
                 "value": "350 Health & 35 Attack Damage",
-                "value_es": "350 de vida y 35 de daño de ataque",
-                "value_pt": "350 de Vida e 35 de Dano de Ataque",
-                "value_de": "350 Leben & 35 Angriffsschaden",
-                "value_ru": "350 Здоровья и 35 урона",
-                "value_ch": "350生命值&35攻击力",
-                "value_tr": "350 Can & 35 Saldırı Gücü",
-                "value_vi": "350 Máu và 35 Sát thương vật lý",
-                "value_fr":"350 PV & 35 dégâts d\\'attaque",
-                "value_pl": "350 Życia i 35 Obrażeń od Ataku",
-                "value_it": "350 salute & 35 Danno"
+                "value_vi": "350 Máu và 35 Sát thương vật lý"
             },
             {
                 "count": 6,
                 "value": "700 Health & 70 Attack Damage",
-                "value_es": "700 de vida y 70 de daño de ataque",
-                "value_pt": "700 de Vida e 70 de Dano de Ataque",
-                "value_de": "700 Leben & 70 Angriffsschaden",
-                "value_ru": "700 Здоровья и 70 урона",
-                "value_ch": "700 生命值&70攻击力",
-                "value_tr": "700 Can & 70 Saldırı Gücü",
-                "value_vi": "700 Máu và 70 Sát thương vật lý",
-                "value_fr":"700 PV & 70 dégâts d\\'attaque",
-                "value_pl": "700 Życia i 70 Obrażeń od Ataku",
-                "value_it": "700 salute & 70 Danno"
+                "value_vi": "700 Máu và 70 Sát thương vật lý"
             }
         ]
     },
     {
         "name": "Cybernetic",
-        "name_es": "Cibernético",
-        "name_pt": "Cibernético",
-        "name_de": "Kybernetisch",
-        "name_ru": "Кибервоин",
-        "name_ch": "源计划",
-        "name_tr": "Sibernetik",
         "name_vi": "Siêu Công Nghệ",
-        "name_fr": "Cyborg",
-        "name_pl": "Cyborg",
-        "name_it": "Cibernetici",
         "set": [
             3.5
         ],
@@ -497,59 +200,23 @@
         "tier_down": false,
         "tier": 2,
         "effect": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-        "effect_es": "Los campeones cibernéticos con al menos un objeto obtienen vida y daño de ataque.",
-        "effect_pt": "Campeões Cibernéticos com ao menos um item recebem Vida e Dano de Ataque.",
-        "effect_de": "Kybernetische Champions mit mind. 1 Gegenstand erhalten Leben und Angriffsschaden.",
-        "effect_ru": "Если Кибервоин экипирован предметом, то он получит бонус к силе атаки и здоровью.",
-        "effect_ch": "Cybernetic champions with at least one item gain Health and Attack Damage.",
-        "effect_tr": "En az bir eşyaya sahip Sibernetik şampiyonlar can ve saldırı gücü kazanır.(3) 300 Can & 30 Saldırı Gücü (6) 800 Can & 80 Saldırı Gücü.",
         "effect_vi": "Tướng Siêu Công Nghệ khi mang tối thiểu 1 trang bị sẽ được tăng máu và sát thương.",
-        "effect_fr":"Les champions Cyborg équipés d\\'un objet obtiennent des PV et des dégats d\\'attaque.",
-        "effect_pl": "Cybernetyczni bohaterowie z przynajmniej jednym przedmiotem otrzymują Życie i Obrażenia od Ataku.",
-        "effect_it": "i campioni cibernetici con almeno un oggetto ottengono salute e danno extra",
         "bonus": [
             {
                 "count": 3,
                 "value": "350 Health & 35 Attack Damage",
-                "value_es": "350 de vida y 35 de daño de ataque",
-                "value_pt": "350 de Vida e 35 de Dano de Ataque",
-                "value_de": "350 Leben & 35 Angriffsschaden",
-                "value_ru": "350 Здоровья и 35 урона",
-                "value_ch": "350生命值&35攻击力",
-                "value_tr": "350 Can & 35 Saldırı Gücü",
-                "value_vi": "350 Máu và 35 Sát thương vật lý",
-                "value_fr":"350 PV & 35 dégâts d\\'attaque",
-                "value_pl": "350 Życia i 35 Obrażeń od Ataku",
-                "value_it": "350 salute & 35 Danno"
+                "value_vi": "350 Máu và 35 Sát thương vật lý"
             },
             {
                 "count": 6,
                 "value": "550 Health & 55 Attack Damage",
-                "value_es": "550 de vida y 55 de daño de ataque",
-                "value_pt": "550 de Vida e 55 de Dano de Ataque",
-                "value_de": "550 Leben & 55 Angriffsschaden",
-                "value_ru": "550 Здоровья и 55 урона",
-                "value_ch": "550生命值&55攻击力",
-                "value_tr": "550 Can & 55 Saldırı Gücü",
-                "value_vi": "550 Máu và 55 Sát thương vật lý",
-                "value_fr":"550 PV & 55 dégâts d\\'attaque",
-                "value_pl": "550 Życia i 55 Obrażeń od Ataku",
-                "value_it": "550 salute & 55 Danno"
+                "value_vi": "550 Máu và 55 Sát thương vật lý"
             }
         ]
     },
     {
         "name": "Dark Star",
-        "name_es": "Estrella oscura",
-        "name_pt": "Estrela Negra",
-        "name_de": "Sternenvernichter",
-        "name_ru": "Темная звезда",
-        "name_ch": "死兆星",
-        "name_tr": "Sonsuz Karanlık",
         "name_vi": "Hắc Tinh",
-        "name_fr": "Pulsar sombre",
-        "name_pl": "Mroczna Gwiazda",
-        "name_it": "Stelle Oscure",
         "set": [
             3
         ],
@@ -557,73 +224,28 @@
         "tier_down": false,
         "tier": 3,
         "effect": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_es": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_pt": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_de": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_ru": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_ch": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_tr": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
         "effect_vi": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_fr": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_pl": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_it": "When a Dark Star ally dies, all allied Dark Star Champions gain increased damage.",
         "bonus": [
             {
                 "count": 3,
                 "value": "20 Attack Damage and Spell Power",
-                "value_es": "20 Attack Damage and Spell Power",
-                "value_pt": "20 Attack Damage and Spell Power",
-                "value_de": "20 Attack Damage and Spell Power",
-                "value_ru": "20 Attack Damage and Spell Power",
-                "value_ch": "20 Attack Damage and Spell Power",
-                "value_tr": "20 Attack Damage and Spell Power",
-                "value_vi": "20 Attack Damage and Spell Power",
-                "value_fr": "20 Attack Damage and Spell Power",
-                "value_pl": "20 Attack Damage and Spell Power",
-                "value_it": "20 Attack Damage and Spell Power"
+                "value_vi": "20 Attack Damage and Spell Power"
             },
             {
                 "count": 6,
                 "value": "25 Attack Damage and Spell Power",
-                "value_es": "25 Attack Damage and Spell Power",
-                "value_pt": "25 Attack Damage and Spell Power",
-                "value_de": "25 Attack Damage and Spell Power",
-                "value_ru": "25 Attack Damage and Spell Power",
-                "value_ch": "25 Attack Damage and Spell Power",
-                "value_tr": "25 Attack Damage and Spell Power",
-                "value_vi": "25 Attack Damage and Spell Power",
-                "value_fr": "25 Attack Damage and Spell Power",
-                "value_pl": "25 Attack Damage and Spell Power",
-                "value_it": "25 Attack Damage and Spell Power"
+                "value_vi": "25 Attack Damage and Spell Power"
             },
             {
                 "count": 9,
                 "value": "30 Attack Damage and Spell Power",
-                "value_es": "30 Attack Damage and Spell Power",
-                "value_pt": "30 Attack Damage and Spell Power",
-                "value_de": "30 Attack Damage and Spell Power",
-                "value_ru": "30 Attack Damage and Spell Power",
-                "value_ch": "30 Attack Damage and Spell Power",
-                "value_tr": "30 Attack Damage and Spell Power",
-                "value_vi": "30 Attack Damage and Spell Power",
-                "value_fr": "30 Attack Damage and Spell Power",
-                "value_pl": "30 Attack Damage and Spell Power",
-                "value_it": "30 Attack Damage and Spell Power"
+                "value_vi": "30 Attack Damage and Spell Power"
             }
         ]
     },
     {
         "name": "Dark Star",
-        "name_es": "Estrella oscura",
-        "name_pt": "Estrela Negra",
-        "name_de": "Sternenvernichter",
-        "name_ru": "Темная звезда",
-        "name_ch": "死兆星",
-        "name_tr": "Sonsuz Karanlık",
         "name_vi": "Hắc Tinh",
-        "name_fr": "Pulsar sombre",
-        "name_pl": "Mroczna Gwiazda",
-        "name_it": "Stelle Oscure",
         "set": [
             3.5
         ],
@@ -631,73 +253,28 @@
         "tier_down": false,
         "tier": 3,
         "effect": "When an ally dies, all allied Dark Star Champions gain increased damage.",
-        "effect_es": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_pt": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_de": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_ru": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_ch": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_tr": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
         "effect_vi": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_fr": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_pl": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
-        "effect_it": "When an ally champion dies, all allied Dark Star Champions gain increased damage.",
         "bonus": [
             {
                 "count": 2,
                 "value": "8 Attack Damage and Spell Power",
-                "value_es": "8 Attack Damage and Spell Power",
-                "value_pt": "8 Attack Damage and Spell Power",
-                "value_de": "8 Attack Damage and Spell Power",
-                "value_ru": "8 Attack Damage and Spell Power",
-                "value_ch": "8 Attack Damage and Spell Power",
-                "value_tr": "8 Attack Damage and Spell Power",
-                "value_vi": "8 Attack Damage and Spell Power",
-                "value_fr": "8 Attack Damage and Spell Power",
-                "value_pl": "8 Attack Damage and Spell Power",
-                "value_it": "8 Attack Damage and Spell Power"
+                "value_vi": "8 Attack Damage and Spell Power"
             },
             {
                 "count": 4,
                 "value": "18 Attack Damage and Spell Power",
-                "value_es": "18 Attack Damage and Spell Power",
-                "value_pt": "18 Attack Damage and Spell Power",
-                "value_de": "18 Attack Damage and Spell Power",
-                "value_ru": "18 Attack Damage and Spell Power",
-                "value_ch": "18 Attack Damage and Spell Power",
-                "value_tr": "18 Attack Damage and Spell Power",
-                "value_vi": "18 Attack Damage and Spell Power",
-                "value_fr": "18 Attack Damage and Spell Power",
-                "value_pl": "18 Attack Damage and Spell Power",
-                "value_it": "18 Attack Damage and Spell Power"
+                "value_vi": "18 Attack Damage and Spell Power"
             },
             {
                 "count": 6,
                 "value": "30 Attack Damage and Spell Power",
-                "value_es": "30 Attack Damage and Spell Power",
-                "value_pt": "30 Attack Damage and Spell Power",
-                "value_de": "30 Attack Damage and Spell Power",
-                "value_ru": "30 Attack Damage and Spell Power",
-                "value_ch": "30 Attack Damage and Spell Power",
-                "value_tr": "30 Attack Damage and Spell Power",
-                "value_vi": "30 Attack Damage and Spell Power",
-                "value_fr": "30 Attack Damage and Spell Power",
-                "value_pl": "30 Attack Damage and Spell Power",
-                "value_it": "30 Attack Damage and Spell Power"
+                "value_vi": "30 Attack Damage and Spell Power"
             }
         ]
     },
     {
         "name": "Mech Pilot",
-        "name_es": "Mechapiloto",
-        "name_pt": "Piloto Mech",
-        "name_de": "Mechapilot",
-        "name_ru": "Пилот меха",
-        "name_ch": "银河魔装机神",
-        "name_tr": "Meka Pilotu",
         "name_vi": "Phi Công",
-        "name_fr": "Pilote de mécha",
-        "name_pl": "Pilot Mecha",
-        "name_it": "Piloti di Mech",
         "set": [
             3,
             3.5
@@ -709,31 +286,13 @@
             {
                 "count": 3,
                 "value": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its Pilots, as well as 3 random items from among them. When the Super-Mech dies, the pilots are ejected and continue to fight.",
-                "value_es": "Al comienzo del combate, tres mechapilotos aleatorios se teleportan a un supermecha 3. El supermecha adquiere la vida, daño de ataque y atributos combinados de sus pilotos, así como 3 objetos aleatorios de entre ellos. Cuando el supermecha muere, los pilotos salen expulsados para continuar la lucha.",
-                "value_pt": "No início do combate, três Pilotos Mech aleatórios são teleportados para um Supermech. Supermech combina a Vida, o Dano de Ataque e as características de seus Pilotos, assim como 3 de seus itens, escolhidos aleatoriamente. Quando o Supermech morre, os Pilotos são ejetados e continuam lutando.",
-                "value_de": "Zu Beginn des Kampfes werden 3 zufällige Mechapiloten in einen Super-Mech teleportiert. Der Super-Mech erhält das kombinierte Leben, den Angriffsschaden und die Boni der Piloten, als auch 3 zufällige Items von ihnen. Wenn der Super-Mech stirbt, entspringen aus ihm die Piloten und führen den Kampf fort.",
-                "value_ru": " В начале боя 3 Пилота робота объединяются в одного Супер-робота, который существует, пока не умрет. Супер-робот обладает объединенным здоровьем, силой атаки Пилотов меха и совмещает их Классы; вдобавок Супер-робот имеет в инвентаре 3 случайно выбранных предмета, взятых из инвентарей Пилотов. Когда Супер-робот умирает, Пилоты катапультируются, получают 25 маны и продолжают сражаться по отдельности как обычно.",
-                "value_ch": "在回合开始前，机甲战士会合体成为一个超级战士，继承三个机甲战士的攻击力和生命值，随机选择三个机甲战士的装备作为超级战士的装备，当超级机甲死亡时，3个机甲战士或得20蓝量继续战斗",
-                "value_tr": "Çatışmanın başında büyük bir Süper Mekaya dönüşür.",
-                "value_vi": "Khi bắt đầu giao tranh, ba tướng phi công ngẫu nhiên sẽ kết hợp với nhau tạo thành Siêu Chiến Giáp. Siêu chiến giáp bao gồm máu, giáp, trang bị ngẫu nhiên, tổng sát thương đòn đánh, kích kệ của 3 Phi Công. Khi Siêu Chiến giáp bị hạ gục, các phi công thoát ra ngoài, nhận thêm 25 năng lượng và tiếp tục chiến đấu.",
-                "value_fr":"Au début du combat, trois Pilotes de mecha aléatoires fusionnent en un Super-mecha jusqu\\'à ce qu\\'il meure.",
-                "value_pl": "Na początku walki trójka losowych Pilotów Mechów łączy się w jednego Supermecha, dopóki ten nie zginie. Supermech posiada skumulowane Życie, Obrażenia od Ataku i Cechy tworzących go Pilotów., w miarę możliwości otrzymuje 3 losowe przedmioty posiadane przez nich. Kiedy Supermech ginie, wyrzuca tworzących go Pilotów i kontynuują walkę.",
-                "value_it":"All\\'inizio del combattimento, 3 piloti del mech casuali vengono teletrasportati in un Super Mech. Il Super Mech ha la salute, il danno e i tratti combinati dei piloti, insieme a 3 oggetti casuali dei piloti. Quando il Super Mech muore, i piloti sono espulsi e continuano a combattere."
+                "value_vi": "Khi bắt đầu giao tranh, ba tướng phi công ngẫu nhiên sẽ kết hợp với nhau tạo thành Siêu Chiến Giáp. Siêu chiến giáp bao gồm máu, giáp, trang bị ngẫu nhiên, tổng sát thương đòn đánh, kích kệ của 3 Phi Công. Khi Siêu Chiến giáp bị hạ gục, các phi công thoát ra ngoài, nhận thêm 25 năng lượng và tiếp tục chiến đấu."
             }
         ]
     },
     {
         "name": "Rebel",
-        "name_es": "Rebelde",
-        "name_pt": "Rebelde",
-        "name_de": "Rebell",
-        "name_ru": "Повстанец",
-        "name_ch": "奥德赛",
-        "name_tr": "Asi",
         "name_vi": "Nổi Loạn",
-        "name_fr": "Rebelle",
-        "name_pl": "Buntownik",
-        "name_it": "Ribelli",
         "set": [
             3,
             3.5
@@ -742,73 +301,28 @@
         "tier_down": false,
         "tier": 1,
         "effect": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for 8 seconds.",
-        "effect_es": "Al comienzo del combate, los rebeldes obtienen un escudo y daño adicional por cada rebelde adyacente. El escudo dura 8s.",
-        "effect_pt": "No inicio do combate, Rebeldes recebem um escudo e dano adicional para cada Rebelde adjacente. O escudo dura 8s.",
-        "effect_de": "Bei Kampfbeginn erhalten Rebellen einen Schild und zusätzlichen Schaden für jeden angrenzenden Rebellen. Der Schild hält Sekunden an. Der Schild hält 8 Sekunden an.",
-        "effect_ru": "В начале боя Повстанцы получают щит и дополнительный урон для каждого примыкающего Повстанца. Щит держится в течение 8 секунд.",
-        "effect_ch": "在战斗开始时，所有相邻奥得赛获得一个护盾和伤害加成，持续8秒",
-        "effect_tr": "Asiler çatışmanın başında her bitişik Asi başına kalkan ve hasar artışı kazanır.",
         "effect_vi": "Khi bắt đầu trận đấu,Tướng Nổi Loạn nhận được 1 lớp lá chắn và sát thương cộng thêm với mỗi Tướng Nổi Loạn trên sân,lá chắn tồn tại trong 8 giây.",
-        "effect_fr": "Au début du combat, les rebelles obtiennent un bouclier pendant 8 secondes et des dégâts bonus pour chaque rebelle adjacent.",
-        "effect_pl": "Na początku walki wszyscy Buntownicy otrzymują tarcze i bonusowe obrażenia za każdego pobliskiego Buntownika. Tarcza trwa 8 sekund.",
-        "effect_it":"All\\'inizio del combattimento, i Ribelli ottengono uno scudo e del danno extra per ogni Ribelle adiacente. Lo scudo dura 8 secondi",
         "bonus": [
             {
                 "count": 3,
                 "value": "150 Shield & 10% Damage",
-                "value_es": "150 de escudo y 10% de daño",
-                "value_pt": "150 de escudo 10% de dano",
-                "value_de": "150 Schild & 10% Schaden",
-                "value_ru": "150 Единиц щита и 10% урона",
-                "value_ch": "150护盾&10%伤害",
-                "value_tr": "150 Kalkan & %10 Hasar Artışı",
-                "value_vi": "150 Giáp và 10% Sát thương",
-                "value_fr": "150 points de bouclier et 10% de dégâts",
-                "value_pl": "150 Tarczy i 10% Obrażeń",
-                "value_it": "150 di scudo e 10% Danno"
+                "value_vi": "150 Giáp và 10% Sát thương"
             },
             {
                 "count": 6,
                 "value": "210 Shield & 12% Damage",
-                "value_es": "210 de escudo y 12% de daño",
-                "value_pt": "210 de escudo 12% de dano",
-                "value_de": "210 Schild & 12% Schaden",
-                "value_ru": "210 Единиц щита и 12% урона",
-                "value_ch": "210护盾&12%伤害",
-                "value_tr": "210 Kalkan & %12 Hasar Artışı",
-                "value_vi": "210 Giáp và 12% Sát thương",
-                "value_fr": "210 points de bouclier et 12% de dégâts",
-                "value_pl": "210 Tarczy i 12% Obrażeń",
-                "value_it": "210 di scudo e 12% di danno"
+                "value_vi": "210 Giáp và 12% Sát thương"
             },
             {
                 "count": 9,
                 "value": "330 Shield & 15% Damage",
-                "value_es": "330 de escudo y 15% de daño",
-                "value_pt": "330 de escudo 15% de dano",
-                "value_de": "330 Schild & 15% Schaden",
-                "value_ru": "330 Единиц щита и 15% урона",
-                "value_ch": "330护盾&15%伤害",
-                "value_tr": "330 Kalkan & %15 Hasar Artışı",
-                "value_vi": "330 Giáp và 15% Sát thương",
-                "value_fr": "330 points de bouclier et 15% de dégâts",
-                "value_pl": "330 Tarczy i 15% Obrażeń",
-                "value_it": "330 di scudo e 15% di danno"
+                "value_vi": "330 Giáp và 15% Sát thương"
             }
         ]
     },
     {
         "name": "Space Pirate",
-        "name_es": "Pirata espacial",
-        "name_pt": "Pirata Espacial",
-        "name_de": "Weltraumpirat",
-        "name_ru": "Космопират",
-        "name_ch": "太空海盗",
-        "name_tr": "Uzay Korsanı",
         "name_vi": "Không Tặc",
-        "name_fr": "Pirate spatial",
-        "name_pl": "Kosmiczny Pirat",
-        "name_it": "Pirati Spaziali",
         "set": [
             3,
             3.5
@@ -817,59 +331,23 @@
         "tier_down": false,
         "tier": 3,
         "effect": "50% chance to drop 1g (2), and 10% to drop an item (4) whenever a Space Pirate lands a killing blow.",
-        "effect_es": "Cuando un pirata espacial asesta el último golpe a un campeón, existe la posibilidad de recibir botín adicional.",
-        "effect_pt": "Sempre que um Pirata Espacial der um golpe final em um Campeão, há uma chance de obter um espólio adicional.",
-        "effect_de": "Immer wenn ein Weltraumpirat einem Champion den Todesstoß versetzt, besteht eine Chance, zusätzliche Beute zu erhalten.",
-        "effect_ru": "Убитый Космопиратом враг может оставить после себя дополнительную добычу",
-        "effect_ch": "场上有2海盗时，当海盗击杀目标时有50%几率掉落一金币，当场上有4海盗时，当海盗击杀目标时有10%几率掉落装备散件",
-        "effect_tr": "Bir Uzay Korsanı son vuruşuyla bir birimi katlederse ilave ganimet düşürebilir. (2) %50 ihtimalle 1 Altın.  (4) %50 ihtimalle 1 Altın ve %10 ihtimalle 1 bileşen eşya.",
         "effect_vi": "Có 50% tỷ lệ ra 1 vàng ( 2 tướng ) và 10% tỷ lệ ra mảnh đồ (4 tướng ) với mỗi mạng Tướng Không Tặc hạ gục.",
-        "effect_fr":"50% de chances d\\'obtenir 1 PO (2), et 15% de chances d\\'obtenir un objet (4) lorsqu\\'un Pirate spatial élimine un ennemi.",
-        "effect_pl": "50% szans na wypadnięcie 1 złota (2), i 10% szancy na wypadnięcie przedmiotu (4) kiedy Kosmiczni Piraci zabiją przeciwnika.",
-        "effect_it": "50% di probabilità di ottenere 1 oro (2) e 10% di ottenere un oggetto (4) quando un pirata spaziale scaglia il colpo di grazia",
         "bonus": [
             {
                 "count": 2,
                 "value": "50% for 1 Gold",
-                "value_es": "50% de recibir 1 de oro",
-                "value_pt": "50% para 1 de ouro.",
-                "value_de": "50% für 1 Gold",
-                "value_ru": "50% на 1 золота",
-                "value_ch": "50%几率掉落1金币",
-                "value_tr": "%50 şans ile 1 altın",
-                "value_vi": "50% tỷ lệ ra 1 vàng",
-                "value_fr": "50% pour 1 PO",
-                "value_pl": "50% na 1 Złota",
-                "value_it": "50% di 1 oro"
+                "value_vi": "50% tỷ lệ ra 1 vàng"
             },
             {
                 "count": 4,
                 "value": "50% for 1 Gold and 25% for a component item",
-                "value_es": "50% de recibir 1 de oro y 25% de recibir un componente de objeto",
-                "value_pt": "50% para 1 de ouro e 25% para um itme componente.",
-                "value_de": "50% auf 1 Gold und 25% auf eine Item-Komponente",
-                "value_ru": "50% на 1 золота и 25% для предмета",
-                "value_ch": "50%几率掉落1金币和25%几率掉落装备散件",
-                "value_tr": "1 Altın için 50% ve Temel Eşya için 25%",
-                "value_vi": "50% tỷ lệ ra 1 vàng và 25% tỷ lệ ra 1 mảnh trang bị",
-                "value_fr": "50% for 1 Gold and 25% for a component item",
-                "value_pl": "50% na 1 Złota i 25% na przedmiot",
-                "value_it": "50% di 1 oro e 25% un oggetto"
+                "value_vi": "50% tỷ lệ ra 1 vàng và 25% tỷ lệ ra 1 mảnh trang bị"
             }
         ]
     },
     {
         "name": "Star Guardian",
-        "name_es": "Guardiana",
-        "name_pt": "Guardiã Estelar",
-        "name_de": "Sternenwächter",
-        "name_ru": "Звездный защитник",
-        "name_ch": "星之守护者",
-        "name_tr": "Yıldız Muhafızı",
         "name_vi": "Vệ Binh Tinh Tú",
-        "name_fr": "Gardien des étoiles",
-        "name_pl": "Czarodziejka Gwiazd",
-        "name_it": "Guardiani Stellari",
         "set": [
             3
         ],
@@ -877,59 +355,23 @@
         "tier_down": false,
         "tier": 4,
         "effect":"Star Guardian\\'s spellcasts grant Mana to other Star Guardians. (Spreads among them)",
-        "effect_es": "Los lanzamientos de habilidades de una guardiana de las estrellas reparten maná entre las demás.",
-        "effect_pt": "As habilidades conjuradas por Guardiãs Estelares concedem Mana, a qual é distribuída entre as outras Guardiãs Estelares.",
-        "effect_de": "Die Fähigkeiten der Sternenwächter gewähren Mana, das unter den anderen Sternenwächtern aufgeteilt wird.",
-        "effect_ru": "Всякий раз, когда один Звездный защитник использует умение, остальные Звездные защитники получают ману.",
-        "effect_ch":"Star Guardian\\'s spellcasts grant Mana to other Star Guardians. (Spreads among them)",
-        "effect_tr": "Yıldız Muhafızları yetenek kullandığında diğer Yıldız Muhafızlarına mana sağlar. Bu mana aralarında paylaşılır.  (3) 30 Toplam mana.  (6) 60 Toplam mana.",
         "effect_vi": "Khi tướng Vệ Binh Tinh Tú dùng kỹ năng,các tướng Vệ Binh Tinh Tú khác sẽ nhận thêm năng lượng.",
-        "effect_fr": "Quand un gardien des étoiles lance un sort il génère des points de mana pour tous les autres gardiens des étoiles.",
-        "effect_pl": "Za każdym razem gdy Czarodziejka Gwiazd rzuca zaklęcie, rozdziela manę między wszystkie inne Czarodziejki Gwiazd.",
-        "effect_it": "Il lancio di un incantesimo da parte di un guardiano stellare conferisce mana agli altri guardiani stellari.",
         "bonus": [
             {
                 "count": 3,
                 "value": "30 Total Mana",
-                "value_es": "30 de maná total",
-                "value_pt": "30 de Mana total",
-                "value_de": "30 Totales Mana",
-                "value_ru": "30 маны",
-                "value_ch": "30总蓝量",
-                "value_tr": "30 toplam mana",
-                "value_vi": "30 tổng năng lượng",
-                "value_fr": "30 points de mana max",
-                "value_pl": "30 Całkowitej Many",
-                "value_it": "30 mana totale"
+                "value_vi": "30 tổng năng lượng"
             },
             {
                 "count": 6,
                 "value": "50 Total Mana",
-                "value_es": "50 de maná total",
-                "value_pt": "50 de Mana total",
-                "value_de": "50 Totales Mana",
-                "value_ru": "50 маны",
-                "value_ch": "50 总蓝量",
-                "value_tr": "50 toplam mana",
-                "value_vi": "50 tổng năng lượng",
-                "value_fr": "50 points de mana max",
-                "value_pl": "50 Całkowitej Many",
-                "value_it": "50 mana totale"
+                "value_vi": "50 tổng năng lượng"
             }
         ]
     },
     {
         "name": "Star Guardian",
-        "name_es": "Guardiana",
-        "name_pt": "Guardiã Estelar",
-        "name_de": "Sternenwächter",
-        "name_ru": "Звездный защитник",
-        "name_ch": "星之守护者",
-        "name_tr": "Yıldız Muhafızı",
         "name_vi": "Vệ Binh Tinh Tú",
-        "name_fr": "Gardien des étoiles",
-        "name_pl": "Czarodziejka Gwiazd",
-        "name_it": "Guardiani Stellari",
         "set": [
             3.5
         ],
@@ -937,73 +379,28 @@
         "tier_down": false,
         "tier": 4,
         "effect":"Star Guardian\\'s spellcasts grant Mana to other Star Guardians. (Spreads among them)",
-        "effect_es": "Los lanzamientos de habilidades de una guardiana de las estrellas reparten maná entre las demás.",
-        "effect_pt": "As habilidades conjuradas por Guardiãs Estelares concedem Mana, a qual é distribuída entre as outras Guardiãs Estelares.",
-        "effect_de": "Die Fähigkeiten der Sternenwächter gewähren Mana, das unter den anderen Sternenwächtern aufgeteilt wird.",
-        "effect_ru": "Всякий раз, когда один Звездный защитник использует умение, остальные Звездные защитники получают ману.",
-        "effect_ch":"Star Guardian\\'s spellcasts grant Mana to other Star Guardians. (Spreads among them)",
-        "effect_tr": "Yıldız Muhafızları yetenek kullandığında diğer Yıldız Muhafızlarına mana sağlar. Bu mana aralarında paylaşılır.  (3) 30 Toplam mana.  (6) 60 Toplam mana.",
         "effect_vi": "Khi tướng Vệ Binh Tinh Tú dùng kỹ năng,các tướng Vệ Binh Tinh Tú khác sẽ nhận thêm năng lượng.",
-        "effect_fr": "Quand un gardien des étoiles lance un sort il génère des points de mana pour tous les autres gardiens des étoiles.",
-        "effect_pl": "Za każdym razem gdy Czarodziejka Gwiazd rzuca zaklęcie, rozdziela manę między wszystkie inne Czarodziejki Gwiazd.",
-        "effect_it": "Il lancio di un incantesimo da parte di un guardiano stellare conferisce mana agli altri guardiani stellari.",
         "bonus": [
             {
                 "count": 3,
                 "value": "30 Total Mana",
-                "value_es": "30 de maná total",
-                "value_pt": "30 de Mana total",
-                "value_de": "30 Totales Mana",
-                "value_ru": "30 маны",
-                "value_ch": "30总蓝量",
-                "value_tr": "30 toplam mana",
-                "value_vi": "30 tổng năng lượng",
-                "value_fr": "30 points de mana max",
-                "value_pl": "30 Całkowitej Many",
-                "value_it": "30 mana totale"
+                "value_vi": "30 tổng năng lượng"
             },
             {
                 "count": 6,
                 "value": "50 Total Mana",
-                "value_es": "50 de maná total",
-                "value_pt": "50 de Mana total",
-                "value_de": "50 Totales Mana",
-                "value_ru": "50 маны",
-                "value_ch": "50 总蓝量",
-                "value_tr": "50 toplam mana",
-                "value_vi": "50 tổng năng lượng",
-                "value_fr": "50 points de mana max",
-                "value_pl": "50 Całkowitej Many",
-                "value_it": "50 mana totale"
+                "value_vi": "50 tổng năng lượng"
             },
             {
                 "count": 9,
                 "value": "70 Total Mana",
-                "value_es": "70 de maná total",
-                "value_pt": "70 de Mana total",
-                "value_de": "70 Totales Mana",
-                "value_ru": "70 маны",
-                "value_ch": "70 总蓝量",
-                "value_tr": "70 toplam mana",
-                "value_vi": "70 tổng năng lượng",
-                "value_fr": "70 points de mana max",
-                "value_pl": "70 Całkowitej Many",
-                "value_it": "70 mana totale"
+                "value_vi": "70 tổng năng lượng"
             }
         ]
     },
     {
         "name": "Valkyrie",
-        "name_es": "Valquiria",
-        "name_pt": "Valquíria",
-        "name_de": "Walküre",
-        "name_ru": "Валькирии",
-        "name_ch": "女武神",
-        "name_tr": "Valkyrie",
         "name_vi": "Thánh Nữ",
-        "name_fr": "Valkyrie",
-        "name_pl": "Walkiria",
-        "name_it": "Valchirie",
         "set": [
             3
         ],
@@ -1014,31 +411,13 @@
             {
                 "count": 2,
                 "value": "Valkyrie attacks and spells always critically strike targets below 40% health.",
-                "value_es": "Los ataques y habilidades de las valquirias siempre infligen daño crítico a los objetivos con menos del 40% de vida.",
-                "value_pt": "Os ataques e habilidades das Valquírias sempre causam Acerto Crítico em alvos com menos de 40% de Vida",
-                "value_de": "Angriffe und Fähigkeiten von Walküren fügen immer kritischen Schaden hinzu, falls das Ziel unter 40% Leben ist.",
-                "value_ru": "Автоатаки и умения всех Валькирий становятся критическими против врагов, у которых осталось менее 40% здоровья.",
-                "value_ch": "女武神会对低于40%血量的目标造成暴击伤害",
-                "value_tr":"Valkyrie, canı %40\\'nın altındaki hedeflere saldırıları ve yetenekleri ile kritik vuruş yapar.",
-                "value_vi": "Sát thương đòn đánh và kĩ năng của Thánh Nữ  chí mạng khi mục tiêu dưới 40% máu",
-                "value_fr": "Les attaques et les sorts des Valkyries infligent toujours des coups critiques aux cibles ayant moins de 40% de leurs PV.",
-                "value_pl": "Ataki i zaklęcia walkirii zawsze trafiają krytycznie cele mające mniej niż 40% zdrowia.",
-                "value_it": "Le abilità e gli autoattacchi delle valchirie fanno sempre danno critico ai bersagli con la salute inferiore al 40%"
+                "value_vi": "Sát thương đòn đánh và kĩ năng của Thánh Nữ  chí mạng khi mục tiêu dưới 40% máu"
             }
         ]
     },
     {
         "name": "Void",
-        "name_es": "Del Vacío",
-        "name_pt": "Vastinata",
-        "name_de": "Leerenkreatur",
-        "name_ru": "Обитатель бездны",
-        "name_ch": "虚空",
-        "name_tr": "Hiçlik Yaratığı",
         "name_vi": "Hư Không",
-        "name_fr": "Néant",
-        "name_pl": "Mieszkaniec Pustki",
-        "name_it": "Vuoto",
         "set": [
             3
         ],
@@ -1049,16 +428,7 @@
             {
                 "count": 3,
                 "value": "Attacks and spells from Void Champions deal true damage.",
-                "value_es": "Los ataques y habilidades de los campeones del Vacío infligen daño verdadero.",
-                "value_pt": "Ataques e habilidades de Campeões Vastinatas causam Dano Verdadeiro.",
-                "value_de": "Angriffe und Fähigkeiten von Leerenkreaturen fügen absoluten Schaden hinzu.",
-                "value_ru": "Атаки и заклинание Обитателей бездны  наносят чистый урон.",
-                "value_ch": "虚空生物的攻击造成真伤",
-                "value_tr": "Hiçlik Yaratığı şampiyonları saldırıları ve yetenekleri gerçek hasar verir.",
-                "value_vi": "Đòn đánh và kĩ năng của tướng Hư Không gây sát thương chuẩn",
-                "value_fr": "Les champions du Néant infligent des dégâts bruts.",
-                "value_pl": "Mieszkańcy Pustki zadają nieuchronne obrażenia.",
-                "value_it": "Attacchi e Abilità del vuoto infliggono danni puri"
+                "value_vi": "Đòn đánh và kĩ năng của tướng Hư Không gây sát thương chuẩn"
             }
         ]
     }
